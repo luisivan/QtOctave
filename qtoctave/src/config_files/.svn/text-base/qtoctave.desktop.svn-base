@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=QtOctave
+Comment=GUI for GNU Octave
+Icon=qtoctave
+Exec=qtoctave
+Type=Application
+Categories=Education;Science;Math;Qt;

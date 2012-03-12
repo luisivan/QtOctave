@@ -1,0 +1,97 @@
+<ui version="4.0" >
+ <class>Ui_Projects</class>
+ <widget class="QDialog" name="Ui_Projects" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Projects</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <layout class="QHBoxLayout" >
+     <property name="spacing" >
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" native="1" name="menu_widget" />
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label" >
+     <property name="text" >
+      <string>Available Projects:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QListWidget" name="projects_listWidget" />
+     <widget class="QTextEdit" name="description_textEdit" >
+      <property name="tabChangesFocus" >
+       <bool>true</bool>
+      </property>
+      <property name="undoRedoEnabled" >
+       <bool>false</bool>
+      </property>
+      <property name="readOnly" >
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QPushButton" name="open_pushButton" >
+       <property name="text" >
+        <string>Open</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancel_pushButton" >
+       <property name="text" >
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancel_pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Ui_Projects</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>322</x>
+     <y>255</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>195</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

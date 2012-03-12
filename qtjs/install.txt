@@ -1,0 +1,10 @@
+To install qtjs:
+
+You must install Qt4.4, and Qt4.4-devel.
+
+In directory qtjs, you can read file "qtjs.pro". Write in your terminal:
+
+qmake
+make
+
+Finally copy executable file to /usr/local/bin

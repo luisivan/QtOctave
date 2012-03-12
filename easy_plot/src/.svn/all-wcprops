@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/csl-qtoctave/!svn/ver/230/trunk/easy_plot/src
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/input.cpp
+END
+design_main_window.ui
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/design_main_window.ui
+END
+main_window.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/main_window.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/main.cpp
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/input.h
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/build.sh
+END
+gnuplot_connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/230/trunk/easy_plot/src/gnuplot_connection.cpp
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/clean.sh
+END
+view_angle.ui
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/view_angle.ui
+END
+main_window.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/main_window.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/230/trunk/easy_plot/src/CMakeLists.txt
+END
+gnuplot_connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/gnuplot_connection.h
+END
+export_to_dialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/export_to_dialog.ui
+END
+easy_plot.pro
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/easy_plot/src/easy_plot.pro
+END

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+# Octave packages list from Octave-Forge
+# http://octave.sourceforge.net/
+-->
+<repository>
+  <info>
+    <name>Octave-Forge</name>
+    <description>
+      Octave-Forge is a central location for the collaborative development of packages for GNU Octave.
+      The Octave-forge packages contains the source for all the functions and are designed to work with the Octave package system. In general the packages are designed to work with the latest development version of Octave, but it should be possible to use most packages with earlier versions. 
+    </description>
+    <url>http://octave.sourceforge.net/</url>
+  </info>
+
+  <group>
+    <name>Main repository</name>
+    <package>
+      <name>ANN</name>
+      <version>1.0.2</version>
+      <url>
+      http://downloads.sourceforge.net/octave/ann-1.0.2.tar.gz?download</url>
+      <description>The Octave-forge ANN package wraps the ANN
+      library, which provides data structures and functions for
+      computing exact and approximate nearest neighbors on an
+      arbitrarily high dimensional point set.</description>
+    </package>
+    <package>
+      <name>Audio</name>
+      <version>1.1.4</version>
+      <url>
+      http://downloads.sourceforge.net/octave/audio-1.1.4.tar.gz?download</url>
+      <description>Audio recording, processing and playing
+      tools.</description>
+    </package>
+    <package>
+      <name>benchmark</name>
+      <version>1.1.1</version>
+      <url>
+      http://downloads.sourceforge.net/octave/benchmark-1.1.1.tar.gz?download</url>
+      <description>The package contains code used to benchmark
+      speed of Octave.</description>
+    </package>
+    <package>
+      <name>bioinfo</name>
+      <version>0.1.2</version>
+      <url>
+      http://downloads.sourceforge.net/octave/bioinfo-0.1.2.tar.gz?download</url>
+      <description>Bioinformatics manipulation</description>
+    </package>
+    <package>
+      <name>Combinatorics</name>
+      <url>
+      http://downloads.sourceforge.net/octave/combinatorics-1.0.9.tar.gz?download</url>
+      <description>Combinatorics functions, incuding
+      partitioning.</description>
+    </package>
+    <package>
+      <name>Communications</name>
+      <url>
+      http://downloads.sourceforge.net/octave/communications-1.0.10.tar.gz?download</url>
+      <description>Digital Communications, Error Correcting Codes
+      (Channel Code), Source Code functions, Modulation and Galois
+      Fields</description>
+    </package>
+    <package>
+      <name>Control</name>
+      <url>
+      http://downloads.sourceforge.net/octave/control-1.0.7.tar.gz?download</url>
+      <description>Additional Octave Control tools</description>
+    </package>
+    <package>
+      <name>data-smoothing</name>
+      <url>
+      http://downloads.sourceforge.net/octave/data-smoothing-1.1.1.tar.gz?download</url>
+      <description>Algorithms for smoothing noisy
+      data</description>
+    </package>
+    <package>
+      <name>database</name>
+      <url>
+      http://downloads.sourceforge.net/octave/database-1.0.1.tar.gz?download</url>
+      <description>These are bindings that allow SQL queries and
+      other database operations on postgres, mysql, sqlite, and
+      standard ODBC databases from within Octave. A simplified
+      interface that is uniform across all database types is
+      provided, as well as the entire C client API for each
+      database (libpq, libmysqlclient, etc).</description>
+    </package>
+    <package>
+      <name>Econometrics</name>
+      <url>
+      http://downloads.sourceforge.net/octave/econometrics-1.0.7.tar.gz?download</url>
+      <description>Econometrics functions including MLE and GMM
+      based techniques.</description>
+    </package>
+    <package>
+      <name>financial</name>
+      <url>
+      http://downloads.sourceforge.net/octave/financial-0.3.0.tar.gz?download</url>
+      <description>Financial manipulation and plotting
+      functions</description>
+    </package>
+    <package>
+      <name>Fixed</name>
+      <url>
+      http://downloads.sourceforge.net/octave/fixed-0.7.8.tar.gz?download</url>
+      <description>Fixed point real and complex matrix
+      toolbox</description>
+    </package>
+    <package>
+      <name>ftp</name>
+      <url>
+      http://downloads.sourceforge.net/octave/ftp-1.0.1.tar.gz?download</url>
+      <description>These are bindings for ftplib, and MATLAB
+      compatible APIs.</description>
+    </package>
+    <package>
+      <name>ga</name>
+      <url>
+      http://downloads.sourceforge.net/octave/ga-0.9.4.tar.gz?download</url>
+      <description>Genetic optimization code</description>
+    </package>
+    <package>
+      <name>General</name>
+      <url>
+      http://downloads.sourceforge.net/octave/general-1.0.7.tar.gz?download</url>
+      <description>General tools for octave.</description>
+    </package>
+    <package>
+      <name>GSL</name>
+      <url>
+      http://downloads.sourceforge.net/octave/gsl-1.0.7.tar.gz?download</url>
+      <description>Octave bindings to the GNU Scientific
+      Library</description>
+    </package>
+    <package>
+      <name>Ident</name>
+      <url>
+      http://downloads.sourceforge.net/octave/ident-1.0.6.tar.gz?download</url>
+      <description>Addition System Indentification Control
+      functions.</description>
+    </package>
+    <package>
+      <name>Image</name>
+      <url>
+      http://downloads.sourceforge.net/octave/image-1.0.8.tar.gz?download</url>
+      <description>The Octave-forge Image package provides
+      functions for reading, writing, and processing images. The
+      package supports almost all image formats through the use of
+      ImageMagick. The package also provides functions for feature
+      extraction, image statistics, spatial and geometric
+      transformations, morphological operations, linear filtering,
+      and much more.</description>
+    </package>
+    <package>
+      <name>InformationTheory</name>
+      <url>
+      http://downloads.sourceforge.net/octave/informationtheory-0.1.6.tar.gz?download</url>
+      <description>Functions and routines for basic Information
+      Theory definitions, and source coding.</description>
+    </package>
+    <package>
+      <name>io</name>
+      <url>
+      http://downloads.sourceforge.net/octave/io-1.0.7.tar.gz?download</url>
+      <description>Input/Output in external formats.</description>
+    </package>
+    <package>
+      <name>IRSA</name>
+      <url>
+      http://downloads.sourceforge.net/octave/irsa-1.0.6.tar.gz?download</url>
+      <description>Irregular sampling analysis.</description>
+    </package>
+    <package>
+      <name>Linear-Algebra</name>
+      <url>
+      http://downloads.sourceforge.net/octave/linear-algebra-1.0.6.tar.gz?download</url>
+      <description>Additional linear algebra code, including
+      general SVD and matrix functions.</description>
+    </package>
+    <package>
+      <name>Miscellaneous</name>
+      <url>
+      http://downloads.sourceforge.net/octave/miscellaneous-1.0.7.tar.gz?download</url>
+      <description>Miscellaneous tools including waitbar, xml
+      tools, etc</description>
+    </package>
+    <package>
+      <name>missing-functions</name>
+      <url>
+      http://downloads.sourceforge.net/octave/missing-functions-1.0.1.tar.gz?download</url>
+      <description>Find functions that are in Matlab but not in
+      Octave.</description>
+    </package>
+    <package>
+      <name>nnet</name>
+      <url>
+      http://downloads.sourceforge.net/octave/nnet-0.1.8.tar.gz?download</url>
+      <description>A feed forward multi-layer neural
+      network.</description>
+    </package>
+    <package>
+      <name>octcdf</name>
+      <url>
+      http://downloads.sourceforge.net/octave/octcdf-1.0.11.tar.gz?download</url>
+      <description>A NetCDF interface for octave</description>
+    </package>
+    <package>
+      <name>OctGPR</name>
+      <url>
+      http://downloads.sourceforge.net/octave/octgpr-1.1.4.tar.gz?download</url>
+      <description>The package allows interpolating and smoothing
+      scattered multidimensional data using Gaussian Process
+      Regression (also known as Kriging).</description>
+    </package>
+    <package>
+      <name>odebvp</name>
+      <url>
+      http://downloads.sourceforge.net/octave/odebvp-1.0.5.tar.gz?download</url>
+      <description>To approximate the solution of the
+      boundary-value problem y''=p(x)*y' + q(x)*y + r(x),
+      a&lt;=x&lt;=b, y(a)=alpha, y(b)=beta by the linear
+      finite-diffence method.</description>
+    </package>
+    <package>
+      <name>OdePkg</name>
+      <url>
+      http://downloads.sourceforge.net/octave/odepkg-0.6.4.tar.gz?download</url>
+      <description>A package for solving ordinary differential
+      equations and more.</description>
+    </package>
+    <package>
+      <name>Optim</name>
+      <url>
+      http://downloads.sourceforge.net/octave/optim-1.0.4.tar.gz?download</url>
+      <description>Unconstrained Non-linear Optimization
+      toolkit.</description>
+    </package>
+    <package>
+      <name>optiminterp</name>
+      <url>
+      http://downloads.sourceforge.net/octave/optiminterp-0.3.1.tar.gz?download</url>
+      <description>An optimal interpolation toolbox for octave.
+      This package provides functions to perform a n-dimensional
+      optimal interpolations of arbitrarily distributed data
+      points.</description>
+    </package>
+    <package>
+      <name>Outliers</name>
+      <url>
+      http://downloads.sourceforge.net/octave/outliers-0.13.8.tar.gz?download</url>
+      <description>Grubbs, Dixon and Cochran tests for outlier
+      detection and p-value approximating routines.</description>
+    </package>
+    <package>
+      <name>Parallel</name>
+      <url>
+      http://downloads.sourceforge.net/octave/parallel-1.0.7.tar.gz?download</url>
+      <description>Parallel execution package for cluster
+      computers</description>
+    </package>
+    <package>
+      <name>PhysicalConstants</name>
+      <url>
+      http://downloads.sourceforge.net/octave/physicalconstants-0.1.6.tar.gz?download</url>
+      <description>Physical Constants from Atomic &amp; Molecular
+      Physics, taken from NIST database</description>
+    </package>
+    <package>
+      <name>Plot</name>
+      <url>
+      http://downloads.sourceforge.net/octave/plot-1.0.6.tar.gz?download</url>
+      <description>Additional ploting tools for
+      Octave.</description>
+    </package>
+    <package>
+      <name>Signal</name>
+      <url>
+      http://downloads.sourceforge.net/octave/signal-1.0.8.tar.gz?download</url>
+      <description>Signal processing tools, including filtering,
+      windowing and display functions.</description>
+    </package>
+    <package>
+      <name>sockets</name>
+      <url>
+      http://downloads.sourceforge.net/octave/sockets-1.0.5.tar.gz?download</url>
+      <description>Socket functions</description>
+    </package>
+    <package>
+      <name>Specfun</name>
+      <url>
+      http://downloads.sourceforge.net/octave/specfun-1.0.7.tar.gz?download</url>
+      <description>Special functions including ellipitic functions,
+      etc</description>
+    </package>
+    <package>
+      <name>special-matrix</name>
+      <url>
+      http://downloads.sourceforge.net/octave/special-matrix-1.0.6.tar.gz?download</url>
+      <description>Additional Special Matrices for
+      Octave.</description>
+    </package>
+    <package>
+      <name>splines</name>
+      <url>
+      http://downloads.sourceforge.net/octave/splines-1.0.6.tar.gz?download</url>
+      <description>Additional Cubic spline functions.</description>
+    </package>
+    <package>
+      <name>Statistics</name>
+      <url>
+      http://downloads.sourceforge.net/octave/statistics-1.0.7.tar.gz?download</url>
+      <description>Additional statistics functions for
+      Octave.</description>
+    </package>
+    <package>
+      <name>strings</name>
+      <url>
+      http://downloads.sourceforge.net/octave/strings-1.0.6.tar.gz?download</url>
+      <description>Additional manipulation functions</description>
+    </package>
+    <package>
+      <name>Struct</name>
+      <url>
+      http://downloads.sourceforge.net/octave/struct-1.0.6.tar.gz?download</url>
+      <description>Additional Structure manipulations
+      functions.</description>
+    </package>
+    <package>
+      <name>Symbolic</name>
+      <url>
+      http://downloads.sourceforge.net/octave/symbolic-1.0.7.tar.gz?download</url>
+      <description>Symbolic toolbox based on GiNaC and
+      CLN.</description>
+    </package>
+    <package>
+      <name>time</name>
+      <url>
+      http://downloads.sourceforge.net/octave/time-1.0.8.tar.gz?download</url>
+      <description>Additional date manipulation
+      tools.</description>
+    </package>
+    <package>
+      <name>video</name>
+      <url>
+      http://downloads.sourceforge.net/octave/video-1.0.1.tar.gz?download</url>
+      <description>Implements addframe, avifile, aviinfo, and
+      aviread, using ffmpeg. (and approximately conforms to Matlab
+      interface)</description>
+    </package>
+    <package>
+      <name>Vrml</name>
+      <url>
+      http://downloads.sourceforge.net/octave/vrml-1.0.8.tar.gz?download</url>
+      <description>3D graphics using VRML</description>
+    </package>
+    <package>
+      <name>Zenity</name>
+      <url>
+      http://downloads.sourceforge.net/octave/zenity-0.5.6.tar.gz?download</url>
+      <description>A set of functions for creating simple graphical
+      user interfaces. It is currently possible to create calendar
+      windows, text entries, file selection dialogs, lists, message
+      windows, icons in the notification area, and windows for
+      large amount of text.</description>
+    </package>
+  </group>
+  <group>
+    <name>Extra packages</name>
+    <package>
+      <name>AD</name>
+      <url>
+      http://downloads.sourceforge.net/octave/ad-1.0.4.tar.gz?download</url>
+      <description>Automatic Forward Differentiation</description>
+    </package>
+    <package>
+      <name>BIM</name>
+      <url>
+      http://downloads.sourceforge.net/octave/bim-0.0.7.tar.gz?download</url>
+      <description>Package for solving Diffusion Advection Reaction
+      (DAR) Partial Differential Equaltions based on the Finite
+      Volume Scharfetter-Gummel (FVSG) method a.k.a Box Integration
+      Method (BIM)</description>
+    </package>
+    <package>
+      <name>Civil-Engineering</name>
+      <url>
+      http://downloads.sourceforge.net/octave/civil-engineering-1.0.6.tar.gz?download</url>
+      <description>Functions to solution some ODE's in Civil
+      Engineering.</description>
+    </package>
+    <package>
+      <name>Engine</name>
+      <url>
+      http://downloads.sourceforge.net/octave/engine-1.0.7.tar.gz?download</url>
+      <description>An external interface library for
+      Octave</description>
+    </package>
+    <package>
+      <name>FPL</name>
+      <url>
+      http://downloads.sourceforge.net/octave/fpl-0.1.3.tar.gz?download</url>
+      <description>Collection of routines to plot data on
+      unstructured triangular and tetrahedral meshes</description>
+    </package>
+    <package>
+      <name>Graceplot</name>
+      <url>
+      http://downloads.sourceforge.net/octave/graceplot-1.0.6.tar.gz?download</url>
+      <description>Graceplot bindings for octave.</description>
+    </package>
+    <package>
+      <name>Integration</name>
+      <url>
+      http://downloads.sourceforge.net/octave/integration-1.0.6.tar.gz?download</url>
+      <description>Toolbox for 1-D, 2-D, and n-D Numerical
+      Integration</description>
+    </package>
+    <package>
+      <name>Java</name>
+      <url>
+      http://downloads.sourceforge.net/octave/java-1.2.5.tar.gz?download</url>
+      <description>Provides Java interface with OO-like Java
+      objects manipulation</description>
+    </package>
+    <package>
+      <name>JHandles</name>
+      <url>
+      http://downloads.sourceforge.net/octave/jhandles-0.3.4.tar.gz?download</url>
+      <description>JHandles is a java- and openGL-based alternative
+      graphics package for octave, providing a handle-based
+      mechanism similar to Matlab.</description>
+    </package>
+    <package>
+      <name>Mapping</name>
+      <url>
+      http://downloads.sourceforge.net/octave/mapping-1.0.6.tar.gz?download</url>
+      <description>Simple Mapping functions.</description>
+    </package>
+    <package>
+      <name>MSH</name>
+      <url>
+      http://downloads.sourceforge.net/octave/msh-0.0.7.tar.gz?download</url>
+      <description>Package for creating and managing triangular and
+      tetrahedral meshes for Finite Element or Finite Volume PDE
+      solvers. Uses a mesh data structure compatible with pdetool.
+      Relies on gmsh for unstructured mesh
+      generation.</description>
+    </package>
+    <package>
+      <name>Multicore</name>
+      <url>
+      http://downloads.sourceforge.net/octave/multicore-0.2.13.tar.gz?download</url>
+      <description>An Octave-forge package providing functions for
+      parallel processing on multiple cores.</description>
+    </package>
+    <package>
+      <name>NaN</name>
+      <url>
+      http://downloads.sourceforge.net/octave/nan-1.0.7.tar.gz?download</url>
+      <description>Missing value statistical toolbox</description>
+    </package>
+    <package>
+      <name>NLWing2</name>
+      <url>
+      http://downloads.sourceforge.net/octave/nlwing2-1.0.1.tar.gz?download</url>
+      <description>This package allows efficient computation of
+      nonlinear aerodynamic</description>
+    </package>
+    <package>
+      <name>OCS</name>
+      <url>
+      http://downloads.sourceforge.net/octave/ocs-0.0.2.tar.gz?download</url>
+      <description>Package for solving DC and transient MNA
+      equation stemming from electrical circuit</description>
+    </package>
+    <package>
+      <name>PDB</name>
+      <url>
+      http://downloads.sourceforge.net/octave/pdb-1.0.6.tar.gz?download</url>
+      <description>Reads and display PDB-files from the Brookhaven
+      protein databank</description>
+    </package>
+    <package>
+      <name>SECS1D</name>
+      <url>
+      http://downloads.sourceforge.net/octave/secs1d-0.0.7.tar.gz?download</url>
+      <description>A Drift-Diffusion simulator for 1d semiconductor
+      devices</description>
+    </package>
+    <package>
+      <name>SECS2D</name>
+      <url>
+      http://downloads.sourceforge.net/octave/secs2d-0.0.7.tar.gz?download</url>
+      <description>A Drift-Diffusion simulator for 2d semiconductor
+      devices</description>
+    </package>
+    <package>
+      <name>Tcl-Octave</name>
+      <url>
+      http://downloads.sourceforge.net/octave/tcl-octave-0.1.7.tar.gz?download</url>
+      <description>socket implementation of a tcl-octave
+      connection</description>
+    </package>
+    <package>
+      <name>SymBand</name>
+      <url>
+      http://downloads.sourceforge.net/octave/symband-1.0.8.tar.gz?download</url>
+      <description>Linear Algebra for Symmetric Banded
+      Matrices.</description>
+    </package>
+    <package>
+      <name>Triangular</name>
+      <url>
+      http://downloads.sourceforge.net/octave/triangular-1.0.4.tar.gz?download</url>
+      <description>Simple example of a user type implementing a
+      simple matrix type for triangular matrices.</description>
+    </package>
+    <package>
+      <name>TSA</name>
+      <url>
+      http://downloads.sourceforge.net/octave/tsa-4.0.0.tar.gz?download</url>
+      <description>Stochastic concepts and maximum entropy methods
+      for time series analysis</description>
+    </package>
+    <package>
+      <name>Windows</name>
+      <url>
+      http://downloads.sourceforge.net/octave/windows-1.0.6.tar.gz?download</url>
+      <description>Provides COM interface and additional
+      functionality on Windows</description>
+    </package>
+    <package>
+      <name>Xraylib</name>
+      <url>
+      http://downloads.sourceforge.net/octave/xraylib-1.0.7.tar.gz?download</url>
+      <description>Bindings to the Xraylib functions</description>
+    </package>
+    <package>
+      <name>SvgPlot</name>
+      <version>0.0.1</version>
+      <url>
+      http://forja.rediris.es/frs/download.php/1404/svgplot-0.0.1.tar.gz</url>
+      <description>This is a simple library with tools for drawing in SVG file format. You don't need know SVG file format to draw your figures.</description>
+    </package>
+  </group>
+  <group>
+    <name>Native Translations</name>
+    <package>
+      <name>pt_BR</name>
+      <url>
+      http://downloads.sourceforge.net/octave/pt_br-1.0.7.tar.gz?download</url>
+      <description>Brazilian Portuguese translations of the help
+      strings of the Octave functions.</description>
+    </package>
+  </group>
+  <group>
+	<name>Non-free packages</name>
+    <package>
+      <name>Arpack</name>
+      <url>
+      http://downloads.sourceforge.net/octave/arpack-1.0.6.tar.gz?download</url>
+      <description>Octave bindings to ARPACK, including the eigs
+      and svds function.</description>
+    </package>
+    <package>
+      <name>spline-gcvspl</name>
+      <url>
+      http://downloads.sourceforge.net/octave/spline-gcvspl-1.0.6.tar.gz?download</url>
+      <description>B-spline data smoothing using generalized
+      cross-validation and mean squared prediction or explicit user
+      smoothing</description>
+    </package>
+    
+  </group>
+</repository>

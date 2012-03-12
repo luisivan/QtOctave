@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src
+END
+extract_dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/extract_dialog.h
+END
+add_comment_dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/add_comment_dialog.h
+END
+help_dialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/help_dialog.ui
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/main.cpp
+END
+extract_dialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/extract_dialog.ui
+END
+add_comment.ui
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/add_comment.ui
+END
+main_window.ui
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/main_window.ui
+END
+rcsinterfacetardiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/rcsinterfacetardiff.cpp
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/main.h
+END
+extract_dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/extract_dialog.cpp
+END
+add_comment_dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/add_comment_dialog.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/CMakeLists.txt
+END
+rcsinterfacetardiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/rcsinterfacetardiff.h
+END
+rcsinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/simple_rcs/src/rcsinterface.h
+END

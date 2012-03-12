@@ -1,0 +1,39 @@
+digraph G
+{
+node[shape=record]
+BaseWidget[label="{BaseWidget|Base class for windows shown in QtOctave.}"]
+Help[label="{Help|Shows simple help in html.\n Users can do searches.}"]
+WindowList[label="{WindowList|Shows window list asociated to QWorkspace.\n When some item is selected,\n asociated window is maximized.}"]
+Table[label="{Table|Shows QTable with spreadsheet.\n Spreadsheet's data are from given matrix.\nWhen spreadsheet is modificated,\n matrix is modificated.}"]
+Terminal[label="{Terminal|Builds windows with QtextEdit and QLineEdit.\nQTextEdit shows OctaveConnection output.\nQLineEdit is used to write commands. }"]
+OctaveConnection[label="{OctaveConnection|This class build QProcess and exec Octave.\nOctave input and output\n are controlled by this class.}"]
+DinamicHelp[label="{DinamicHelp|If you write a command in\n Terminal's command line,\n DynamicHelp shows\n help of commands}"]
+CommandList[label="{CommandList|Builds windows with List\n of entered commands\n in command line.}"]
+Editor[label="{Editor|Syntax highliter editor.\nSupports several editor and\n autocompletion code.}"]
+
+	
+	
+Help->BaseWidget
+WindowList->BaseWidget
+Terminal->BaseWidget
+Table->BaseWidget
+DinamicHelp->BaseWidget
+CommandList->BaseWidget
+Editor->BaseWidget
+
+subgraph G2
+{
+Table->OctaveConnection[color=blue]
+Terminal->OctaveConnection[color=blue]
+DinamicHelp->OctaveConnection[color=blue]
+Editor->OctaveConnection[color=blue]
+}
+
+subgraph G1{
+NumberedTextView[label="{NumberedTextView|Displays a QTextEdit with line numbers.}"]
+CodeEdit[label="{CodeEdit|TextEdit that supports highlited syntax and autocompletion.}"]
+Syntax[label="{Syntax|SyntaxHighlighter for Octave code.}"]
+Editor->NumberedTextView
+Editor->CodeEdit->Syntax
+}
+}

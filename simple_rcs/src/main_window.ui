@@ -1,0 +1,123 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>SimpleRcs</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>27</y>
+     <width>505</width>
+     <height>487</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" >
+    <item>
+     <widget class="QLabel" name="label" >
+      <property name="text" >
+       <string>Select versions:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="splitter_2" >
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QSplitter" name="splitter" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QTreeView" name="versions1" />
+       <widget class="QTreeView" name="versions2" />
+      </widget>
+      <widget class="QTextBrowser" name="textBrowser" >
+       <property name="minimumSize" >
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="close_pushButton" >
+      <property name="text" >
+       <string>Close</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>505</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="actionExtract" />
+    <addaction name="actionAdd_coment" />
+    <addaction name="separator" />
+    <addaction name="actionExit" />
+   </widget>
+   <widget class="QMenu" name="menuHelp" >
+    <property name="title" >
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp" />
+   </widget>
+   <addaction name="menuFile" />
+   <addaction name="menuHelp" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>514</y>
+     <width>505</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionExtract" >
+   <property name="text" >
+    <string>Extract</string>
+   </property>
+  </action>
+  <action name="actionExit" >
+   <property name="text" >
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionHelp" >
+   <property name="text" >
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionAdd_coment" >
+   <property name="text" >
+    <string>Add coment</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

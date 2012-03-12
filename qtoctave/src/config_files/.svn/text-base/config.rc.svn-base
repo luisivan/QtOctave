@@ -1,0 +1,13 @@
+# QtOctave main config file
+
+mode_work_area=last
+autoCompletion=true
+autoindent=true
+autoindent_statements=true
+bracketsMatch=true
+cols_in_terminal=80
+syntaxHighlighting=true
+simple_rcs=true
+textEditFont=Inconsolata
+textEditFontSize=10
+

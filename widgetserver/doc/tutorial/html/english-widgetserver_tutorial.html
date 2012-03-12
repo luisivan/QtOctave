@@ -1,0 +1,577 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.0  (Linux)">
+	<META NAME="CREATED" CONTENT="20070305;10442900">
+	<META NAME="CHANGED" CONTENT="20070318;12400500">
+	<STYLE>
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		P.western { font-family: "Times", serif; font-size: 11pt }
+		H1 { margin-bottom: 0.21cm }
+		H1.western { font-family: "Times", serif; font-size: 23pt }
+		H1.cjk { font-family: "DejaVu LGC Sans"; font-size: 16pt }
+		H1.ctl { font-family: "DejaVu LGC Sans"; font-size: 16pt }
+		H2 { margin-bottom: 0.21cm }
+		H2.western { font-family: "Times", serif; font-size: 14pt; font-style: normal }
+		H2.cjk { font-size: 14pt; font-style: italic; font-weight: medium }
+		H2.ctl { font-size: 14pt; font-style: italic; font-weight: medium }
+		P.code-western { margin-bottom: 0cm; background: transparent; font-family: "Courier", monospace; font-size: 10pt; page-break-before: auto }
+		P.code-cjk { margin-bottom: 0cm; background: transparent; page-break-before: auto }
+		P.code-ctl { margin-bottom: 0cm; background: transparent; page-break-before: auto }
+		P.codigo-western { margin-bottom: 0cm; font-family: "Courier", monospace; font-size: 10pt; page-break-before: auto }
+		P.codigo-cjk { margin-bottom: 0cm; page-break-before: auto }
+		P.codigo-ctl { margin-bottom: 0cm; page-break-before: auto }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-ES" DIR="LTR">
+<P CLASS="western" STYLE="margin-bottom: 0cm"><FONT SIZE=3><B>Contains
+broken english... :-)</B></FONT></P>
+<P STYLE="margin-top: 0.42cm; page-break-after: avoid"><FONT SIZE=5 STYLE="font-size: 20pt"><B>WidgetServer
+tutorial.</B></FONT></P>
+<P CLASS="western">WidgetServer can make windows. In this work, it
+uses a very easy language. Programs can deal with WidgetServer using
+standard input and they can get widgets events in standar output.</P>
+<P CLASS="western">WidgetServer is independent of programming
+languaje. It can create windows from C, Python, Java, Perl, Bash,...</P>
+<H1 CLASS="western">Fast example.</H1>
+<P CLASS="western">This code represents a window in WidgetServer:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Mi primera ventana/&gt;</P>
+<P CLASS="code-western">	&lt;button:b1&gt;</P>
+<P CLASS="code-western">		&lt;text&gt;</P>
+<P CLASS="code-western">			Hola mundo</P>
+<P CLASS="code-western">		&lt;/text&gt;</P>
+<P CLASS="code-western">	&lt;/button&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><B>Important: Every tag must be written in a new
+line. You must left one blank line at end.</B></P>
+<P CLASS="western">This window can be created by WidgetServer. You
+must write them in WidgetServer standar input or save them in fila,
+per example, <I>ej1.ws</I> and write this shell command:</P>
+<P CLASS="code-western">cat ej1.ws|widgetserver</P>
+<P CLASS="western">Output is:</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_7bce8785.png" NAME="gr&aacute;ficos1" ALIGN=BOTTOM WIDTH=201 HEIGHT=51 BORDER=0></P>
+<P CLASS="western" ALIGN=LEFT>Example before shows a window with
+button, but you can't read events from button.</P>
+<P CLASS="western" ALIGN=LEFT>If you want to read those events:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Mi primera ventana/&gt;</P>
+<P CLASS="code-western">	&lt;button:b1&gt;</P>
+<P CLASS="code-western">		&lt;text&gt;</P>
+<P CLASS="code-western">			Hola mundo</P>
+<P CLASS="code-western">		&lt;/text&gt;</P>
+<P CLASS="code-western">		<B>&lt;listen:clicked/&gt;</B></P>
+<P CLASS="code-western">	&lt;/button&gt;</P>
+<P CLASS="code-western" ALIGN=LEFT>&lt;/window&gt;</P>
+<P CLASS="western">New command &lt;listen:clicked/&gt; makes
+WidgetServer writes mouse click button events. Putting this code in
+file ej2.ws and writing:</P>
+<P CLASS="code-western">cat ej2.ws|widgetserver</P>
+<P CLASS="western">You will obtain a window with a button. Click over
+button generates:</P>
+<P CLASS="code-western">*clicked: b1</P>
+<P CLASS="western">This says that b1 has received a click event.</P>
+<P CLASS="western">Events writes mensajes like:</P>
+<P CLASS="western">*<I>Event name</I>: <I>widget name</I></P>
+<H1 CLASS="western">Tags and Widgets.</H1>
+<P CLASS="western" STYLE="font-style: normal">In html every element
+like &lt;text&gt; is called tag. WidgetServer tags are similar as
+html tags.</P>
+<P CLASS="western" STYLE="font-style: normal"><I>Every object shows
+by WidgetServer is called Widget</I>. Widget are represented by a
+pair of tags:</P>
+<P CLASS="code-western">&lt;widget type:widget name&gt;</P>
+<P CLASS="code-western">	...</P>
+<P CLASS="code-western">&lt;/widget type&gt;</P>
+<P CLASS="western" STYLE="font-style: normal">Between that tags
+widget properties are written. Per example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Mi first window/&gt;</P>
+<P CLASS="code-western" STYLE="font-style: normal">&lt;/window&gt;</P>
+<P CLASS="western" STYLE="font-style: normal">It says that new widget
+will be make. This widget will be a window. Window name will be &ldquo;Mi
+first window&rdquo;.</P>
+<P CLASS="western" STYLE="font-style: normal">Tags without properties
+are written like:</P>
+<P CLASS="code-western" STYLE="font-style: normal">&lt;texto del
+tag/&gt;</P>
+<P CLASS="western" STYLE="font-style: normal">Pex example tag title
+from widget window.</P>
+<H1 CLASS="western">Command line.</H1>
+<P CLASS="western">WidgetServer is executed using command
+<I>widgetserver</I>.  &ndash;help option shows:</P>
+<P CLASS="code-western">widgetserver [--help] [-debug] [-exec path]</P>
+<P CLASS="code-western">Starts WidgetServer</P>
+<P CLASS="code-western">--help Shows this help</P>
+<P CLASS="code-western">-debug shows debug output</P>
+<P CLASS="code-western">-exec path Executes path in WidgetServer. All
+input and output are redirected by WidgetServer</P>
+<P CLASS="western">--exec path option is very usefull for
+programming. Process only sends their output and reads input using
+standart input/output. WidgetServer reads and writes using standar
+output/input of process.</P>
+<P CLASS="western">Exec widgetserver without options: WidgetServer
+waits to new commands reading its standart input.</P>
+<H1 CLASS="western">Widgets types.</H1>
+<P CLASS="western">We will study widgets.</P>
+<H2 CLASS="western">Widget: Label.</H2>
+<P CLASS="western">The Label widget provides a text or html display.</P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;label:widget name&gt;</P>
+<P CLASS="code-western">	...text or html...</P>
+<P CLASS="code-western">&lt;/label&gt;</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;label:l1&gt;</P>
+<P CLASS="code-western">		Your text</P>
+<P CLASS="code-western">	&lt;/label&gt;</P>
+<P CLASS="code-western">	&lt;label:l2&gt;</P>
+<P CLASS="code-western">		&lt;html&gt;</P>
+<P CLASS="code-western">			&lt;b&gt;Yes, is HTML!!&lt;/b&gt;</P>
+<P CLASS="code-western">		&lt;/html&gt;</P>
+<P CLASS="code-western">	&lt;/label&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<P CLASS="western">Html can be written using &lt;html&gt; &lt;/html&gt;
+tags. The window from this example is:</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m4b94e42c.png" NAME="gr&aacute;ficos2" ALIGN=BOTTOM WIDTH=123 HEIGHT=57 BORDER=0></P>
+<H2 CLASS="western">Widget: Window.</H2>
+<P CLASS="western">This widget shows windows. Syntax:</P>
+<P CLASS="code-western">&lt;window: widget name&gt;</P>
+<P CLASS="code-western">Widgets and properties</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<P CLASS="western">Properties are:</P>
+<P CLASS="code-western">&lt;title: Title/&gt;</P>
+<P CLASS="western">Window title.</P>
+<P CLASS="code-western">&lt;icon:path/&gt;</P>
+<P CLASS="western">Path for window icon.</P>
+<P CLASS="codigo-western">&lt;full screen: true/&gt;</P>
+<P CLASS="western">The window fills the entire screen without any
+frame around it.</P>
+<P CLASS="codigo-western">&lt;full screen: false/&gt;</P>
+<P CLASS="western">Puts window in normal state.</P>
+<H2 CLASS="western">Widget: Button.</H2>
+<P CLASS="western">The Button widget provides a command button.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_7bce8785.png" NAME="gr&aacute;ficos7" ALIGN=BOTTOM WIDTH=201 HEIGHT=51 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;button:widget name&gt;</P>
+<P CLASS="code-western">	...Properties...</P>
+<P CLASS="code-western">&lt;/button&gt;</P>
+<P CLASS="western">Properties:</P>
+<P CLASS="code-western">&lt;text&gt;</P>
+<P CLASS="code-western">	...text...</P>
+<P CLASS="code-western">&lt;/text&gt;</P>
+<P CLASS="western">Sets widget text. Blank spaces are trimmed.</P>
+<P CLASS="code-western">&lt;text end=&rdquo;End text&rdquo;&gt;</P>
+<P CLASS="code-western">	...text...</P>
+<P CLASS="code-western">&lt;/text end=&rdquo;End text&rdquo;&gt;</P>
+<P CLASS="western">Sets widget text. Blanck spaces are not trimmed.</P>
+<P CLASS="code-western">&lt;icon:path/&gt;</P>
+<P CLASS="western">Path for window icon.</P>
+<P CLASS="code-western">&lt;listen:clicked/&gt;</P>
+<P CLASS="western">Requires mouse click event.  
+</P>
+<P CLASS="western">Icon and  listen are not needed.</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Mi primera ventana/&gt;</P>
+<P CLASS="code-western">	&lt;button:b1&gt;</P>
+<P CLASS="code-western">		&lt;text&gt;</P>
+<P CLASS="code-western">			Hola mundo</P>
+<P CLASS="code-western">		&lt;/text&gt;</P>
+<P CLASS="code-western">		<SPAN STYLE="font-weight: medium">&lt;listen:clicked/&gt;</SPAN></P>
+<P CLASS="code-western" STYLE="font-weight: medium">		&lt;icon:bookmark.png/&gt;</P>
+<P CLASS="code-western">	&lt;/button&gt;</P>
+<P CLASS="code-western" ALIGN=LEFT>&lt;/window&gt;</P>
+<P CLASS="western"><BR><BR>
+</P>
+<H2 CLASS="western">Widget: P.</H2>
+<P CLASS="western">The P widget lines up widgets horizontally.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_5bec7cbb.png" NAME="gr&aacute;ficos8" ALIGN=BOTTOM WIDTH=199 HEIGHT=86 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;p&gt;</P>
+<P CLASS="code-western">...Widgets...</P>
+<P CLASS="code-western">&lt;/p&gt;</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de P/&gt;</P>
+<P CLASS="code-western">	&lt;p&gt;</P>
+<P CLASS="code-western">		&lt;button:b1&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">				Bot&oacute;n 1</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;button:b2&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">				Bot&oacute;n 2</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/button&gt;</P>
+<P CLASS="code-western">	&lt;/p&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: VBox.</H2>
+<P CLASS="western">The VBox widget lines up widgets vertically.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m40330946.png" NAME="gr&aacute;ficos9" ALIGN=BOTTOM WIDTH=179 HEIGHT=110 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;vbox&gt;</P>
+<P CLASS="code-western">...Widgets...</P>
+<P CLASS="code-western">&lt;/vbox&gt;</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de VBox/&gt;</P>
+<P CLASS="code-western">	&lt;p&gt;</P>
+<P CLASS="code-western">		&lt;button:b1&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">				Bot&oacute;n 1</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;vbox&gt;</P>
+<P CLASS="code-western">			&lt;button:b2&gt;</P>
+<P CLASS="code-western">				&lt;text&gt;</P>
+<P CLASS="code-western">					Bot&oacute;n 2</P>
+<P CLASS="code-western">				&lt;/text&gt;</P>
+<P CLASS="code-western">			&lt;/button&gt;</P>
+<P CLASS="code-western">			&lt;button:b3&gt;</P>
+<P CLASS="code-western">				&lt;text&gt;</P>
+<P CLASS="code-western">					Bot&oacute;n 3</P>
+<P CLASS="code-western">				&lt;/text&gt;</P>
+<P CLASS="code-western">			&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;/vbox&gt;</P>
+<P CLASS="code-western">	&lt;/p&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: LineEdit.</H2>
+<P CLASS="western">The LineEdit widget is a one-line text editor.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m5afe5f5d.png" NAME="gr&aacute;ficos10" ALIGN=BOTTOM WIDTH=201 HEIGHT=71 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;lineedit: widget name&gt;</P>
+<P CLASS="code-western">	...Properties...</P>
+<P CLASS="code-western">&lt;/lineedit&gt;</P>
+<P CLASS="western">Properties are:</P>
+<P CLASS="code-western">&lt;text: Text /&gt;</P>
+<P CLASS="western">This property holds the line edit's text.</P>
+<P CLASS="code-western">&lt;getText/&gt;</P>
+<P CLASS="western">gets text from widget.</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de LineEdit/&gt;</P>
+<P CLASS="code-western">	&lt;p&gt;</P>
+<P CLASS="code-western">		&lt;lineedit:le1&gt;</P>
+<P CLASS="code-western">			&lt;text:Hola mundo/&gt;</P>
+<P CLASS="code-western">		&lt;/lineedit&gt;</P>
+<P CLASS="code-western">	&lt;/p&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: TextEdit.</H2>
+<P CLASS="western">The TextEdit widget provides a widget that is used
+to edit and display text.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m479e7fa.png" NAME="gr&aacute;ficos12" ALIGN=BOTTOM WIDTH=268 HEIGHT=198 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;textedit: widget name&gt;</P>
+<P CLASS="code-western">	...Properties...</P>
+<P CLASS="code-western">&lt;/textedit&gt;</P>
+<P CLASS="western">Properties:</P>
+<P CLASS="code-western">&lt;text&gt;</P>
+<P CLASS="code-western">	...text...</P>
+<P CLASS="code-western">&lt;/text&gt;</P>
+<P CLASS="western">Sets widget text. Blanck spaces are trimmed.</P>
+<P CLASS="code-western">&lt;text end=&rdquo;End text&rdquo;&gt;</P>
+<P CLASS="code-western">	...text...</P>
+<P CLASS="code-western">&lt;/text end=&rdquo;End text&rdquo;&gt;</P>
+<P CLASS="western">Sets widget text. Blanck spaces are not trimmed.</P>
+<P CLASS="code-western">&lt;getText/&gt;</P>
+<P CLASS="western">gets text from widget. First it writes text's
+number of bytes. Second text is written.</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de TextEdit/&gt;</P>
+<P CLASS="code-western">	&lt;p&gt;</P>
+<P CLASS="code-western">		&lt;textedit:le1&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">				Hola mundo.</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/textedit&gt;</P>
+<P CLASS="code-western">	&lt;/p&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: HTML.</H2>
+<P CLASS="western">The HTML widget provides a rich text browser with
+hypertext navigation.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m71bb9fc8.png" NAME="gr&aacute;ficos11" ALIGN=BOTTOM WIDTH=199 HEIGHT=106 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;html: widget name&gt;</P>
+<P CLASS="code-western">...html...</P>
+<P CLASS="code-western">&lt;/html&gt;</P>
+<P CLASS="western">This html is very simple. Html code can be written
+in the same line.</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de Html/&gt;</P>
+<P CLASS="code-western">	&lt;html:html1&gt;</P>
+<P CLASS="code-western">		&lt;b&gt;Esto es un ejemplo de
+html.&lt;/b&gt;&lt;br&gt;</P>
+<P CLASS="code-western">		&lt;center&gt;&lt;img
+src=&quot;bookmark.png&quot;&gt;&lt;/center&gt;</P>
+<P CLASS="code-western">	&lt;/html&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: List.</H2>
+<P CLASS="western">The List widget provides a tree/list view of text.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m66cff71a.png" NAME="gr&aacute;ficos4" ALIGN=BOTTOM WIDTH=245 HEIGHT=97 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;list: widget name&gt;</P>
+<P CLASS="code-western">	...Properties...</P>
+<P CLASS="code-western">	..items...</P>
+<P CLASS="code-western" STYLE="text-decoration: none">&lt;/list&gt;</P>
+<P CLASS="western">Properties</P>
+<P CLASS="code-western">&lt;selection mode:multiple/&gt;</P>
+<P CLASS="western">Several rows can be selected.</P>
+<P CLASS="code-western">&lt;selection mode:simple/&gt;</P>
+<P CLASS="western">Only one row can be selected.</P>
+<P CLASS="code-western">&lt;listen:selection changed/&gt;</P>
+<P CLASS="western">Listen selection events.</P>
+<P CLASS="western">Items are text rows:</P>
+<P CLASS="code-western">&lt;item:item name&gt;</P>
+<P CLASS="code-western">	...Data rows. One line for column...</P>
+<P CLASS="code-western">	...Others items...</P>
+<P CLASS="code-western">&lt;/item&gt;</P>
+<P CLASS="western">Headers:</P>
+<P CLASS="code-western">&lt;headers&gt;</P>
+<P CLASS="code-western">	...Header's name. One line for column...</P>
+<P CLASS="code-western">&lt;/headers&gt;</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo List/&gt;</P>
+<P CLASS="code-western">	&lt;list:l1&gt;</P>
+<P CLASS="code-western">		&lt;listen:selection changed/&gt;</P>
+<P CLASS="code-western">		&lt;selection mode:multiple/&gt;</P>
+<P CLASS="code-western">		&lt;headers&gt;</P>
+<P CLASS="code-western">			Columna 1</P>
+<P CLASS="code-western">			Columna 2</P>
+<P CLASS="code-western">			Columna 3</P>
+<P CLASS="code-western">		&lt;/headers&gt;</P>
+<P CLASS="code-western">		&lt;item:i1&gt;</P>
+<P CLASS="code-western">			1</P>
+<P CLASS="code-western">			2</P>
+<P CLASS="code-western">			3</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;item:i2&gt;</P>
+<P CLASS="code-western">			4</P>
+<P CLASS="code-western">			5</P>
+<P CLASS="code-western">			6</P>
+<P CLASS="code-western">			&lt;item:i3&gt;</P>
+<P CLASS="code-western">				7</P>
+<P CLASS="code-western">				8</P>
+<P CLASS="code-western">				9</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">	&lt;/list&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: MenuBar.</H2>
+<P CLASS="western">The MenuBar widget provides a horizontal menu bar.</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m3de00801.png" NAME="gr&aacute;ficos5" WIDTH=173 HEIGHT=86 BORDER=0>
+  
+<IMG SRC="english-widgetserver_tutorial_html_mc27ccf0.png" NAME="gr&aacute;ficos6" ALIGN=BOTTOM WIDTH=235 HEIGHT=124 BORDER=0></P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="code-western">&lt;menubar: widget name&gt;</P>
+<P CLASS="code-western">	..items...</P>
+<P CLASS="code-western" STYLE="text-decoration: none">&lt;/menubar&gt;</P>
+<P CLASS="western">Items are menus. There are two types of items:</P>
+<UL>
+	<LI><P CLASS="western">Items without childs:</P>
+</UL>
+<P CLASS="western" STYLE="margin-left: 1.25cm">Syntax:</P>
+<P CLASS="code-western" STYLE="margin-left: 1.25cm">&lt;item:item_name
+text=&rdquo;Menu text&rdquo; icon=&rdquo;path&rdquo;/&gt;</P>
+<P CLASS="western" STYLE="margin-left: 1.25cm">Icon property is not
+needed.</P>
+<UL>
+	<LI VALUE=1><P CLASS="western">Items with childs:</P>
+</UL>
+<P CLASS="code-western" STYLE="margin-left: 1.25cm">&lt;item:item_name
+text=&rdquo;Menu text&rdquo; icon=&rdquo;path&rdquo;&gt;</P>
+<P CLASS="code-western" STYLE="margin-left: 1.25cm">	...items...</P>
+<P CLASS="code-western" STYLE="margin-left: 1.25cm">&lt;/item&gt;</P>
+<P CLASS="western" STYLE="margin-left: 1.25cm">Icon property is not
+needed.</P>
+<P CLASS="western">Example:</P>
+<P CLASS="code-western">&lt;window:w1&gt;</P>
+<P CLASS="code-western">	&lt;title:Ejemplo de MenuBar/&gt;</P>
+<P CLASS="code-western">	&lt;menubar:menubar1&gt;</P>
+<P CLASS="code-western">		&lt;item:m1 text=&quot;Menu 1&quot;
+icon=&quot;bookmark.png&quot;&gt;</P>
+<P CLASS="code-western">			&lt;item:m3 text=&quot;Menu 3&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m4 text=&quot;Menu 4&quot;
+icon=&quot;bookmark.png&quot;/&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;item:m2 text=&quot;Menu 2&quot;&gt;</P>
+<P CLASS="code-western">			&lt;item:m5 text=&quot;Menu 5&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m6 text=&quot;Menu 6&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m7 text=&quot;Menu 7&quot;
+icon=&quot;bookmark.png&quot;&gt;</P>
+<P CLASS="code-western">				&lt;item:m8 text=&quot;Menu 8&quot;/&gt;</P>
+<P CLASS="code-western">				&lt;item:m9 text=&quot;Menu 9&quot;
+icon=&quot;bookmark.png&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">	&lt;/menubar&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<H2 CLASS="western">Widget: Workspace.</H2>
+<P CLASS="western">The Workspace widget provides a workspace window
+that be used in an MDI application.</P>
+<P CLASS="western">Syntax:</P>
+<P CLASS="codigo-western">&lt;workspace:widget name&gt;</P>
+<P CLASS="codigo-western">	Widgets and properties</P>
+<P CLASS="codigo-western">&lt;/workspace&gt;</P>
+<H1 CLASS="western">Full example.</H1>
+<P CLASS="western">We are going to see code for this window:</P>
+<P CLASS="western" ALIGN=CENTER><IMG SRC="english-widgetserver_tutorial_html_m1ce99c8a.png" NAME="gr&aacute;ficos3" ALIGN=BOTTOM WIDTH=299 HEIGHT=250 BORDER=0></P>
+<P CLASS="western">Code is:</P>
+<P CLASS="code-western">&lt;window:w&gt;</P>
+<P CLASS="code-western">	&lt;title: Hola mundo/&gt;</P>
+<P CLASS="code-western">	&lt;icon:bookmark.png/&gt;</P>
+<P CLASS="code-western">	&lt;menubar:menubar1&gt;</P>
+<P CLASS="code-western">		&lt;item:m1 text=&quot;Menu 1&quot;
+icon=&quot;bookmark.png&quot;&gt;</P>
+<P CLASS="code-western">			&lt;item:m3 text=&quot;Menu 3&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m4 text=&quot;Menu 4&quot;
+icon=&quot;bookmark.png&quot;/&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;item:m2 text=&quot;Menu 2&quot;&gt;</P>
+<P CLASS="code-western">			&lt;item:m5 text=&quot;Menu 5&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m6 text=&quot;Menu 6&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;item:m7 text=&quot;Menu 7&quot;
+icon=&quot;bookmark.png&quot;&gt;</P>
+<P CLASS="code-western">				&lt;item:m8 text=&quot;Menu 8&quot;/&gt;</P>
+<P CLASS="code-western">				&lt;item:m9 text=&quot;Menu 9&quot;
+icon=&quot;bookmark.png&quot;/&gt;</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">	&lt;/menubar&gt;</P>
+<P CLASS="code-western">	&lt;button:b1&gt;</P>
+<P CLASS="code-western">		&lt;text&gt;</P>
+<P CLASS="code-western">		Hola mundo.</P>
+<P CLASS="code-western">		&lt;/text&gt;</P>
+<P CLASS="code-western">	&lt;/button&gt;</P>
+<P CLASS="code-western">	&lt;button:b2&gt;</P>
+<P CLASS="code-western">		&lt;text&gt;</P>
+<P CLASS="code-western">		Adios mundo.</P>
+<P CLASS="code-western">		&lt;/text&gt;</P>
+<P CLASS="code-western">	&lt;/button&gt;</P>
+<P CLASS="code-western">	&lt;window:scroll&gt;</P>
+<P CLASS="code-western">	&lt;p&gt;</P>
+<P CLASS="code-western">		&lt;label:l1&gt;</P>
+<P CLASS="code-western">			l1</P>
+<P CLASS="code-western">		&lt;/label&gt;</P>
+<P CLASS="code-western">		&lt;button:b3&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">			b3.</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;button:b4&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">			b4.</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;vbox&gt;</P>
+<P CLASS="code-western">			&lt;label:l2&gt;</P>
+<P CLASS="code-western">				l2</P>
+<P CLASS="code-western">				Esto es un ejemplo en varias l&iacute;neas</P>
+<P CLASS="code-western">			&lt;/label&gt;</P>
+<P CLASS="code-western">			&lt;label:l3&gt;</P>
+<P CLASS="code-western">				&lt;html&gt;</P>
+<P CLASS="code-western">				&lt;b&gt;l3&lt;/b&gt; usadon html&lt;br&gt;</P>
+<P CLASS="code-western">				&lt;img src=&quot;bookmark.png&quot;&gt; 
+</P>
+<P CLASS="code-western">				&lt;/html&gt;</P>
+<P CLASS="code-western">			&lt;/label&gt;</P>
+<P CLASS="code-western">			&lt;button:b5&gt;</P>
+<P CLASS="code-western">				&lt;text&gt;</P>
+<P CLASS="code-western">				b5.</P>
+<P CLASS="code-western">				&lt;/text&gt;</P>
+<P CLASS="code-western">			&lt;/button&gt;</P>
+<P CLASS="code-western">			&lt;button:b6&gt;</P>
+<P CLASS="code-western">				&lt;text&gt;</P>
+<P CLASS="code-western">				b6</P>
+<P CLASS="code-western">				&lt;/text&gt;</P>
+<P CLASS="code-western">				&lt;icon:bookmark.png/&gt;</P>
+<P CLASS="code-western">				&lt;listen:clicked/&gt;</P>
+<P CLASS="code-western">			&lt;/button&gt;</P>
+<P CLASS="code-western">		&lt;/vbox&gt;</P>
+<P CLASS="code-western">		&lt;lineedit:le1&gt;</P>
+<P CLASS="code-western">		&lt;text:Hola mundo/&gt;</P>
+<P CLASS="code-western">		&lt;/lineedit&gt;</P>
+<P CLASS="code-western">		&lt;textedit:te1&gt;</P>
+<P CLASS="code-western">			&lt;text&gt;</P>
+<P CLASS="code-western">				Hola mundo.</P>
+<P CLASS="code-western">			&lt;/text&gt;</P>
+<P CLASS="code-western">		&lt;/textedit&gt;</P>
+<P CLASS="code-western">	&lt;/p&gt;</P>
+<P CLASS="code-western">	&lt;html:html1&gt;</P>
+<P CLASS="code-western">		&lt;b&gt;Hola mundo&lt;/b&gt;&lt;br&gt;</P>
+<P CLASS="code-western">		Esto es un ejemplo.</P>
+<P CLASS="code-western">	&lt;/html&gt;</P>
+<P CLASS="code-western">	&lt;list:list1&gt;</P>
+<P CLASS="code-western">		&lt;listen:selection changed/&gt;</P>
+<P CLASS="code-western">		&lt;selection mode:multiple/&gt;</P>
+<P CLASS="code-western">		&lt;headers&gt;</P>
+<P CLASS="code-western">			Columna 1</P>
+<P CLASS="code-western">			Columna 2</P>
+<P CLASS="code-western">			Columna 3</P>
+<P CLASS="code-western">		&lt;/headers&gt;</P>
+<P CLASS="code-western">		&lt;item:pepe&gt;</P>
+<P CLASS="code-western">			1</P>
+<P CLASS="code-western">			2</P>
+<P CLASS="code-western">			3</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;item&gt;</P>
+<P CLASS="code-western">			4</P>
+<P CLASS="code-western">			5</P>
+<P CLASS="code-western">			6</P>
+<P CLASS="code-western">			&lt;item&gt;</P>
+<P CLASS="code-western">				7</P>
+<P CLASS="code-western">				8</P>
+<P CLASS="code-western">				9</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">			&lt;item&gt;</P>
+<P CLASS="code-western">				10</P>
+<P CLASS="code-western">				11</P>
+<P CLASS="code-western">				12</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">			&lt;item&gt;</P>
+<P CLASS="code-western">				13</P>
+<P CLASS="code-western">				14</P>
+<P CLASS="code-western">				15</P>
+<P CLASS="code-western">				&lt;item&gt;</P>
+<P CLASS="code-western">					16</P>
+<P CLASS="code-western">					17</P>
+<P CLASS="code-western">					18</P>
+<P CLASS="code-western">				&lt;/item&gt;</P>
+<P CLASS="code-western">			&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">		&lt;item&gt;</P>
+<P CLASS="code-western">			19</P>
+<P CLASS="code-western">			20</P>
+<P CLASS="code-western">			21</P>
+<P CLASS="code-western">		&lt;/item&gt;</P>
+<P CLASS="code-western">	&lt;/list&gt;</P>
+<P CLASS="code-western">	&lt;/window&gt;</P>
+<P CLASS="code-western">&lt;/window&gt;</P>
+<P CLASS="code-western"><BR>
+</P>
+<P CLASS="code-western">&lt;lineedit:le1&gt;</P>
+<P CLASS="code-western">	&lt;getText/&gt;</P>
+<P CLASS="code-western">&lt;/lineedit&gt;</P>
+<P CLASS="code-western"><BR>
+</P>
+<P CLASS="code-western">&lt;html:html1&gt;</P>
+<P CLASS="code-western">	&lt;b&gt;Adios&lt;/b&gt;&lt;br&gt;</P>
+<P CLASS="code-western">	Esto es un ejemplo.</P>
+<P CLASS="code-western">&lt;/html&gt;</P>
+<P CLASS="western"><BR><BR>
+</P>
+</BODY>
+</HTML>

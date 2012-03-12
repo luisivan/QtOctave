@@ -1,0 +1,12 @@
+<widgetserver>
+	<window id='w1'>
+	<hbox id='hbox1'>
+		<label id='l1'>
+			<text>Press button to close window, please:</text>
+		</label>
+		<button id='b1'>
+			<text>Press me</text>
+			<signal name='clicked'>* Exit</signal>
+		</button>
+	</hbox>
+	</window>

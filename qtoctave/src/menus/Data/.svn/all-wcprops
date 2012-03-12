@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/menus/Data
+END
+save_data.menu
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/menus/Data/save_data.menu
+END
+format_output.menu
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/menus/Data/format_output.menu
+END
+load_data.menu
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/menus/Data/load_data.menu
+END

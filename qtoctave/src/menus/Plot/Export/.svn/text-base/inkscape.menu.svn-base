@@ -1,0 +1,24 @@
+#Export plot to eps
+
+menu_name=Inkscape
+
+output_label= File
+output_file=plot.svg
+
+output_label= Color
+begin{output_list}
+-color
+-mono
+end{output_list}
+
+begin{command}
+print ("%o1%", "%o2%", "-dsvg")
+disp('Opening inkscape please wait...')
+system('inkscape "%o1%"')
+end{command}
+
+begin{help}
+Edit your plot with Inkscape.
+end{help}
+
+

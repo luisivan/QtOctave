@@ -1,0 +1,198 @@
+<ui version="4.0" >
+ <class>frmDownload</class>
+ <widget class="QDialog" name="frmDownload" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>300</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>680</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>Progress</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="resources.qrc" >:/All/images/package16.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" >
+   <item>
+    <layout class="QVBoxLayout" >
+     <item>
+      <layout class="QHBoxLayout" >
+       <item>
+        <widget class="QLabel" name="lblFrom" >
+         <property name="text" >
+          <string>Copy from:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txtFrom" >
+         <property name="readOnly" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" >
+       <item>
+        <widget class="QLabel" name="lblTo" >
+         <property name="text" >
+          <string>Copy to:     </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="txtTo" >
+         <property name="readOnly" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressCurrent" >
+       <property name="toolTip" >
+        <string>Current package</string>
+       </property>
+       <property name="styleSheet" >
+        <string>QProgressBar{
+    font-weight: bold;
+    text-align: center;
+   padding: 1px;
+}
+
+QProgressBar:chunk{
+   background: #35c60e;
+   width: 0.5em;
+   margin: 1px;
+}</string>
+       </property>
+       <property name="value" >
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressAll" >
+       <property name="toolTip" >
+        <string>Full process</string>
+       </property>
+       <property name="autoFillBackground" >
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet" >
+        <string>QProgressBar{
+	padding: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+QProgressBar::chunk{
+     background: #9300c3;
+     width: 0.5em;
+    margin: 1px;
+}</string>
+       </property>
+       <property name="value" >
+        <number>0</number>
+       </property>
+       <property name="textVisible" >
+        <bool>true</bool>
+       </property>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="invertedAppearance" >
+        <bool>false</bool>
+       </property>
+       <property name="textDirection" >
+        <enum>QProgressBar::TopToBottom</enum>
+       </property>
+       <property name="format" >
+        <string>%p%</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txtLog" >
+       <property name="lineWidth" >
+        <number>1</number>
+       </property>
+       <property name="readOnly" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" >
+       <item>
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOk" >
+         <property name="enabled" >
+          <bool>false</bool>
+         </property>
+         <property name="text" >
+          <string>&amp;Ok</string>
+         </property>
+         <property name="icon" >
+          <iconset resource="resources.qrc" >:/About/images/ok.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc" />
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnOk</sender>
+   <signal>clicked()</signal>
+   <receiver>frmDownload</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>401</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>224</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

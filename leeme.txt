@@ -1,0 +1,24 @@
+Instrucciones de instalación de QtOctave.
+
+Para compilar QtOctave será necesario tener instalados:
+* La biblioteca Qt 4, con sus paquetes de desarrollo. Se necesita la versión 4.6.0 o superior.
+* El programa Octave. Versión 3.2.0 o superior.
+* El programa cmake.
+
+Para realizar la instalación ejecutar:
+
+tar xvzf qtoctave-xxx.tar.gz
+cd qtoctave-xxx
+mkdir build
+cd build
+cmake ..
+# si deseas especificar el directorio de instalación (por ejemplo tu $HOME, si no eres root), 
+# Se puede escribir: "cmake ..  -DCMAKE_INSTALL_PREFIX:PATH=/algún/path"
+make
+make install
+
+Posiblemente se deba hacer como usuario root (depende del directorio de instalación).
+
+
+
+

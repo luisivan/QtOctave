@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>QtOctave Menus</title>
+
+</head>
+<body>
+<a href="#intro">QtOctave menus.</a><br>
+<a href="#struct">Menus structure.</a><br>
+<a href="#simple">Simple way of build menus.</a><br>
+<a href="#complete">Complete way of build menus.</a><br>
+<a href="#icon">Menu's icon.</a><br>
+<a name="intro"></a>
+<h1>QtOctave menus.</h1>
+<p>QtOctave menus can be found in
+/usr/local/share/qtoctave/menus/ or can be located in user's home.</p>
+<p>Menus in /usr/local/share/qtoctave/menus/ are read for all
+users.</p>
+<p>Menus in user's home are read only for user.</p>
+<p>Menus in user's home are located in ~/.qtoctave/menus/.</p>
+<p>Some menus are fixed and cannot be edited.</p>
+<a name="struct"></a>
+<h1>Menus structure.</h1>
+<p>Every folder you put in menus folder represents menus. Inside
+of this folder you can put other menus.</p>
+<p>For example, if you you want put a new menu in help menu, you
+must create a new folder in menus folder called <i>help</i>.
+Inside of help folder you will put your new menus.</p>
+<p>There are two ways of build menus: Simple and complete.</p>
+<a name="simple"></a>
+<h2>Simple way of build menus.</h2>
+<p>Only add to your menu folder a <i>.menu file</i>.There
+is and example of <i>.menu file</i>:</p>
+<small>
+#This is an example of menu for qtoctave<br>
+<br>
+menu_name=Menu title<br>
+<br>
+input_label= Parameter 1<br>
+input= parameter1<br>
+<br>
+input_label= Parameter 2<br>
+input= parameter2<br>
+<br>
+input_label= Parameter 3<br>
+input=<br>
+<br>
+output_label= Output Parameter 1<br>
+output= output1<br>
+<br>
+output_label= Output Parameter 2<br>
+output= output2<br>
+<br>
+begin{help}<br>
+&lt;html&gt;<br>
+&lt;body&gt;<br>
+&lt;b&gt;This is an example.&lt;/b&gt;&lt;br&gt;<br>
+Help of example.<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+end{help}<br>
+<br>
+begin{command}<br>
+title("%i1%");<br>
+sombrero(%i2%);<br>
+[%o1%,%o2%] = hola (%i1%,%i2%,%i3%);<br>
+end{command}<br>
+</small>
+<p>Lines starting with <b>#</b> are commens.</p>
+<p><b>menu_name</b> property is name of menu window.</p>
+<p><b>input_label</b> is label of input parameter.</p>
+<p><b>input</b> property is name of this parameter in
+code. You can add all parameters you need.</p>
+<p><b>input_file</b> property is name of file in code.</p>
+<p><b>begin{input_list}...end{input_list}</b> lets
+select one property from list inside begin{input_list} and
+end{input_list}. Each line represents one option.</p>
+<p><b>output_label</b>, <b>output</b>, <b>begin{output_list}...end{output_list}</b>
+and <b>output_file</b> properties are similar with output
+parameters.</p>
+<p><b>begin{command}...end{command}</b> is code that
+will be passed to octave.<br>
+%i1% is 1st input parameter, %i2% is second input parameter,...<br>
+%o1% is 1st output parameter, %o2% is second output parameter,...</p>
+<p><b>begin{help}...end{help}</b> is this menu help.
+Help must be in html. This parameter is not needed.</p>
+<p>Example: <i>Easy integrate.menu</i> has the next
+code:</p>
+<small>
+#This is an example of menu for qtoctave<br>
+<br>
+menu_name= Integrate Function Easy<br>
+<br>
+input_label= Function name f(x)<br>
+input=<br>
+<br>
+input_label= 1st limit of integration<br>
+input=<br>
+<br>
+input_label= 2st limit of integration<br>
+input=<br>
+<br>
+output_label= Value<br>
+output=v<br>
+<br>
+output_label=ier<br>
+output=ier<br>
+<br>
+output_label= nfun<br>
+output=nfun<br>
+<br>
+output_label=err<br>
+output=err<br>
+<br>
+begin{help}<br>
+&lt;html&gt;<br>
+&lt;p&gt;&lt;b&gt;Integrate a nonlinear function of one
+variable using
+Quadpack.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;<br>
+Use quad function for more options.&lt;br&gt;&lt;br&gt;<br>
+&lt;br&gt;
+The first argument is the name of the function, the function handle or
+the inline function to call to compute the value of the integrand. It
+must have the form:&lt;br&gt;<br>
+y = f (x)&lt;br&gt;<br>
+where y and x are scalars.&lt;br&gt;<br>
+This parameter is a string. Ex.:&lt;br&gt;<br>
+[v, ier, nfun, err] = quad ("f", 0,
+3)&lt;br&gt;&lt;br&gt;<br>
+&lt;br&gt;
+The second and third arguments are limits of integration. Either or
+both may be infinite.&lt;br&gt;&lt;br&gt;<br>
+&lt;br&gt;
+You can use the function quad_options to set optional parameters for
+quad.&lt;br&gt;<br>
+&lt;/html&gt; <br>
+end{help}<br>
+<br>
+begin{command}<br>
+[%o1%, %o2%, %o3%, %o4%] = quad ("%i1%",%i2%,%i3%)<br>
+end{command}<br>
+</small>
+<p>This code creates this menu:<br>
+<img src="menu_integrate_easy.png">
+</p>
+<a name="complete"></a>
+<h2>Complete way of build menus.</h2>
+<p>Is very similar. You can put an executable file in menus
+folder and QtOctave will put in menu. When user selects this menu,
+QtOctave executes this file and sends output to Octave.</p>
+<p>Example:</p>
+<p>You can put this code in file called <i>Sombrero
+function</i>:<br>
+<small>
+#!/bin/cat<br>
+title('Sombrero');<br>
+sombrero(20);<br>
+</small>
+Then put this file in menus folder and make it executable using:<br>
+<small>chmod +x "Sombrero function"</small><br>
+This menu will appear in QtOctave and makes plot of sombrero function.
+</p>
+<a name="icon">
+<h1>Menu's icon.</h1>
+</a>
+<p>Putting icons to menus is very simple. If you have an <i>ej.menu</i>
+file (or other), you must put <i>ex.menu.png</i> icon in
+the same place that <i>ex.menu</i>. That is all.</p>
+</body></html>

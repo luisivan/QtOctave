@@ -1,0 +1,99 @@
+<ui version="4.0" >
+ <class>ViewAngle</class>
+ <widget class="QWidget" name="ViewAngle" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>144</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>View Angle</string>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QSlider" name="x_angle_horizontalSlider" >
+     <property name="maximum" >
+      <number>180</number>
+     </property>
+     <property name="value" >
+      <number>60</number>
+     </property>
+     <property name="tracking" >
+      <bool>false</bool>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QSlider" name="z_angle_horizontalSlider" >
+     <property name="maximum" >
+      <number>360</number>
+     </property>
+     <property name="value" >
+      <number>30</number>
+     </property>
+     <property name="tracking" >
+      <bool>false</bool>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" >
+    <widget class="QLabel" name="x_angle_label" >
+     <property name="text" >
+      <string>60</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" >
+    <widget class="QLabel" name="z_angle_label" >
+     <property name="text" >
+      <string>30</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1" >
+    <widget class="QPushButton" name="ok_pushButton" >
+     <property name="text" >
+      <string>Ok</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" >
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

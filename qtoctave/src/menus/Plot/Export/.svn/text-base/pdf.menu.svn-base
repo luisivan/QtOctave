@@ -1,0 +1,20 @@
+#Export plot to pdf
+
+menu_name=PDF
+
+output_label= File
+output_file=plot.pdf
+
+output_label= Color
+begin{output_list}
+-color
+-mono
+end{output_list}
+
+begin{command}
+print ("%o1%.ps", "%o2%", "-dps")
+system("ps2pdf \"%o1%.ps\" %o1%")
+end{command}
+
+begin{help}
+end{help}

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets
+END
+textedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/textedit.h
+END
+tree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/tree.cpp
+END
+hbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/hbox.cpp
+END
+scroll.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/scroll.h
+END
+menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/menu.cpp
+END
+window.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/window.cpp
+END
+combobox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/combobox.cpp
+END
+widgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/widgets.h
+END
+hseparator.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/hseparator.h
+END
+vbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/vbox.cpp
+END
+selectfile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/selectfile.cpp
+END
+button.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/button.h
+END
+label.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/label.h
+END
+widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/widget.h
+END
+textedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/textedit.cpp
+END
+vseparator.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/vseparator.h
+END
+scroll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/scroll.cpp
+END
+lineedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/lineedit.h
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/tree.h
+END
+hbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/hbox.h
+END
+widgets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/widgets.cpp
+END
+hseparator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/hseparator.cpp
+END
+menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/menu.h
+END
+button.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/button.cpp
+END
+window.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/window.h
+END
+combobox.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/combobox.h
+END
+label.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/label.cpp
+END
+widget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/widget.cpp
+END
+vbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/vbox.h
+END
+selectfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/selectfile.h
+END
+vseparator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/vseparator.cpp
+END
+lineedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/widgets/lineedit.cpp
+END

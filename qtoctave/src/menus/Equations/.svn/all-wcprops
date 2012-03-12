@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/274/trunk/qtoctave/src/menus/Equations
+END
+equation_by_bisection.menu
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/csl-qtoctave/!svn/ver/274/trunk/qtoctave/src/menus/Equations/equation_by_bisection.menu
+END
+linear_equation.menu
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/csl-qtoctave/!svn/ver/274/trunk/qtoctave/src/menus/Equations/linear_equation.menu
+END
+nonlinear_equation.menu
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/csl-qtoctave/!svn/ver/274/trunk/qtoctave/src/menus/Equations/nonlinear_equation.menu
+END

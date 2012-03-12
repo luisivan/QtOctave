@@ -1,0 +1,66 @@
+#Solve equation by bisection method
+
+menu_name=Solve equation by bisection method
+
+#i1
+input_label=Function
+input=
+
+#i2
+input_label=Start pos.
+input=
+
+#i3
+input_label=Step
+input=0.1
+
+#i4
+input_label=Tolerance
+input=0.00001
+
+
+#o1
+output_label=Result
+output=
+
+#o2
+output_label=Auxiliar variable 1
+output=
+
+#o3
+output_label=Auxiliar variable 2
+output=
+
+
+begin{command}
+%o1%=%i2%;
+%o2%=inline('%i1%')(%o1%);
+%o3%=%i3%;
+while(  abs( %o2% ) > %i4%  )
+	%o1%+=%o3%;
+	if( %o2%>0 )
+		%o2%=inline('%i1%')(%o1%);
+		if( %o2%<0 )
+			%o1%-=%o3%;
+			%o2%=inline('%i1%')(%o1%);
+			%o3%/=2;
+		endif;
+	else
+		%o2%=inline('%i1%')(%o1%);
+		if( %o2%>0 )
+			%o1%-=%o3%;
+			%o2%=inline('%i1%')(%o1%);
+			%o3%/=2;
+		endif;
+	endif;
+endwhile
+%o1%
+end{command}
+
+begin{help}
+<p><b>Solve nonlinear equation by bisection method.</b></p>
+<p></p>
+<p>This method checks functions' signs changes. Methods adds step to result. When sign changes, method comes back to previus position and makes step lower.</p>
+end{help}
+
+

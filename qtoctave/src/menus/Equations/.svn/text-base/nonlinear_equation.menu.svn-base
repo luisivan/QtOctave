@@ -1,0 +1,44 @@
+#Solve linear equation
+
+menu_name=Nonlinear equation
+
+#i1
+input_label=Function (example: sin(x))
+input=
+
+#i2
+input_label=x0
+input=
+
+
+#o1
+output_label=Solution
+output=
+
+#o2
+output_label=Info
+output=
+
+#o3
+output_label=Menssage
+output=
+
+
+begin{command}
+[%o1%,%o2%,%o3%]=fsolve(inline("%i1%"), %i2%)
+end{command}
+
+begin{help}
+<p><b>Solve nonlinear equation</b></p>
+<p></p>
+<p>Octave can solve sets of nonlinear equations of the form</p>
+<pre>
+F (x) = 0
+</pre>
+<p>using the function fsolve, which is based on the MINPACK subroutine hybrd.
+</p>
+<p>Given function, the name of a function of the form f (x) and an initial starting point x0, fsolve solves the set of equations such that f(x) = 0. </p>
+<p>If function is a two-element string array, the first element names the function  described above, and the second element names a function of the form j (x) to compute the Jacobian matrix.</p>
+end{help}
+
+

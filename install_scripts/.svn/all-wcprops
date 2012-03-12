@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts
+END
+build_qtoctave_installer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts/build_qtoctave_installer.txt
+END
+build_qtoctave_rpath_binary.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts/build_qtoctave_rpath_binary.sh
+END
+libs_copy.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts/libs_copy.c
+END
+build_installer.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts/build_installer.c
+END
+build_xmlwidget_installer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/csl-qtoctave/!svn/ver/212/trunk/install_scripts/build_xmlwidget_installer.txt
+END

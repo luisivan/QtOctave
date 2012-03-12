@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/About" >
+        <file>images/ok.png</file>
+    </qresource>
+    <qresource prefix="/All" >
+        <file>images/package16.png</file>
+    </qresource>
+    <qresource prefix="/MainWindow" >
+        <file>images/cancel.png</file>
+        <file>images/configure.png</file>
+        <file>images/exit.png</file>
+        <file>images/gear.png</file>
+        <file>images/help.png</file>
+        <file>images/package32.png</file>
+        <file>images/reload.png</file>
+    </qresource>
+</RCC>

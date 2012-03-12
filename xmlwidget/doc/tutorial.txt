@@ -1,0 +1,613 @@
+
+
+
+XML Widgets Server tutorial (xmlwidget).
+------------------------------------------------------------------------------------
+
+1. Introduction
+
+
+XML Widgets Server (xmlwidget) is a simple way of build windows. You must describe your window using a simple xml format. Your xml must been sent to xmlwidget through standard output. Events are read using standard input.
+
+Almost programing languages can read and write from standard input and standard output. xmlwidget can be used from almost programing languages.
+
+If you use GTK, you can use GTK version of xmlwidget. If you use Qt4, you can use Qt4 version of xmlwidget.
+
+------------------------------------------------------------------------------------
+
+1.1 Simple example.
+
+Execute xmlwidget and write this:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<button id="button">
+			<text>Hello world</text>
+		</button>
+	</window> 
+</widgetserver>
+
+This will build a window named "Hello" with button inside. Button text will be "Hello world".
+
+You can stop xmlwidget writing:
+
+<quit/>
+
+------------------------------------------------------------------------------------
+
+1.2 Simple example. Events.
+
+Execute xmlwidget and write this:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<button id="button">
+			<text>Hello world</text>
+			<signal name="clicked"/>
+		</button>
+	</window> 
+</widgetserver>
+
+This will build a window named "Hello" with button inside. Button text will be "Hello world".
+
+If you make click over button, event is written in standard output:
+
+<button id="button" signal="clicked"/>
+
+You can capture this events using your favourite programing language and build your applications easily.
+
+------------------------------------------------------------------------------------
+
+1.3 XML; basics.
+
+XML is based in tags, like html. Tags are words between simbols '<' and '>', per example <widgetserver>, <button>,... There is, always, an open tag and a close tag. Close tag are words between '</' and '>'. Per example:
+
+<widgetserver>  <-- This is open tag.
+</widgetserver> <-- This is close tag.
+
+NOTE: If you write an start tag, you will write a close tag.
+
+You can put open & close tags between other open & close tags. Per ex.:
+
+<widgetserver>
+	<window>
+		<button></button>
+	</window>
+</widgetserver>
+
+There is an special tag, words between simbols '<' and '/>' this tag is open & close itself:
+
+<widgetserver>
+	<window>
+		<button/>  <-- It open & close button.
+	</window>
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+1.3.1 XML; properties.
+
+Inside each tag, you can put properties. Properties looks like:
+
+<button id="button">
+
+id property has value button.
+
+Properties sintax is:
+
+word="value"
+
+or:
+
+word='value'
+
+Per example:
+
+<button id="'b1'" font='Helvetica' bold="true" italic='true' size="32">
+
+button has properties id='b1', font=Helvetica, bold=true, italic=true and size=32.
+
+------------------------------------------------------------------------------------
+
+1.3.2 XML; texts.
+
+You can write texts between open & close tags:
+
+<value>Text</value>
+
+Texts must not have <, > and & simbols inside (it would be tags). You must translate these simbols to:
+
+<	&lt;
+>	&gt;
+&	&amp;
+
+Per. ex, if you want to write 2<3, you should write:
+
+<value>2&lg;3</value>
+
+------------------------------------------------------------------------------------
+
+1.3.3 XML; start.
+
+Every XML document must start with:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+Per. example:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<widgetserver>
+	<window id="window" title="Hello">
+		<button id="button">
+			<text>Hello world</text>
+			<signal name="clicked"/>
+		</button>
+	</window> 
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2 Widgets.
+
+Widgets are objects that can be shown in windows.
+
+All widgets can change thier font properties using font(=Helvetica, Times, Courier,...), bold(=true, false), italic(=true, false) and size(=1,2,3,...). Per. example:
+
+<widgetserver>
+	<window id="w">
+		<label id="l1" font="Helvetica" bold="true" italic="true" size="32">
+			<text>Hello world</text>
+		</label>
+	</window>
+</widgetserver>
+
+In the next widgets syntax [...] represents optative; [...]* represents optative and one or more elements.
+
+Those are xmlwidget widgets:
+
+------------------------------------------------------------------------------------
+
+2.1 Window.
+
+Show windows.
+
+Syntax:
+
+<window id="object name" [title="Window title"] [maximize="true"/"false"] [minimize="true"/"false"]>
+..........
+</window>
+
+Attributes:
+* title: Window's title.
+* maximize: Maximize window if true value is given.
+* minimize: Minimize window if true value is given.
+
+Window can contains other widgets.
+
+Example:
+
+<widgetserver>
+	<window id="window1" title="Hello 1"/>
+	
+	<window id="window2" title="Hello 2">
+		<button id="button">
+			<text>Hello world</text>
+			<signal name="clicked"/>
+		</button>
+	</window>
+</widgetserver>
+
+
+------------------------------------------------------------------------------------
+
+2.2 Label.
+
+The Label widget provides a text display.
+
+Syntax:
+
+<label id="object name">
+	<text>
+	...
+	</text>
+</label>
+
+Properties:
+* text: Sets text.
+
+Example:
+
+<widgetserver>
+	<window id="window2" title="Hello 2">
+		<label id="l1">
+			<text>Hello world</text>
+		</label>
+	</window>
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.2 Button.
+
+The PushButton widget provides a command button.
+
+Syntax:
+
+<button id="object name">
+	[<text>...</text>]
+	[<icon>...</icon>]
+	[<signal name="clicked"/>]
+	[<signal name="clicked">Output text</signal>]
+</button>
+
+Properties:
+* text: Sets text.
+* icon: Sets icon.
+* signal: 
+	Attributes:
+		name:
+			clicked: Writes to output clicked events.
+	Output text: This text will be write instead XML output.
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<button id="button">
+			<text>Hello world</text>
+			<signal name="clicked"/>
+		</button>
+	</window> 
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.3 HBox.
+
+The HBox widget lines up widgets horizontally.
+
+Syntax:
+
+<hbox id="object name">
+	...
+</hbox>
+
+Setting expand attribute on widgets contained to "true", widgets try to use all free space.
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<hbox id="box">
+			<button id="button1" expand="true">
+				<text>Button 1</text>
+				<signal name="clicked"/>
+			</button>
+			<button id="button2">
+				<text>Button 2</text>
+				<signal name="clicked"/>
+			</button>
+		</hbox>
+	</window> 
+</widgetserver>
+
+Button1 has expand="true" and if you change window size, it try to use free space.
+
+------------------------------------------------------------------------------------
+
+2.4 VBox.
+
+The VBox widget lines up widgets vertically.
+
+Is similar to HBox widget.
+
+------------------------------------------------------------------------------------
+
+2.5 Line edit.
+
+The LineEdit widget is a one-line text editor.
+
+Syntax:
+
+<lineedit id="object name" [password="true"]>
+	[<text>...</text>]
+	[<get_text/>]
+	[
+		<get_text>
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</get_text>
+	]
+</lineedit>
+
+Properties:
+* text: Sets text.
+* get_text: Writes text in lineedit to output.
+		<get_text/> writes text in XML format.
+		<get_text>...</get_text> writes text to output starting text with <startmark value="Start mark"/>, ending text with <endmark value="End mark"/> and each line of text starts with <linestartmark value="Line start mark"/>
+
+password attribute in lineedit tag display asterisks instead of the characters actually entered.
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<lineedit id="lineedit1">
+			<text>Hello world</text>
+		</lineedit>
+	</window>
+	
+	<lineedit id="lineedit1">
+		<get_text/>
+	</lineedit>
+	
+	<lineedit id="lineedit1">
+		<get_text>
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</get_text>
+	</lineedit>
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.6 VSeparator.
+
+The VSeparator widget lines up widgets vertically and lets the user control the size of child widgets by dragging the boundary between the children.
+
+Syntax:
+
+<vseparator id="object name">
+	<first>
+	...
+	</first>
+	<second>
+	...
+	</second>
+</vseparator>
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<vseparator id="box">
+			<first>
+				<button id="button1" expand="true">
+					<text>Button 1</text>
+					<signal name="clicked"/>
+				</button>
+			</first>
+			<second>
+				<button id="button2">
+					<text>Button 2</text>
+					<signal name="clicked"/>
+				</button>
+			</second>
+		</vseparator>
+	</window> 
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.7 HSeparator.
+
+The HSeparator widget lines up widgets vertically and lets the user control the size of child widgets by dragging the boundary between the children.
+
+Is similar to VSeparator widget.
+
+------------------------------------------------------------------------------------
+
+2.8 Text edit.
+
+The TextEdit widget is a text editor.
+
+Syntax:
+
+<textedit id="object name">
+	[<text>...</text>]
+	[<get_text/>]
+	[
+		<get_text>
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</get_text>
+	]
+</textedit>
+
+Properties:
+* text: Sets text.
+* get_text: Writes text in textedit to output.
+		<get_text/> writes text in XML format.
+		<get_text>...</get_text> writes text to output starting text with <startmark value="Start mark"/>, ending text with <endmark value="End mark"/> and each line of text starts with <linestartmark value="Line start mark"/>
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<textedit id="textedit">
+			<text>Hello world</text>
+		</textedit>
+	</window>
+	
+	<textedit id="textedit">
+		<get_text/>
+	</textedit>
+
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.9 Select File.
+
+The SelectFile widget provides a dialog that allow users to select file.
+
+Syntax:
+
+<selectfile id="object name" [title="title"]>
+	[<file>...</file>]
+	[
+		<signal name="activated">
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</signal>
+	]
+</selectfile>
+
+Properties:
+* file: Selects file.
+* signal: Writes text in selected item to output when signal activated ocurred.
+		<signal/> writes text in XML format.
+		<signal>...</signal> writes text to output starting text with <startmark value="Start mark"/>, ending text with <endmark value="End mark"/> and each line of text starts with <linestartmark value="Line start mark"/>
+
+Example:
+
+<widgetserver>
+	<selectfile id="selectfile">
+		<file>.</file>
+		<signal name="activated">
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</signal>
+	</selectfile>
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.10 Tree.
+
+Shows a trees or list of items.
+
+Syntax:
+
+<tree id="object name">
+	[<header name="Header name"/>]*
+	[
+		<item [id="item id"]>
+			[<col value="text of item"/>]*
+		</item>
+	]*
+	[<get_item id="item id"/>]
+	[
+		<get_item id="item id">
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</get_item>
+	]
+	[<signal name="rowclicked"/>]
+	[
+		<signal name="rowclicked">
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</signal>
+	]
+	[<clear/>]
+</tree>
+
+Properties:
+* header: New column.
+	Attributes:
+		name: Sets text of header.
+* item:
+	Attributes:
+		id: Name of item. Only named items can make events.
+	Properties:
+		col:
+			Attributes:
+				value: Value of item column.
+* get_item: 
+	Attributes
+		id: Writes text in item id to output.
+	<get_item id="item id"/> writes item text in XML format.
+	<get_item id="item id">...</get_item> writes text to output starting text with <startmark value="Start mark"/>, ending text with <endmark value="End mark"/> and each line of text starts with <linestartmark value="Line start mark"/>
+* signal: 
+	Attributes:
+		name:
+			rowclicked: Writes to output double clicked events.
+	<signal name="rowclicked"/> writes item text in XML format.
+	<signal id="item id">...</signal> writes text to output starting text with <startmark value="Start mark"/>, ending text with <endmark value="End mark"/> and each line of text starts with <linestartmark value="Line start mark"/>
+* clear: Clears the tree by removing all of its items.
+
+Example:
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<tree id="tree">
+			<header name="Col 1"/>
+			<header name="Col 2"/>
+			<item id="1"><col value="1-1"/><col value="1-2"/></item>
+			<item id="2"><col value="2-1"/><col value="2-2"/>
+				<item id="3"><col value="3-1"/><col value="3-2"/></item>
+			</item>
+			<signal name="rowclicked">
+				<startmark value="Start mark"/>
+				<endmark value="End mark"/>
+				<linestartmark value="Line start mark"/>
+			</signal>
+		</tree>
+	</window>
+</widgetserver>
+
+------------------------------------------------------------------------------------
+
+2.11 Menu.
+
+Shows a menu bar. Event is sent when item is clicked.
+
+Syntax:
+
+<menu id="object name">
+	[
+		<menuitem id="item id" name="Menu name">
+			[
+			<item id="item id" name="Menu name">Output text</item>
+			]*
+			[
+				<item id="item id" name="Menu name"/>
+			]*
+		</menuitem>
+	]*
+</menu>
+
+Properties:
+* item: Insert new menu element.
+	Attributes:
+		id: Name of item. All items need name.
+		name: Name of menu.
+		Output text: If it's exists, it will write on events. If not, XML output will be used.
+* menuitem: Insert new submenu.
+	Attributes:
+		id: Name of menuitem.
+		name: Text shown for menuitem.
+
+Example:
+
+<widgetserver>
+	<window id="window">
+		<menu id="menu">
+			<menuitem id="menu-file" name="File">
+				<item id="menu-new" name="New"/>
+				<item id="menu-open" name="Open"/>
+				<menuitem id="menu-close" name="Close">
+					<item id="menu-all" name="All">* Todos</item>
+					<item id="menu-one" name="One"/>
+					<menuitem id="menu-close2" name="Close">
+						<item id="menu-all2" name="All2">* Todos2</item>
+						<item id="menu-one2" name="One2"/>
+					</menuitem>
+				</menuitem>
+				<menuitem id="menu-exit" name="Exit">
+				</menuitem>
+			</menuitem>
+			<menuitem id="menu-edit" name="Edit">
+			</menuitem>
+		</menu>
+	</window>
+</widgetserver>
+

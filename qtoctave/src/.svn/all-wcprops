@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src
+END
+octave_connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/octave_connection.cpp
+END
+numberedtextview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/numberedtextview.cpp
+END
+window_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/window_list.cpp
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/Doxyfile
+END
+simpleeditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/simpleeditor.h
+END
+autocomplete.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/287/trunk/qtoctave/src/autocomplete.h
+END
+variables_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/variables_list.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/config.h
+END
+terminal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/286/trunk/qtoctave/src/terminal.cpp
+END
+pkg_bind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/pkg_bind.cpp
+END
+command_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/command_list.h
+END
+table_ui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/table_ui.ui
+END
+mainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/mainwindow.h
+END
+numberbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/numberbar.h
+END
+basewidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/basewidget.h
+END
+session.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/session.cpp
+END
+generate_menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/217/trunk/qtoctave/src/generate_menu.h
+END
+search_dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/search_dialog.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/main.cpp
+END
+octoutputtextedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/287/trunk/qtoctave/src/octoutputtextedit.h
+END
+configure.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/configure.h
+END
+editor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/editor.cpp
+END
+syntax.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/276/trunk/qtoctave/src/syntax.cpp
+END
+table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/272/trunk/qtoctave/src/table.cpp
+END
+operations.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/operations.h
+END
+help.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/help.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/CMakeLists.txt
+END
+navigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/237/trunk/qtoctave/src/navigator.h
+END
+simpleeditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/simpleeditor.cpp
+END
+autocomplete.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/287/trunk/qtoctave/src/autocomplete.cpp
+END
+variables_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/280/trunk/qtoctave/src/variables_list.cpp
+END
+qtoctave.pro
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/qtoctave.pro
+END
+config.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/config.cpp
+END
+octave_connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/octave_connection.h
+END
+numberedtextview.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/numberedtextview.h
+END
+window_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/window_list.h
+END
+command_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/command_list.cpp
+END
+mainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/mainwindow.cpp
+END
+numberbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/numberbar.cpp
+END
+generate_menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/217/trunk/qtoctave/src/generate_menu.cpp
+END
+basewidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/basewidget.cpp
+END
+terminal.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/286/trunk/qtoctave/src/terminal.h
+END
+octoutputtextedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/286/trunk/qtoctave/src/octoutputtextedit.cpp
+END
+pkg_bind.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/pkg_bind.h
+END
+auto_rc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/auto_rc.sh
+END
+session.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/session.h
+END
+search_dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/search_dialog.h
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csl-qtoctave/!svn/ver/258/trunk/qtoctave/src/main.h
+END
+navigator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/263/trunk/qtoctave/src/navigator.cpp
+END
+configure.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/configure.h.in
+END
+editor.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave/src/editor.h
+END
+syntax.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/276/trunk/qtoctave/src/syntax.h
+END
+table.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/table.h
+END
+octave_pos.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/octave_pos.js
+END
+help.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/help.h
+END

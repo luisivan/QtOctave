@@ -1,0 +1,21 @@
+#Export plot to eps
+
+menu_name=EPS
+
+output_label= File
+output_file=plot.eps
+
+output_label= Color
+begin{output_list}
+-color
+-mono
+end{output_list}
+
+begin{command}
+print ("%o1%", "%o2%", "-deps")
+end{command}
+
+begin{help}
+end{help}
+
+

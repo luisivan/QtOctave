@@ -1,0 +1,175 @@
+<ui version="4.0" >
+ <class>DesignMainWindow</class>
+ <widget class="QMainWindow" name="DesignMainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>518</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>EasyPlot</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset/>
+  </property>
+  <widget class="QWidget" name="centralwidget" />
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>518</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="actionExport_to" />
+    <addaction name="actionPrint" />
+   </widget>
+   <widget class="QMenu" name="menuFonts" >
+    <property name="title" >
+     <string>Fonts</string>
+    </property>
+    <addaction name="actionTitle" />
+    <addaction name="actionLabels" />
+    <addaction name="actionTics" />
+    <addaction name="actionLegend" />
+   </widget>
+   <widget class="QMenu" name="menuLabels" >
+    <property name="title" >
+     <string>Labels</string>
+    </property>
+    <addaction name="actionSet_title" />
+    <addaction name="separator" />
+    <addaction name="actionX_label" />
+    <addaction name="actionY_label" />
+    <addaction name="actionZ_label" />
+   </widget>
+   <widget class="QMenu" name="menuGrid" >
+    <property name="title" >
+     <string>Grid</string>
+    </property>
+    <addaction name="actionX_grid" />
+    <addaction name="actionY_grid" />
+    <addaction name="actionZ_grid" />
+    <addaction name="actionX2_grid" />
+    <addaction name="actionY2_grid" />
+   </widget>
+   <widget class="QMenu" name="menu3D" >
+    <property name="title" >
+     <string>3D</string>
+    </property>
+    <addaction name="actionView_Angle" />
+   </widget>
+   <addaction name="menuFile" />
+   <addaction name="menuLabels" />
+   <addaction name="menuFonts" />
+   <addaction name="menuGrid" />
+   <addaction name="menu3D" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="actionExport_to" >
+   <property name="text" >
+    <string>Export to...</string>
+   </property>
+  </action>
+  <action name="actionTitle" >
+   <property name="text" >
+    <string>Title</string>
+   </property>
+  </action>
+  <action name="actionLabels" >
+   <property name="text" >
+    <string>Labels</string>
+   </property>
+  </action>
+  <action name="actionTics" >
+   <property name="text" >
+    <string>Tics</string>
+   </property>
+  </action>
+  <action name="actionLegend" >
+   <property name="text" >
+    <string>Legend</string>
+   </property>
+  </action>
+  <action name="actionSet_title" >
+   <property name="text" >
+    <string>Set title</string>
+   </property>
+  </action>
+  <action name="actionX_label" >
+   <property name="text" >
+    <string>x label</string>
+   </property>
+  </action>
+  <action name="actionY_label" >
+   <property name="text" >
+    <string>y label</string>
+   </property>
+  </action>
+  <action name="actionZ_label" >
+   <property name="text" >
+    <string>z label</string>
+   </property>
+  </action>
+  <action name="actionX_grid" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>x grid</string>
+   </property>
+  </action>
+  <action name="actionY_grid" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>y grid</string>
+   </property>
+  </action>
+  <action name="actionZ_grid" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>z grid</string>
+   </property>
+  </action>
+  <action name="actionY2_grid" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>y2 grid</string>
+   </property>
+  </action>
+  <action name="actionX2_grid" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>x2 grid</string>
+   </property>
+  </action>
+  <action name="actionView_Angle" >
+   <property name="text" >
+    <string>View Angle</string>
+   </property>
+  </action>
+  <action name="actionPrint" >
+   <property name="text" >
+    <string>Print</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

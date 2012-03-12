@@ -1,0 +1,1531 @@
+<!DOCTYPE QPH>
+<QPH language="gl_ES">
+    <phrase>
+        <source>View</source>
+        <target>Ver</target>
+    </phrase>
+    <phrase>
+        <source>Show outside of main window</source>
+        <target>Mostrar fora da xanela principal</target>
+    </phrase>
+    <phrase>
+        <source>Show inside of main window</source>
+        <target>Mostrar dentro da xanela principal</target>
+    </phrase>
+    <phrase>
+        <source>Add to...</source>
+        <target>Engadir a...</target>
+    </phrase>
+    <phrase>
+        <source>Edit</source>
+        <target>Editar</target>
+    </phrase>
+    <phrase>
+        <source>Delete entry</source>
+        <target>Eliminar entrada</target>
+    </phrase>
+    <phrase>
+        <source>Delete all</source>
+        <target>Eliminar todo</target>
+    </phrase>
+    <phrase>
+        <source>Sort ascending</source>
+        <target>Orde ascendente</target>
+    </phrase>
+    <phrase>
+        <source>Sort descending</source>
+        <target>Orde descendente</target>
+    </phrase>
+    <phrase>
+        <source>Up</source>
+        <target>Subir</target>
+    </phrase>
+    <phrase>
+        <source>Down</source>
+        <target>Descender</target>
+    </phrase>
+    <phrase>
+        <source>Top</source>
+        <target>Arriba</target>
+    </phrase>
+    <phrase>
+        <source>Bottom</source>
+        <target>Abaixo</target>
+    </phrase>
+    <phrase>
+        <source>Stop append</source>
+        <target>Parar engadido</target>
+    </phrase>
+    <phrase>
+        <source>Stops append text from clipboard</source>
+        <target>Parar engadido de texto dende o portapapeis</target>
+    </phrase>
+    <phrase>
+        <source>Undo</source>
+        <target>Desfacer</target>
+    </phrase>
+    <phrase>
+        <source>Redo</source>
+        <target>Refacer</target>
+    </phrase>
+    <phrase>
+        <source>Cut</source>
+        <target>Cortar</target>
+    </phrase>
+    <phrase>
+        <source>Copy</source>
+        <target>Copiar</target>
+    </phrase>
+    <phrase>
+        <source>Paste</source>
+        <target>Pegar</target>
+    </phrase>
+    <phrase>
+        <source>Delete</source>
+        <target>Borrar</target>
+    </phrase>
+    <phrase>
+        <source>Select all</source>
+        <target>Seleccionar todo</target>
+    </phrase>
+    <phrase>
+        <source>Toggle breakpoint</source>
+        <target>Alternar punto de interrupción</target>
+    </phrase>
+    <phrase>
+        <source>Copy</source>
+        <target>Copiar</target>
+    </phrase>
+    <phrase>
+        <source>Clean history</source>
+        <target>Limpar o historial</target>
+    </phrase>
+    <phrase>
+        <source>Right click to see menu</source>
+        <target>Clic co boton dereito para ver o menú</target>
+    </phrase>
+    <phrase>
+        <source>Command List</source>
+        <target>Lista de ordes</target>
+    </phrase>
+    <phrase>
+        <source>Commands&apos; List</source>
+        <target>Lista de ordes</target>
+    </phrase>
+    <phrase>
+        <source>Editor</source>
+        <target>Editor</target>
+    </phrase>
+    <phrase>
+        <source>New</source>
+        <target>Novo</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+N</source>
+        <target>Ctrl+N</target>
+    </phrase>
+    <phrase>
+        <source>Open</source>
+        <target>Abrir</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+O</source>
+        <target>Ctrl+O</target>
+    </phrase>
+    <phrase>
+        <source>Save</source>
+        <target>Gardar</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+S</source>
+        <target>Ctrl+S</target>
+    </phrase>
+    <phrase>
+        <source>Save as</source>
+        <target>Gardar como</target>
+    </phrase>
+    <phrase>
+        <source>Close tab</source>
+        <target>Pechar o separador</target>
+    </phrase>
+    <phrase>
+        <source>Run</source>
+        <target>Executar</target>
+    </phrase>
+    <phrase>
+        <source>F5</source>
+        <target>F5</target>
+    </phrase>
+    <phrase>
+        <source>Debug</source>
+        <target>Depurar</target>
+    </phrase>
+    <phrase>
+        <source>Next line</source>
+        <target>Seguinte liña</target>
+    </phrase>
+    <phrase>
+        <source>Send to Octave</source>
+        <target>Enviar ao Octave</target>
+    </phrase>
+    <phrase>
+        <source>Undo</source>
+        <target>Desfacer</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+Z</source>
+        <target>Ctrl+Z</target>
+    </phrase>
+    <phrase>
+        <source>Redo</source>
+        <target>Refacer</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+Shift+Z</source>
+        <target>Ctrl+Shift+Z</target>
+    </phrase>
+    <phrase>
+        <source>Cut</source>
+        <target>Cortar</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+X</source>
+        <target>Ctrl+X</target>
+    </phrase>
+    <phrase>
+        <source>Copy</source>
+        <target>Copiar</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+C</source>
+        <target>Ctrl+C</target>
+    </phrase>
+    <phrase>
+        <source>Paste</source>
+        <target>Pegar</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+V</source>
+        <target>Ctrl+V</target>
+    </phrase>
+    <phrase>
+        <source>Search and replace</source>
+        <target>Buscar e substituír</target>
+    </phrase>
+    <phrase>
+        <source>Ctrl+F</source>
+        <target>Ctrl+F</target>
+    </phrase>
+    <phrase>
+        <source>Error</source>
+        <target>Erro</target>
+    </phrase>
+    <phrase>
+        <source>You must save the file first</source>
+        <target>Debe gardar o ficheiro primeiro</target>
+    </phrase>
+    <phrase>
+        <source>Close this window?</source>
+        <target>Quere pechar esta xanela?</target>
+    </phrase>
+    <phrase>
+        <source>You are going to close Editor. Are you sure?</source>
+        <target>Vai a pechar o editor. Está seguro?</target>
+    </phrase>
+    <phrase>
+        <source>Close</source>
+        <target>Pechar</target>
+    </phrase>
+    <phrase>
+        <source>The file has been modified. Save changes?</source>
+        <target>Modificouse o ficheiro. Gardar modificacións?</target>
+    </phrase>
+    <phrase>
+        <source>Print Document</source>
+        <target>Imprimir o documento</target>
+    </phrase>
+    <phrase>
+        <source>Options</source>
+        <target>Opcións</target>
+    </phrase>
+    <phrase>
+        <source>Editor Options</source>
+        <target>Opcións do editor</target>
+    </phrase>
+    <phrase>
+        <source>File</source>
+        <target>Ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>Print</source>
+        <target>Imprimir</target>
+    </phrase>
+    <phrase>
+        <source>Edit</source>
+        <target>Editar</target>
+    </phrase>
+    <phrase>
+        <source>Tools</source>
+        <target>Ferramentas</target>
+    </phrase>
+    <phrase>
+        <source>Indent</source>
+        <target>Sangría</target>
+    </phrase>
+    <phrase>
+        <source>Unindent</source>
+        <target>Eliminar a sangría</target>
+    </phrase>
+    <phrase>
+        <source>Comment</source>
+        <target>Comentar</target>
+    </phrase>
+    <phrase>
+        <source>Uncomment</source>
+        <target>Descomentar</target>
+    </phrase>
+    <phrase>
+        <source>Config</source>
+        <target>Configuración</target>
+    </phrase>
+    <phrase>
+        <source>File list</source>
+        <target>Lista de ficheiros</target>
+    </phrase>
+    <phrase>
+        <source>Small Clipboard</source>
+        <target>Portapapeis pequeno</target>
+    </phrase>
+    <phrase>
+        <source>Empty</source>
+        <target>Baleiro</target>
+    </phrase>
+    <phrase>
+        <source>Can not be saved</source>
+        <target>Non é posíbel gardar</target>
+    </phrase>
+    <phrase>
+        <source>can not be saved</source>
+        <target>non é posíbel gardar</target>
+    </phrase>
+    <phrase>
+        <source>Show/Hide Objects</source>
+        <target>Mostrar/Ocultar os obxectos</target>
+    </phrase>
+    <phrase>
+        <source>Export to...</source>
+        <target>Exportar a...</target>
+    </phrase>
+    <phrase>
+        <source>Select format:</source>
+        <target>Seleccionar formato:</target>
+    </phrase>
+    <phrase>
+        <source>OK</source>
+        <target>Aceptar</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Processing files...</source>
+        <target>Procesando os ficheiros...</target>
+    </phrase>
+    <phrase>
+        <source>Starting process...</source>
+        <target>Comezando proceso...</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>File...</source>
+        <target>Ficheiro...</target>
+    </phrase>
+    <phrase>
+        <source>Choose a file</source>
+        <target>Escoller un ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>General Menu</source>
+        <target>Menú xeral</target>
+    </phrase>
+    <phrase>
+        <source>Terminal</source>
+        <target>Terminal</target>
+    </phrase>
+    <phrase>
+        <source>Font:</source>
+        <target>Tipo de letra:</target>
+    </phrase>
+    <phrase>
+        <source>TextLabel</source>
+        <target>Etiqueta de texto</target>
+    </phrase>
+    <phrase>
+        <source>Select Font</source>
+        <target>Seleccionar tipo de letra</target>
+    </phrase>
+    <phrase>
+        <source>Color:</source>
+        <target>Cor:</target>
+    </phrase>
+    <phrase>
+        <source>QtOctave Terminal example</source>
+        <target>Exemplo da terminal do QtOctave</target>
+    </phrase>
+    <phrase>
+        <source>Error example</source>
+        <target>Erro de exemplo</target>
+    </phrase>
+    <phrase>
+        <source>Error</source>
+        <target>Erro</target>
+    </phrase>
+    <phrase>
+        <source>Background</source>
+        <target>Fondo</target>
+    </phrase>
+    <phrase>
+        <source>Foreground</source>
+        <target>Primeiro plano</target>
+    </phrase>
+    <phrase>
+        <source>Maximum number of lines in terminal:</source>
+        <target>Número máximo de liñas na terminal:</target>
+    </phrase>
+    <phrase>
+        <source>Max number of columns in terminal:</source>
+        <target>Número máximo de columnas na terminal:</target>
+    </phrase>
+    <phrase>
+        <source>Editor</source>
+        <target>Editor</target>
+    </phrase>
+    <phrase>
+        <source>Use external editor</source>
+        <target>Empregar editor externo</target>
+    </phrase>
+    <phrase>
+        <source>External editor</source>
+        <target>Editor externo</target>
+    </phrase>
+    <phrase>
+        <source>Select...</source>
+        <target>Seleccionar...</target>
+    </phrase>
+    <phrase>
+        <source>Internal Editor</source>
+        <target>Editor interno</target>
+    </phrase>
+    <phrase>
+        <source>Font</source>
+        <target>Tipo de letra</target>
+    </phrase>
+    <phrase>
+        <source>Automatic indention</source>
+        <target>Indentado automático</target>
+    </phrase>
+    <phrase>
+        <source>No indention</source>
+        <target>Sen indentación</target>
+    </phrase>
+    <phrase>
+        <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Automatic indention for while, if, for, switch, do and try statements.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <target>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Indentación automática para as declaracións while, if, for, switch, do e try.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
+    </phrase>
+    <phrase>
+        <source>Automatic indention for statements</source>
+        <target>Indentación automática para as declaracións</target>
+    </phrase>
+    <phrase>
+        <source>Other features</source>
+        <target>Outras funcionalidades</target>
+    </phrase>
+    <phrase>
+        <source>Syntax highlighting</source>
+        <target>Realzado de sintaxe</target>
+    </phrase>
+    <phrase>
+        <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Brackets pair are iluminated when cursor is over one of them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <target>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Os pares de corchetes resáltanse cando o cursor está sobre eles.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
+    </phrase>
+    <phrase>
+        <source>Brackets match</source>
+        <target>Coincidencia de parénteses</target>
+    </phrase>
+    <phrase>
+        <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;When the user starts typing a word, it suggests possible ways of completing the word.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <target>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;CAndo o usuario comeza a escribir, suxírenselle varias formas de completar a palabra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</target>
+    </phrase>
+    <phrase>
+        <source>Auto-completion</source>
+        <target>Autocompletado</target>
+    </phrase>
+    <phrase>
+        <source>Simple RCS (Revision Control System)</source>
+        <target>RCS Simple (Sistema de Control de Revisións)</target>
+    </phrase>
+    <phrase>
+        <source>Octave</source>
+        <target>Octave</target>
+    </phrase>
+    <phrase>
+        <source>Octave Path</source>
+        <target>Camiño do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Octave arguments</source>
+        <target>Argumentos do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Folders:</source>
+        <target>Cartafoles:</target>
+    </phrase>
+    <phrase>
+        <source>Add</source>
+        <target>Engadir</target>
+    </phrase>
+    <phrase>
+        <source>Delete</source>
+        <target>Borrar</target>
+    </phrase>
+    <phrase>
+        <source>Easy Plot</source>
+        <target>Easy Plot</target>
+    </phrase>
+    <phrase>
+        <source>Use Easy Plot</source>
+        <target>Empregar Easy Plot</target>
+    </phrase>
+    <phrase>
+        <source>Easy Plot Path:</source>
+        <target>Camiño do Easy Plot:</target>
+    </phrase>
+    <phrase>
+        <source>Help</source>
+        <target>Axuda</target>
+    </phrase>
+    <phrase>
+        <source>Help path</source>
+        <target>Camiño da axuda</target>
+    </phrase>
+    <phrase>
+        <source>OK</source>
+        <target>Aceptar</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Open File</source>
+        <target>Abrir ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Back</source>
+        <target>&amp;Retroceder</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Forward</source>
+        <target>&amp;Avanzar</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Go home</source>
+        <target>Ir ao &amp;inicio</target>
+    </phrase>
+    <phrase>
+        <source>Help</source>
+        <target>Axuda</target>
+    </phrase>
+    <phrase>
+        <source>Navigation</source>
+        <target>Navegación</target>
+    </phrase>
+    <phrase>
+        <source>Select table</source>
+        <target>Seleccionar táboa</target>
+    </phrase>
+    <phrase>
+        <source>Matrix name:</source>
+        <target>Nome da matriz:</target>
+    </phrase>
+    <phrase>
+        <source>Open</source>
+        <target>Abrir</target>
+    </phrase>
+    <phrase>
+        <source>QtOctave About</source>
+        <target>Sobre QtOctave</target>
+    </phrase>
+    <phrase>
+        <source>Name for layout</source>
+        <target>Nome para o deseño</target>
+    </phrase>
+    <phrase>
+        <source>Name:</source>
+        <target>Nome:</target>
+    </phrase>
+    <phrase>
+        <source>Delete windows&apos; layout</source>
+        <target>Eliminar disposición de xanelas</target>
+    </phrase>
+    <phrase>
+        <source>Delete</source>
+        <target>Borrar</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Close</source>
+        <target>Pechar</target>
+    </phrase>
+    <phrase>
+        <source>You are going to close all QtOctave&apos;s windows. Are you sure?</source>
+        <target>Vai a pechar todas as xanelas do QtOctave. Está seguro?</target>
+    </phrase>
+    <phrase>
+        <source>Octave is saving data. Press ok at end.</source>
+        <target>Octave está gardando información. Prema Aceptar ao rematar.</target>
+    </phrase>
+    <phrase>
+        <source>Your changes will have effect, when QtOctave reboot.			
+ Do you want to do it?</source>
+        <target>Os seus cambios terán efecto ao reiniciar QtOctave.			
+ Quere facelo agora?</target>
+    </phrase>
+    <phrase>
+        <source>Command List</source>
+        <target>Lista de ordes</target>
+    </phrase>
+    <phrase>
+        <source>Change Directory</source>
+        <target>Cambiar cartafol</target>
+    </phrase>
+    <phrase>
+        <source>Quit</source>
+        <target>Saír</target>
+    </phrase>
+    <phrase>
+        <source>Histogram</source>
+        <target>Histograma</target>
+    </phrase>
+    <phrase>
+        <source>Error Bars</source>
+        <target>Barras de erro</target>
+    </phrase>
+    <phrase>
+        <source>Bar graph</source>
+        <target>Gráfica de barras</target>
+    </phrase>
+    <phrase>
+        <source>Plot of three-dimensional surface</source>
+        <target>Gráfica de superficie en tres dimensións</target>
+    </phrase>
+    <phrase>
+        <source>Contour plot of three-dimensional surface</source>
+        <target>Gráfica do contorno da superficie en tres dimensións</target>
+    </phrase>
+    <phrase>
+        <source>Terminal Run</source>
+        <target>Executar a terminal</target>
+    </phrase>
+    <phrase>
+        <source>Matrix</source>
+        <target>Matriz</target>
+    </phrase>
+    <phrase>
+        <source>Help</source>
+        <target>Axuda</target>
+    </phrase>
+    <phrase>
+        <source>Docks</source>
+        <target>Docks</target>
+    </phrase>
+    <phrase>
+        <source>QtOctave Help</source>
+        <target>Axuda do QtOctave</target>
+    </phrase>
+    <phrase>
+        <source>About</source>
+        <target>Sobre</target>
+    </phrase>
+    <phrase>
+        <source>Show/Hide Objects</source>
+        <target>Mostrar/Ocultar os obxectos</target>
+    </phrase>
+    <phrase>
+        <source>A**n Exponential</source>
+        <target>A**n Exponencial</target>
+    </phrase>
+    <phrase>
+        <source>Input Parameters</source>
+        <target>Parámetros de entrada</target>
+    </phrase>
+    <phrase>
+        <source>Output Parameters</source>
+        <target>Parámetros de saída</target>
+    </phrase>
+    <phrase>
+        <source>Ok</source>
+        <target>Aceptar</target>
+    </phrase>
+    <phrase>
+        <source>Copy to clipboard</source>
+        <target>Copiar ao portapapeis</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Help</source>
+        <target>Axuda</target>
+    </phrase>
+    <phrase>
+        <source>Blank parameter</source>
+        <target>Parámetro en branco</target>
+    </phrase>
+    <phrase>
+        <source>There are blank parameters. Please fill all fields.</source>
+        <target>Hai parámetros en branco. Complete todos os campos.</target>
+    </phrase>
+    <phrase>
+        <source>&amp;New folder</source>
+        <target>&amp;Novo cartafol</target>
+    </phrase>
+    <phrase>
+        <source>salir</source>
+        <target>saír</target>
+    </phrase>
+    <phrase>
+        <source>Cu&amp;t</source>
+        <target>Cor&amp;tar</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Copy</source>
+        <target>&amp;Copiar</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Paste</source>
+        <target>&amp;Pegar</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Back</source>
+        <target>&amp;Retroceder</target>
+    </phrase>
+    <phrase>
+        <source>&amp;Forward</source>
+        <target>&amp;Avanzar</target>
+    </phrase>
+    <phrase>
+        <source>Up</source>
+        <target>Subir</target>
+    </phrase>
+    <phrase>
+        <source>Delete file</source>
+        <target>Borrar o ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>Rename</source>
+        <target>Renomear</target>
+    </phrase>
+    <phrase>
+        <source>Go</source>
+        <target>Ir</target>
+    </phrase>
+    <phrase>
+        <source>Filters: </source>
+        <target>Filtros: </target>
+    </phrase>
+    <phrase>
+        <source>New Folder</source>
+        <target>Novo cartafol</target>
+    </phrase>
+    <phrase>
+        <source>Name:</source>
+        <target>Nome:</target>
+    </phrase>
+    <phrase>
+        <source>Remove file</source>
+        <target>Eliminar ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>Remove selected files?</source>
+        <target>Eliminar os ficheiros seleccionados?</target>
+    </phrase>
+    <phrase>
+        <source>Navigator</source>
+        <target>Navegador</target>
+    </phrase>
+    <phrase>
+        <source>Navigation tools</source>
+        <target>Ferramentas de navegación</target>
+    </phrase>
+    <phrase>
+        <source>New Project</source>
+        <target>Novo proxecto</target>
+    </phrase>
+    <phrase>
+        <source>Name: </source>
+        <target>Nome: </target>
+    </phrase>
+    <phrase>
+        <source>Description:</source>
+        <target>Descrición:</target>
+    </phrase>
+    <phrase>
+        <source>Stop Here</source>
+        <target>Deter aquí</target>
+    </phrase>
+    <phrase>
+        <source>Current Line</source>
+        <target>Liña actual</target>
+    </phrase>
+    <phrase>
+        <source>Error Line</source>
+        <target>Liña de erro</target>
+    </phrase>
+    <phrase>
+        <source>Octave crashed</source>
+        <target>Fallou o Octave</target>
+    </phrase>
+    <phrase>
+        <source>Octave has crashed. Restarting...</source>
+        <target>Fallou o Octave. Reiniciando...</target>
+    </phrase>
+    <phrase>
+        <source>Octave finished</source>
+        <target>Terminou o Octave</target>
+    </phrase>
+    <phrase>
+        <source>Octave has finished. Restarting...</source>
+        <target>Terminou o Octave. Reiniciando...</target>
+    </phrase>
+    <phrase>
+        <source>Warning</source>
+        <target>Aviso</target>
+    </phrase>
+    <phrase>
+        <source>QtOctave requires Octave version 2.9.9 or better.
+You can select your Octave executable in
+Config/General Configuration/Octave/Octave Path
+Your version is:
+</source>
+        <target>QtOctave require Octave 2.9.9 ou superior.
+Pode seleccionar o executábel do Octave en
+Configuración/Configuracións Xerais/Octave/Camiño o Octave
+A súa versión é:
+</target>
+    </phrase>
+    <phrase>
+        <source>QtOctave in:
+</source>
+        <target>QtOctave en:
+</target>
+    </phrase>
+    <phrase>
+        <source>
+Couldn&apos;t be opened.</source>
+        <target>
+Non foi posíbel abrir.</target>
+    </phrase>
+    <phrase>
+        <source>It should be a column vector.</source>
+        <target>Debería ser un vector columna.</target>
+    </phrase>
+    <phrase>
+        <source>Line style</source>
+        <target>Estilo da liña</target>
+    </phrase>
+    <phrase>
+        <source>None</source>
+        <target>Ningún</target>
+    </phrase>
+    <phrase>
+        <source>Lines</source>
+        <target>Liñas</target>
+    </phrase>
+    <phrase>
+        <source>Dots</source>
+        <target>Puntos</target>
+    </phrase>
+    <phrase>
+        <source>Points</source>
+        <target>Puntos</target>
+    </phrase>
+    <phrase>
+        <source>Lines and points</source>
+        <target>Liñas e puntos</target>
+    </phrase>
+    <phrase>
+        <source>Impulses</source>
+        <target>Impulsos</target>
+    </phrase>
+    <phrase>
+        <source>Steps</source>
+        <target>Pasos</target>
+    </phrase>
+    <phrase>
+        <source>Boxes</source>
+        <target>Caixas</target>
+    </phrase>
+    <phrase>
+        <source>Error bars</source>
+        <target>Barras de erro</target>
+    </phrase>
+    <phrase>
+        <source>Box error bars</source>
+        <target>Box error bars</target>
+    </phrase>
+    <phrase>
+        <source>Color</source>
+        <target>Cor</target>
+    </phrase>
+    <phrase>
+        <source>Red</source>
+        <target>Vermello</target>
+    </phrase>
+    <phrase>
+        <source>Green</source>
+        <target>Verde</target>
+    </phrase>
+    <phrase>
+        <source>Blue</source>
+        <target>Azul</target>
+    </phrase>
+    <phrase>
+        <source>Magenta</source>
+        <target>Fucsia</target>
+    </phrase>
+    <phrase>
+        <source>Cyan</source>
+        <target>Cian</target>
+    </phrase>
+    <phrase>
+        <source>White</source>
+        <target>Branco</target>
+    </phrase>
+    <phrase>
+        <source>Point style</source>
+        <target>Estilo de punto</target>
+    </phrase>
+    <phrase>
+        <source>+</source>
+        <target>+</target>
+    </phrase>
+    <phrase>
+        <source>*</source>
+        <target>*</target>
+    </phrase>
+    <phrase>
+        <source>o</source>
+        <target>o</target>
+    </phrase>
+    <phrase>
+        <source>x</source>
+        <target>x</target>
+    </phrase>
+    <phrase>
+        <source>title:</source>
+        <target>título:</target>
+    </phrase>
+    <phrase>
+        <source>Add</source>
+        <target>Engadir</target>
+    </phrase>
+    <phrase>
+        <source>Remove</source>
+        <target>Eliminar</target>
+    </phrase>
+    <phrase>
+        <source>Ok</source>
+        <target>Aceptar</target>
+    </phrase>
+    <phrase>
+        <source>Copy to clipboard</source>
+        <target>Copiar ao portapapeis</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>New Project</source>
+        <target>Novo proxecto</target>
+    </phrase>
+    <phrase>
+        <source>Modify Project</source>
+        <target>Modificar o proxecto</target>
+    </phrase>
+    <phrase>
+        <source>Delete Project</source>
+        <target>Borrar o proxecto</target>
+    </phrase>
+    <phrase>
+        <source>Run an Octave Script</source>
+        <target>Executar un script do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Octave Help</source>
+        <target>Axuda do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Table</source>
+        <target>Táboa</target>
+    </phrase>
+    <phrase>
+        <source>Editor</source>
+        <target>Editor</target>
+    </phrase>
+    <phrase>
+        <source>Projects</source>
+        <target>Proxectos</target>
+    </phrase>
+    <phrase>
+        <source>&lt;b&gt;Completion matches:&lt;/b&gt;&lt;br&gt; Generates possible completions given in comand line.</source>
+        <target>&lt;b&gt;Completado de coincidencias:&lt;/b&gt;&lt;br&gt; Xenera completados posibles dada unha liña de ordes.</target>
+    </phrase>
+    <phrase>
+        <source>Dynamic Help: Shows help of completions matches.</source>
+        <target>Axuda dinámica: Mostra a axuda das coincidencias de completado.</target>
+    </phrase>
+    <phrase>
+        <source>&lt;b&gt;Stops process:&lt;/b&gt;&lt;br&gt;Stops uncontroled process, infinite loops,...</source>
+        <target>&lt;b&gt;Detén o proceso:&lt;/b&gt;&lt;br&gt;Deten procesos non controlados, bucles infinitos,...</target>
+    </phrase>
+    <phrase>
+        <source>Clear terminal</source>
+        <target>Limpar a terminal</target>
+    </phrase>
+    <phrase>
+        <source>Variable List</source>
+        <target>Lista de variábeis</target>
+    </phrase>
+    <phrase>
+        <source>Navigator</source>
+        <target>Navegador</target>
+    </phrase>
+    <phrase>
+        <source>Save actual windows layout</source>
+        <target>Gardar a disposición de xanelas actual</target>
+    </phrase>
+    <phrase>
+        <source>Delete some windows layout</source>
+        <target>Eliminar algunha disposición de fiestras</target>
+    </phrase>
+    <phrase>
+        <source>Inverse</source>
+        <target>Inversa</target>
+    </phrase>
+    <phrase>
+        <source>Determinant</source>
+        <target>Determinante</target>
+    </phrase>
+    <phrase>
+        <source>Eigenvalues and eigenvectors</source>
+        <target>Vector propio e valor propio</target>
+    </phrase>
+    <phrase>
+        <source>Transpose</source>
+        <target>Traspor</target>
+    </phrase>
+    <phrase>
+        <source>Submatrix</source>
+        <target>Submatriz</target>
+    </phrase>
+    <phrase>
+        <source>Mean</source>
+        <target>Media</target>
+    </phrase>
+    <phrase>
+        <source>Median</source>
+        <target>Mediana</target>
+    </phrase>
+    <phrase>
+        <source>Standard Deviation</source>
+        <target>Desviación estándar</target>
+    </phrase>
+    <phrase>
+        <source>Covariance</source>
+        <target>Covarianza</target>
+    </phrase>
+    <phrase>
+        <source>Correlation Coefficient</source>
+        <target>Coeficiente de correlación</target>
+    </phrase>
+    <phrase>
+        <source>Plot</source>
+        <target>Gráfica</target>
+    </phrase>
+    <phrase>
+        <source>Polar</source>
+        <target>Polar</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the y axis</source>
+        <target>Escala logarítmica para o eixe Y</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the x axis</source>
+        <target>Escala logarítmica para o eixe X</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the x and y axis</source>
+        <target>Escala logarítmica para os eixes X e Y</target>
+    </phrase>
+    <phrase>
+        <source>Axis scale</source>
+        <target>Escala de eixos</target>
+    </phrase>
+    <phrase>
+        <source>Title and labels</source>
+        <target>Título e etiquetas</target>
+    </phrase>
+    <phrase>
+        <source>Svg Canvas</source>
+        <target>Canvas Svg</target>
+    </phrase>
+    <phrase>
+        <source>General configuration</source>
+        <target>Configuración xeral</target>
+    </phrase>
+    <phrase>
+        <source>File</source>
+        <target>Ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>Help</source>
+        <target>Axuda</target>
+    </phrase>
+    <phrase>
+        <source>Data</source>
+        <target>Datos</target>
+    </phrase>
+    <phrase>
+        <source>Matrix</source>
+        <target>Matriz</target>
+    </phrase>
+    <phrase>
+        <source>Tools</source>
+        <target>Ferramentas</target>
+    </phrase>
+    <phrase>
+        <source>Statistics</source>
+        <target>Estatísticas</target>
+    </phrase>
+    <phrase>
+        <source>2D...</source>
+        <target>2D...</target>
+    </phrase>
+    <phrase>
+        <source>Config</source>
+        <target>Configuración</target>
+    </phrase>
+    <phrase>
+        <source>View</source>
+        <target>Ver</target>
+    </phrase>
+    <phrase>
+        <source>Dock Tools</source>
+        <target>Dock Tools</target>
+    </phrase>
+    <phrase>
+        <source>Windows Layout</source>
+        <target>Disposición das xanelas</target>
+    </phrase>
+    <phrase>
+        <source>Export to...</source>
+        <target>Exportar a...</target>
+    </phrase>
+    <phrase>
+        <source>Search and replace</source>
+        <target>Buscar e substituír</target>
+    </phrase>
+    <phrase>
+        <source>Search</source>
+        <target>Buscar</target>
+    </phrase>
+    <phrase>
+        <source>Regular expression</source>
+        <target>Expresión regular</target>
+    </phrase>
+    <phrase>
+        <source>Replace</source>
+        <target>Substituír</target>
+    </phrase>
+    <phrase>
+        <source>Options</source>
+        <target>Opcións</target>
+    </phrase>
+    <phrase>
+        <source>Case sensitive</source>
+        <target>Diferenciar maiúsculas de minúsculas</target>
+    </phrase>
+    <phrase>
+        <source>Only full words</source>
+        <target>Só palabras enteiras</target>
+    </phrase>
+    <phrase>
+        <source>From cursor</source>
+        <target>Desde o cursor</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Empty</source>
+        <target>Baleiro</target>
+    </phrase>
+    <phrase>
+        <source>Width</source>
+        <target>Largura</target>
+    </phrase>
+    <phrase>
+        <source>Width:</source>
+        <target>Largura:</target>
+    </phrase>
+    <phrase>
+        <source>Height</source>
+        <target>Altura</target>
+    </phrase>
+    <phrase>
+        <source>Height:</source>
+        <target>Altura:</target>
+    </phrase>
+    <phrase>
+        <source>Save File</source>
+        <target>Gardar ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>*.svg</source>
+        <target>*.svg</target>
+    </phrase>
+    <phrase>
+        <source>&lt;b&gt;Reload matrix.&lt;/b&gt;&lt;br&gt; Some operations change matrix, use reload to view changes.</source>
+        <target>&lt;b&gt;Recargar matriz.&lt;/b&gt;&lt;br&gt; Algunhas operacións cambian a matriz, empregue recargar para ver os cambios.</target>
+    </phrase>
+    <phrase>
+        <source>Table</source>
+        <target>Táboa</target>
+    </phrase>
+    <phrase>
+        <source>Copy</source>
+        <target>Copiar</target>
+    </phrase>
+    <phrase>
+        <source>Copy as Octave matrix</source>
+        <target>Copiar como matriz do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Paste</source>
+        <target>Pegar</target>
+    </phrase>
+    <phrase>
+        <source>Delete rows</source>
+        <target>Borrar filas</target>
+    </phrase>
+    <phrase>
+        <source>Delete columns</source>
+        <target>Borrar columnas</target>
+    </phrase>
+    <phrase>
+        <source>Plot</source>
+        <target>Gráfica</target>
+    </phrase>
+    <phrase>
+        <source>2D</source>
+        <target>2D</target>
+    </phrase>
+    <phrase>
+        <source>Polar</source>
+        <target>Polar</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the x and y axis</source>
+        <target>Escala logarítmica para os eixes X e Y</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the y axis</source>
+        <target>Escala logarítmica para o eixe Y</target>
+    </phrase>
+    <phrase>
+        <source>Log scale for the x axis</source>
+        <target>Escala logarítmica para o eixe X</target>
+    </phrase>
+    <phrase>
+        <source>Bar graph</source>
+        <target>Gráfica de barras</target>
+    </phrase>
+    <phrase>
+        <source>Warning</source>
+        <target>Aviso</target>
+    </phrase>
+    <phrase>
+        <source>Comlumns will be deleted. Continue?</source>
+        <target>Borraranse as columnas. Continuar?</target>
+    </phrase>
+    <phrase>
+        <source>Rows will be deleted. Continue?</source>
+        <target>Borraranse as filas. Continuar?</target>
+    </phrase>
+    <phrase>
+        <source>Error</source>
+        <target>Erro</target>
+    </phrase>
+    <phrase>
+        <source>Table</source>
+        <target>Táboa</target>
+    </phrase>
+    <phrase>
+        <source>Cols</source>
+        <target>Columnas</target>
+    </phrase>
+    <phrase>
+        <source>Rows</source>
+        <target>Filas</target>
+    </phrase>
+    <phrase>
+        <source>Change Order</source>
+        <target>Modificar orde</target>
+    </phrase>
+    <phrase>
+        <source>Title</source>
+        <target>Título</target>
+    </phrase>
+    <phrase>
+        <source>Use columns or rows</source>
+        <target>Empregar columnas ou filas</target>
+    </phrase>
+    <phrase>
+        <source>Columns</source>
+        <target>Columnas</target>
+    </phrase>
+    <phrase>
+        <source>Rows</source>
+        <target>Filas</target>
+    </phrase>
+    <phrase>
+        <source>x</source>
+        <target>x</target>
+    </phrase>
+    <phrase>
+        <source>y</source>
+        <target>y</target>
+    </phrase>
+    <phrase>
+        <source>Angle</source>
+        <target>Ángulo</target>
+    </phrase>
+    <phrase>
+        <source>Radio</source>
+        <target>Radio</target>
+    </phrase>
+    <phrase>
+        <source>x Error</source>
+        <target>Erro X</target>
+    </phrase>
+    <phrase>
+        <source>y Error</source>
+        <target>Erro Y</target>
+    </phrase>
+    <phrase>
+        <source>Style</source>
+        <target>Estilo</target>
+    </phrase>
+    <phrase>
+        <source>Line style</source>
+        <target>Estilo da liña</target>
+    </phrase>
+    <phrase>
+        <source>None</source>
+        <target>Ningún</target>
+    </phrase>
+    <phrase>
+        <source>Lines</source>
+        <target>Liñas</target>
+    </phrase>
+    <phrase>
+        <source>Dots</source>
+        <target>Puntos</target>
+    </phrase>
+    <phrase>
+        <source>Points</source>
+        <target>Puntos</target>
+    </phrase>
+    <phrase>
+        <source>Lines and points</source>
+        <target>Liñas e puntos</target>
+    </phrase>
+    <phrase>
+        <source>Impulses</source>
+        <target>Impulsos</target>
+    </phrase>
+    <phrase>
+        <source>Steps</source>
+        <target>Pasos</target>
+    </phrase>
+    <phrase>
+        <source>Boxes</source>
+        <target>Caixas</target>
+    </phrase>
+    <phrase>
+        <source>Error bars</source>
+        <target>Barras de erro</target>
+    </phrase>
+    <phrase>
+        <source>Box error bars</source>
+        <target>Box error bars</target>
+    </phrase>
+    <phrase>
+        <source>Color</source>
+        <target>Cor</target>
+    </phrase>
+    <phrase>
+        <source>Red</source>
+        <target>Vermello</target>
+    </phrase>
+    <phrase>
+        <source>Green</source>
+        <target>Verde</target>
+    </phrase>
+    <phrase>
+        <source>Blue</source>
+        <target>Azul</target>
+    </phrase>
+    <phrase>
+        <source>Magenta</source>
+        <target>Fucsia</target>
+    </phrase>
+    <phrase>
+        <source>Cyan</source>
+        <target>Cian</target>
+    </phrase>
+    <phrase>
+        <source>White</source>
+        <target>Branco</target>
+    </phrase>
+    <phrase>
+        <source>Point style</source>
+        <target>Estilo de punto</target>
+    </phrase>
+    <phrase>
+        <source>+</source>
+        <target>+</target>
+    </phrase>
+    <phrase>
+        <source>*</source>
+        <target>*</target>
+    </phrase>
+    <phrase>
+        <source>o</source>
+        <target>o</target>
+    </phrase>
+    <phrase>
+        <source>Ok</source>
+        <target>Aceptar</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Insert your commands here...</source>
+        <target>Insira as súas ordes aquí...</target>
+    </phrase>
+    <phrase>
+        <source>Insert your commands here. Use arrows and tab key to commands navigation.</source>
+        <target>Insira as súas ordes aquí. Empregue as teclas de frechas e tabulador coma ordes de navegación.</target>
+    </phrase>
+    <phrase>
+        <source>Octave Terminal</source>
+        <target>Terminal do Octave</target>
+    </phrase>
+    <phrase>
+        <source>Projects</source>
+        <target>Proxectos</target>
+    </phrase>
+    <phrase>
+        <source>Available Projects:</source>
+        <target>Proxectos dispoñíbeis:</target>
+    </phrase>
+    <phrase>
+        <source>Open</source>
+        <target>Abrir</target>
+    </phrase>
+    <phrase>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+    </phrase>
+    <phrase>
+        <source>Edit</source>
+        <target>Editar</target>
+    </phrase>
+    <phrase>
+        <source>Clear</source>
+        <target>Limpar</target>
+    </phrase>
+    <phrase>
+        <source>Save to file</source>
+        <target>Gardar nun ficheiro</target>
+    </phrase>
+    <phrase>
+        <source>Reload variables&apos; list</source>
+        <target>Recargar a lista de variábeis</target>
+    </phrase>
+    <phrase>
+        <source>Name</source>
+        <target>Nome</target>
+    </phrase>
+    <phrase>
+        <source>Size</source>
+        <target>Tamaño</target>
+    </phrase>
+    <phrase>
+        <source>Bytes</source>
+        <target>Bytes</target>
+    </phrase>
+    <phrase>
+        <source>Class</source>
+        <target>Clase</target>
+    </phrase>
+    <phrase>
+        <source>Local user variables</source>
+        <target>Variábeis locais do usuario</target>
+    </phrase>
+    <phrase>
+        <source>Functions</source>
+        <target>Funcións</target>
+    </phrase>
+    <phrase>
+        <source>Variable list</source>
+        <target>Lista de variábeis</target>
+    </phrase>
+    <phrase>
+        <source>Variables&apos; List</source>
+        <target>Lista de variábeis</target>
+    </phrase>
+</QPH>

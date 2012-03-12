@@ -1,0 +1,94 @@
+#Load matrix from file
+
+menu_name=Load matrix from file
+
+input_label= File
+input_file=
+
+input_label= Type
+begin{input_list}
+-text
+-binary
+-force
+-ascii
+-mat
+-mat-binary
+-6
+-v6
+-7
+-v7
+-V4
+-v4
+-4
+-mat4-binary
+-hdf5
+-import
+end{input_list}
+
+output_label= Matrix
+output=
+
+begin{command}
+load("%i2%", "%i1%", "%o1%")
+end{command}
+
+begin{help}
+<html>
+<body>
+<p>Load data from file and put this data in given matrix.</p>
+Valid options for `load' are listed in the following list:<br>
+<br>
+    `-force'<br>
+          The `-force' option is accepted but ignored for backward
+          compatiability. Octave now overwrites variables currently in
+          memory with the same name as those found in the file.
+<br>
+    `-ascii'<br>
+          Force Octave to assume the file contains columns of numbers
+          in text format without any header or other information.  Data
+          in the file will be loaded as a single numeric matrix with
+          the name of the variable derived from the name of the file.
+<br>
+    `-binary'<br>
+          Force Octave to assume the file is in Octave's binary format.
+<br>
+    `-mat'
+    `-mat-binary'
+    `-6'
+    `-v6'
+    `-7'
+    `-v7'<br>
+          Force Octave to assume the file is in MATLAB's version 6 or 7
+          binary format.
+<br>
+    `-V4'
+    `-v4'
+    `-4'
+    `-mat4-binary'<br>
+          Force Octave to assume the file is in the binary format
+          written by MATLAB version 4.
+<br>
+    `-hdf5'<br>
+          Force Octave to assume the file is in HDF5 format.  (HDF5 is
+          a free, portable binary format developed by the National
+          Center for Supercomputing Applications at the University of
+          Illinois.)  Note that Octave can read HDF5 files not created
+          by itself, but may skip some datasets in formats that it
+          cannot support.<br>
+
+          HDF5 load and save are not available, as this Octave
+          executable was not linked with the HDF5 library.
+<br>
+    `-import'<br>
+          The `-import' is accepted but ignored for backward
+          compatiability.  Octave can now support multi-dimensional HDF
+          data and automatically modifies variable names if they are
+          invalid Octave identifiers.
+<br>
+    `-text'<br>
+          Force Octave to assume the file is in Octave's text format.
+</body>
+</html>
+end{help}
+
+

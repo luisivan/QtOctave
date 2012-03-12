@@ -1,0 +1,67 @@
+<ui version="4.0" >
+ <class>Form</class>
+ <widget class="QWidget" name="Form" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>242</width>
+    <height>81</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Sombrero</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" >
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <widget class="QLabel" name="label" >
+       <property name="text" >
+        <string>Número de puntos</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox" >
+       <item>
+        <property name="text" >
+         <string>5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" >
+         <string>10</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" >
+         <string>20</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" >
+         <string>30</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" >
+         <string>40</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton" >
+     <property name="text" >
+      <string>Terminar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

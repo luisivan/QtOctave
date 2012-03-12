@@ -1,0 +1,89 @@
+<widgetserver>
+	<window id="Hook">
+		<vbox id="vbox0"  expand="true">
+		<hseparator id="separator" expand="true">
+			<first>
+				<vbox id="vbox1">
+					<label id="paramaters" bold="true">
+						<text>Parameters</text>
+					</label>
+					<label id="m_label" bold="true">
+						<text>m:</text>
+					</label>
+					<lineedit id="m">
+						<text>1</text>
+					</lineedit>
+					<label id="v_label" bold="true">
+						<text>v:</text>
+					</label>
+					<lineedit id="v">
+						<text>1</text>
+					</lineedit>
+					<label id="k_label" bold="true">
+						<text>k:</text>
+					</label>
+					<lineedit id="k">
+						<text>4</text>
+					</lineedit>
+					<label id="A_label" bold="true">
+						<text>A:</text>
+					</label>
+					<lineedit id="A">
+						<text>0</text>
+					</lineedit>
+					<label id="w_label" bold="true">
+						<text>w:</text>
+					</label>
+					<lineedit id="w">
+						<text>1</text>
+					</lineedit>
+					<label id="separator_label" expand="true">
+						<text> </text>
+					</label>
+					<hbox id="buttons" expand="false">
+						<button id="run" expand="false">
+							<text>Ok</text>
+							<icon>sciences_section.png</icon>
+							<signal name="clicked">* Ok</signal>
+						</button>
+						<button id="exit" expand="false">
+							<text>Exit</text>
+							<icon>button_cancel.png</icon>
+							<signal name="clicked">* Exit</signal>
+						</button>
+					</hbox>
+				</vbox>
+			</first>
+			<second>
+				<vbox id="vbox2" expand="true">
+					<label id="Help" bold="true">
+						<text>Help</text>
+					</label>
+					<textedit id="help_text" font="times" expand="true">
+						<text>This a hook diferential equation solver.
+Hook equation is:
+m  dot(dot(x)) +v dot(x) +k x= A cos(w t)
+
+where:
+m is mass
+v is viscosity
+k is hook constant
+A amplitude of external force
+w angular frecuency
+
+Try to change parameters to see:
+Hook with absorption: m=1; v=1; k=4; A=0; w=1
+Hook withouth absorption: m=1; v=0; k=4; A=0; w=0
+Hook with external force: m=1; v=0; k=4; A=1; w=0.5
+Hook with external force, resonant: m=1; v=0; k=4; A=1; w=2
+Hook with external force resonan, with absorptiont: m=1; v=1; k=4; A=1; w=2
+Hook with external force resonan: m=1; v=0; k=4; A=1; w=2
+						</text>
+					</textedit>
+				</vbox>
+			</second>
+		</hseparator>
+		</vbox>
+	</window>
+	
+	

@@ -1,0 +1,47 @@
+#This is an example of menu for qtoctave
+
+menu_name= Integrate Function Easy
+
+input_label= Function name f(x)
+input=sin(x)
+
+input_label= 1st limit of integration
+input=0
+
+input_label= 2st limit of integration
+input=2*pi
+
+output_label= Value
+output=v
+
+output_label=ier
+output=ier
+
+output_label= nfun
+output=nfun
+
+output_label=err
+output=err
+
+begin{help}
+<html>
+<p><b>Integrate a nonlinear function of one variable using Quadpack.</b></p><br>
+
+Use quad function for more options.<br><br>
+
+The first argument is the name of the function, the function handle or the inline function to call to compute the value of the integrand. It must have the form:<br>
+y = f (x)<br>
+where y and x are scalars.<br>
+This parameter is a string. Ex.:<br>
+[v, ier, nfun, err] = quad (@(x) f(x), 0, 3)<br><br>
+
+The second and third arguments are limits of integration. Either or both may be infinite.<br><br>
+
+You can use the function quad_options to set optional parameters for quad.<br>
+
+</html> 
+end{help}
+
+begin{command}
+[%o1%, %o2%, %o3%, %o4%] = quad (@(x) %i1%,%i2%,%i3%)
+end{command}

@@ -1,0 +1,22 @@
+Easy Plot.
+----------
+
+Es una aplicación que usa el "driver" svg de Gnuplot para mostrar gráficos y menús para manipularlos de forma sencilla.
+
+Instalación.
+------------
+
+Los requisitos para instalarlo son:
+
+-Tener las bibliotecas Qt 4.3 ó superior.
+-Tener instalado Gnuplot.
+-Tener instalado CMake.
+
+Para instalarlo, teclee:
+
+cmake .
+make
+make install
+
+
+

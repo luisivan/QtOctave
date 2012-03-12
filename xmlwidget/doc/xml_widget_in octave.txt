@@ -1,0 +1,129 @@
+
+xmlwidget in Octave.
+------------------------------------------------------------------------------------
+
+You can write windows for Octave using xmlwiget. Please read xmlwidget's tutorial before this one.
+
+------------------------------------------------------------------------------------
+
+1.1 Conecting xmlwidget and Octave: popen2
+
+To connect xmlwidget you are going to use popen2 function. If you write help for popen2:
+
+	-- Built-in Function: [IN, OUT, PID] = popen2 (COMMAND, ARGS)
+	Start a subprocess with two-way communication.  The name of the
+	process is given by COMMAND, and ARGS is an array of strings
+	containing options for the command.  The file identifiers for the
+	input and output streams of the subprocess are returned in IN and
+	OUT.  If execution of the command is successful, PID contains the
+	process ID of the subprocess.  Otherwise, PID is -1.
+	
+	For example,
+	
+		[in, out, pid] = popen2 ("sort", "-r");
+		fputs (in, "these\nare\nsome\nstrings\n");
+		fclose (in);
+		EAGAIN = errno ("EAGAIN");
+		done = false;
+		do
+			s = fgets (out);
+			if (ischar (s))
+				fputs (stdout, s);
+			elseif (errno () == EAGAIN)
+				sleep (0.1);
+				fclear (out);
+			else
+				done = true;
+			endif
+		until (done)
+		fclose (out);
+		-| are
+		-| some
+		-| strings
+		-| these
+	
+	popen2 is a built-in function
+
+We are going to open sessions with xmlwidget and we will read and write standar input and output.
+
+We will use strcmp function to compare lines read from xmlwidget:
+
+	-- Built-in Function:  strcmp (S1, S2)
+	Return 1 if the character strings S1 and S2 are the same, and 0
+	otherwise.
+	
+	If either S1 or S2 is a cell array of strings, then an array of
+	the same size is returned, containing the values described above
+	for every member of the cell array. The other argument may also be
+	a cell array of strings (of the same size or with only one
+	element), char matrix or character string.
+	
+	*Caution:* For compatibility with MATLAB, Octave's strcmp function
+	returns 1 if the character strings are equal, and 0 otherwise.
+	This is just the opposite of the corresponding C library function.
+	
+	See also: strcmpi, strncmp, strncmpi.
+	
+	strcmp is a built-in function
+
+------------------------------------------------------------------------------------
+
+1.2 Simple example: Window with button.
+
+Look this example:
+
+	% Connects with xmlwidget
+	[in, out, pid] = popen2 ("xmlwidget", "rw");
+	
+	% Sends window to xmlwidget
+	fputs (in, "<widgetserver>");
+	fputs(in, "<window id='w1'>");
+	fputs(in, "<hbox id='hbox1'>");
+	fputs(in, "<label id='l1'>");
+	fputs(in, "<text>Press button to close window, please:</text>");
+	fputs(in, "</label>");
+	fputs(in, "<button id='b1'>");
+	fputs(in, "<text>Press me</text>");
+	fputs(in, "<signal name='clicked'>* Exit</signal>");
+	fputs(in, "</button>");
+	fputs(in, "</hbox>");
+	fputs(in, "</window>\n");
+	% Don't close with </widgetserver>, we will send more data to xmlwidget
+	
+	% NOTE: flush data or window doesn't been shown
+	fflush(in);
+
+	% Is more easy to save xml window description in a file and load from it.
+	
+	% Check all is ok
+
+	EAGAIN = errno ("EAGAIN");
+	done = false;
+	
+	% Read events from window
+	do
+		s = fgets (out);
+		if (ischar (s))
+			fputs (stdout, s);
+
+			% Button event
+			if ( strcmp(s,"* Exit\n") )
+				% Close xmlwidget
+				fputs(in,"<quit/>\n");
+				fflush(in);
+			endif
+
+		elseif (errno () == EAGAIN)
+			sleep (0.1);
+			fclear (out);
+		else
+			done = true;
+		endif
+	until (done)
+
+	% Close streams with xmlwidget
+	fclose (out);
+	fclose (in);
+
+
+

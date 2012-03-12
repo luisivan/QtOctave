@@ -1,0 +1,37 @@
+digraph G
+{
+node[shape=record]
+#BaseWidget[label="{BaseWidget|Base class for windows shown in QtOctave.}"]
+#Help[label="{Help|Shows simple help in html.\n Users can do searches.}"]
+#WindowList[label="{WindowList|Shows window list asociated to QWorkspace.\n When some item is selected,\n asociated window is maximized.}"]
+Main[label="{Main|Controls all modules.\n Exec application and interconnect modules.}"]
+#Table[label="{Table|Shows QTable with spreadsheet.\n Spreadsheet's data are from given matrix.\nWhen spreadsheet is modificated,\n matrix is modificated.}"]
+#Terminal[label="{Terminal|Builds windows with QtextEdit and QLineEdit.\nQTextEdit shows OctaveConnection output.\nQLineEdit is used to write commands. }"]
+#OctaveConnection[label="{OctaveConnection|This class build QProcess and exec Octave.\nOctave input and output\n are controlled by this class.}"]
+#DinamicHelp[label="{DinamicHelp|If you write a command in\n Terminal's command line,\n DynamicHelp shows\n help of commands}"]
+MainWindow[label="{MainWindow|Builds QtOctave's main window,\n and some menus.}"]
+GenerateMenu[label="{GenerateMenu|This module read builds QtOctave menus.\n These menus are read from  'menus' folder.}"]
+Operations[label="{Operations|Connects menu signals with callbacks.}"]
+Config[label="{Config|Config of QtOctave.\nAll modules need this one. }", style=bold]
+S1[label="{Visual tools point of view}", style=bold]
+	
+	
+#Help->BaseWidget
+#WindowList->BaseWidget
+#Terminal->BaseWidget
+#Table->BaseWidget
+#Main->Help
+#Main->WindowList
+#Main->BaseWidget
+#Table->OctaveConnection
+#Main->Terminal
+#Terminal->OctaveConnection
+Main->S1
+MainWindow->S1
+Main->MainWindow->GenerateMenu
+GenerateMenu->S1[taillabel="OctaveConnection"]
+MainWindow->Operations->S1
+#DinamicHelp->Terminal
+#DinamicHelp->BaseWidget
+}
+

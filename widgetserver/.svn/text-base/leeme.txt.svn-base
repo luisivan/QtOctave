@@ -1,0 +1,10 @@
+WidgetServer es un programa para hacer ventanas. Para ello usa un lenguaje muy sencillo. Los programas pueden comunicarse con el WidgetServer usando la entrada estándar y los eventos son enviados a la salida estándar. Así se pueden crear ventanas desde C, Python, Java, Perl, Bash,...
+
+INSTALACIÓN
+
+Hay que abrir una sesión de terminal y entrar en el directorio widgetserver dentro de los fuentes. Allí verás el fichero widgetserver.pro. Una vez allí hay que teclear:
+
+qmake
+make
+
+La compilación se iniciará y finalmente aparecerá el ejecutable. Dicho ejecutable se debe copiar al directorio donde el usuario desee instalarlo.

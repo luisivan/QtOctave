@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver
+END
+menubar.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/menubar.h
+END
+input.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/input.cpp
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/input.h
+END
+ej.ws
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/ej.ws
+END
+window.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/window.cpp
+END
+buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/buffer.cpp
+END
+list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/list.cpp
+END
+window.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/window.h
+END
+buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/buffer.h
+END
+ej_ws.ws
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/ej_ws.ws
+END
+process.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/process.cpp
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/list.h
+END
+process.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/process.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/main.cpp
+END
+widgetserver.pro
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/widgetserver.pro
+END
+menubar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/212/trunk/widgetserver/widgetserver/menubar.cpp
+END

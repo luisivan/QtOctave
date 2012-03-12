@@ -1,0 +1,51 @@
+#EDO solver
+
+menu_name=Ordinary Differential Equations by Euler method
+
+input_label= Function (f(x,t))
+input=f(x,t) 
+
+input_label= Initial state of the system x_0
+input=0
+
+input_label= Initial time of the system t_0
+input=0
+
+input_label= Final time of the system t
+input=10
+
+input_label= Number of steps
+input=100
+
+output_label= Result (it will be matrix)
+output=y
+
+output_label= Times (it will be matrix)
+output=t
+
+begin{command}
+%o1%=[%i2%];
+%o2%=[%i3%];
+
+while(rows(%o2%)<=%i5%)
+  %o2%=[%o2%; %o2%(rows(%o2%))+(%i4%-%i3%)/%i5%];
+  %o1%=[%o1%; %o1%(rows(%o1%))+(%i4%-%i3%)/%i5%*( %i1%( %o1%(rows(%o1%)), %o2%(rows(%o2%)) ) )];
+end
+
+plot(%o2%,%o1%);
+end{command}
+
+begin{help}
+<html>
+<body>
+<p>Solve the set of differential equations using Euler method:</p>
+<pre>
+dx
+-- = f(x, t); x_(n+1)=x_n+h*(f(x_n,t_n))
+dt
+</pre>
+</body>
+</html>
+end{help}
+
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/csl-qtoctave/!svn/ver/230/trunk/qtoctave/src/svgcanvas
+END
+svgcanvas.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/svgcanvas/svgcanvas.h
+END
+svgcanvas.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/230/trunk/qtoctave/src/svgcanvas/svgcanvas.cpp
+END
+export_to_dialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/svgcanvas/export_to_dialog.ui
+END

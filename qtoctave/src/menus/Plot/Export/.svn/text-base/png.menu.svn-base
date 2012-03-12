@@ -1,0 +1,19 @@
+#Export plot to png
+
+menu_name=PNG
+
+output_label= File
+output_file=plot.png
+
+output_label= Color
+begin{output_list}
+-color
+-mono
+end{output_list}
+
+begin{command}
+print ("%o1%", "%o2%", "-FHelvetica:12", "-dpng")
+end{command}
+
+begin{help}
+end{help}

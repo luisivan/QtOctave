@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images
+END
+modules_main.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_main.png
+END
+modules_diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_diagram.png
+END
+build_pngs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/build_pngs.sh
+END
+modules_main.dot
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_main.dot
+END
+modules_diagram.odg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_diagram.odg
+END
+modules_basewidget.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_basewidget.png
+END
+modules_basewidget.dot
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/doc/images/modules_basewidget.dot
+END

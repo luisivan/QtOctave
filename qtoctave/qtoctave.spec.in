@@ -1,0 +1,67 @@
+ %define version @CPACK_PACKAGE_VERSION_MAJOR@.@CPACK_PACKAGE_VERSION_MINOR@
+%define release @CPACK_PACKAGE_VERSION_PATCH@
+
+Name: @PROJECT_NAME@
+Version: %{version}
+Release: %{release}
+License: GPL
+Group: Applications/Engineering
+
+URL: http://qtoctave.wordpress.com/
+Packager: Wolfgang Dautermann <dauti@oeh.tu-graz.ac.at>
+
+# source + patches
+Source: @CPACK_SOURCE_PACKAGE_FILE_NAME@.tar.gz
+
+
+BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+BuildRequires: cmake
+
+%define srcdirname %{name}-%{version}
+%define builddirname %{_tmppath}/%{name}.build
+
+Summary: Qtoctave - a frontend for GNU octave
+
+%description
+qtoctave is a frontend for GNU octave based on QT4
+
+%prep -n%{name}-%{version}
+
+%setup -q -n %{srcdirname}
+
+%build
+rm -rf %{builddirname}
+mkdir %{builddirname}
+cd %{builddirname}
+cmake @CMAKE_SOURCE_DIR@ -DCMAKE_INSTALL_PREFIX:PATH=/usr
+make
+
+
+%install
+rm -rf %{buildroot}
+cd %{builddirname}
+%makeinstall
+
+
+
+#%pre
+#%post
+#%preun
+#%postun
+
+
+%clean
+rm -rf %{buildroot}
+rm -rf %{builddirname}
+
+%files
+%defattr(-,root,root,-)
+%{_bindir}/*
+%{_datadir}/qtoctave
+
+
+%changelog
+
+*  Sun May 22 2008 Wolfgang Dautermann <dauti@oeh.tu-graz.ac.at>
+
+- First RPM Build

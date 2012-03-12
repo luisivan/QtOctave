@@ -1,0 +1,1710 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+# Octave packages list from Octave-Forge
+# http://octave.sourceforge.net/
+-->
+<repository>
+  <info>
+    <name>Octave-Forge</name>
+    <description>
+      Octave-Forge is a central location for the collaborative development of packages for GNU Octave.
+      The Octave-forge packages contains the source for all the functions and are designed to work with the Octave package system. In general the packages are designed to work with the latest development version of Octave, but it should be possible to use most packages with earlier versions. 
+    </description>
+    <url>http://octave.sourceforge.net/</url>
+  </info>
+<package>
+	<name>Actuarial</name>
+	<version>1.1.0</version>
+	<url>http://downloads.sourceforge.net/octave/actuarial-1.1.0.tar.gz?download</url>
+	<description>
+Name: Actuarial
+Version: 1.1.0&lt;br&gt;
+Date: 2009-07-23&lt;br&gt;
+Author: Act. Esteban Cervetto ARG &lt;estebancster@gmail.com&gt;&lt;br&gt;
+Maintainer: Act. Esteban Cervetto ARG &lt;estebancster@gmail.com&gt;&lt;br&gt;
+Title: Actuarial.&lt;br&gt;
+Description: Actuarial functions for Casualty and Property lines.&lt;br&gt;
+Depends: octave (&gt;= 3.0.1)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+#I am an Actuary from Argentina. &lt;br&gt;
+#If you are looking for an Actuary&lt;br&gt;
+#If you are an idea to develop&lt;br&gt;
+#if you only want to talk about the actuarial career&lt;br&gt;
+#email me please.&lt;br&gt;
+#Actually, I speak Spanish.&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>AD</name>
+	<version>1.0.6</version>
+	<url>http://downloads.sourceforge.net/octave/ad-1.0.6.tar.gz?download</url>
+	<description>
+Name: AD
+Version: 1.0.6&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Thomas Kasper&lt;br&gt;
+Maintainer: Thomas Kasper&lt;br&gt;
+Title: AD.&lt;br&gt;
+Description: Automatic Forward Differentiation&lt;br&gt;
+Categories: Calculus&lt;br&gt;
+Depends: octave (&gt;= 3.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://home.cs.tum.edu/~kasper/ad&lt;br&gt;
+	</description>
+	<categories>Calculus</categories>
+</package>
+
+<package>
+	<name>Audio</name>
+	<version>1.1.4</version>
+	<url>http://downloads.sourceforge.net/octave/audio-1.1.4.tar.gz?download</url>
+	<description>
+Name: Audio
+Version: 1.1.4&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Paul Kienzle&lt;br&gt;
+Maintainer: Paul Kienzle&lt;br&gt;
+Title: Audio&lt;br&gt;
+Description: Audio recording, processing and playing tools.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>benchmark</name>
+	<version>1.1.1</version>
+	<url>http://downloads.sourceforge.net/octave/benchmark-1.1.1.tar.gz?download</url>
+	<description>
+Name: benchmark
+Version: 1.1.1&lt;br&gt;
+Date: 2009-04-15&lt;br&gt;
+Author: Octave community&lt;br&gt;
+Title: Benchmarks for Octave&lt;br&gt;
+Maintainer: Jaroslav Hajek (highegg@gmail.com)&lt;br&gt;
+Description: The package contains code used to benchmark speed of Octave.&lt;br&gt;
+License: GPL v2&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>bim</name>
+	<version>1.0.0</version>
+	<url>http://downloads.sourceforge.net/octave/bim-1.0.0.tar.gz?download</url>
+	<description>
+Name: bim
+Version: 1.0.0&lt;br&gt;
+Date: 2010-02-09&lt;br&gt;
+Author: Carlo de Falco, Culpo Massimiliano&lt;br&gt;
+Maintainer: Culpo Massimiliano&lt;br&gt;
+Title: PDE Solver using a Finite Element/Finite Volume approach&lt;br&gt;
+Description: Package for solving Diffusion Advection Reaction (DAR) Partial Differential Equations based on the Finite Volume Scharfetter-Gummel (FVSG) method a.k.a Box Integration Method (BIM)&lt;br&gt;
+Depends: octave (&gt;= 3.0.0), fpl, msh &lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+SVNRelease: 6866&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>bioinfo</name>
+	<version>0.1.2</version>
+	<url>http://downloads.sourceforge.net/octave/bioinfo-0.1.2.tar.gz?download</url>
+	<description>
+Name: bioinfo
+Version: 0.1.2&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Maintainer: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Title: Bioinformatics&lt;br&gt;
+Description: Bioinformatics manipulation&lt;br&gt;
+Categories: Bioinformatics&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Bioinformatics</categories>
+</package>
+
+<package>
+	<name>Civil-Engineering</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/civil-engineering-1.0.7.tar.gz?download</url>
+	<description>
+Name: Civil-Engineering
+Version: 1.0.7&lt;br&gt;
+Date: 2008-08-23&lt;br&gt;
+Author: Matthew W. Roberts&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Civil Engineering&lt;br&gt;
+Description: Functions to solution some ODE's in Civil Engineering.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Combinatorics</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/combinatorics-1.0.9.tar.gz?download</url>
+	<description>
+Name: Combinatorics
+Version: 1.0.9&lt;br&gt;
+Date: 2009-05-18&lt;br&gt;
+Author: Torsten Finke   &lt;fi@igh-essen.com&gt;&lt;br&gt;
+Maintainer: Torsten Finke   &lt;fi@igh-essen.com&gt;&lt;br&gt;
+Title: Combinatorics.&lt;br&gt;
+Description: Combinatorics functions, incuding partitioning.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Communications</name>
+	<version>1.0.10</version>
+	<url>http://downloads.sourceforge.net/octave/communications-1.0.10.tar.gz?download</url>
+	<description>
+Name: Communications
+Version: 1.0.10&lt;br&gt;
+Date: 2009-05-14&lt;br&gt;
+Author: David Bateman&lt;br&gt;
+Maintainer: David Bateman&lt;br&gt;
+Title: Communications.&lt;br&gt;
+Description: Digital Communications, Error Correcting Codes (Channel Code), Source Code functions, Modulation and Galois Fields&lt;br&gt;
+Depends: octave (&gt; 3.1.54), signal (&gt;= 1.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Control</name>
+	<version>1.0.11</version>
+	<url>http://downloads.sourceforge.net/octave/control-1.0.11.tar.gz?download</url>
+	<description>
+Name: Control
+Version: 1.0.11&lt;br&gt;
+Date: 2009-02-11&lt;br&gt;
+Author: Ben Sapp&lt;br&gt;
+Maintainer: Luca Favatella &lt;slackydeb@gmail.com&gt;&lt;br&gt;
+Title: Control.&lt;br&gt;
+Description: Additional Octave Control tools&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>data-smoothing</name>
+	<version>1.2.0</version>
+	<url>http://downloads.sourceforge.net/octave/data-smoothing-1.2.0.tar.gz?download</url>
+	<description>
+Name: data-smoothing
+Version: 1.2.0&lt;br&gt;
+Date: 2009-04-28&lt;br&gt;
+Author: Jonathan Stickel&lt;br&gt;
+Maintainer: Jonathan Stickel&lt;br&gt;
+Title: Data smoothing&lt;br&gt;
+Description: Algorithms for smoothing noisy data&lt;br&gt;
+Categories: Data-smoothing&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), optim (&gt;= 1.0.3)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Data-smoothing</categories>
+</package>
+
+<package>
+	<name>database</name>
+	<version>1.0.4</version>
+	<url>http://downloads.sourceforge.net/octave/database-1.0.4.tar.gz?download</url>
+	<description>
+Name: database
+Version: 1.0.4&lt;br&gt;
+Date: 2009-01-09&lt;br&gt;
+Author: Xavier Delacour&lt;br&gt;
+Maintainer: Xavier Delacour&lt;br&gt;
+Title: Bindings for postgres, mysql, sqlite, and standard ODBC&lt;br&gt;
+Description: These are bindings that allow SQL queries and other database operations on postgres, mysql, sqlite, and standard ODBC databases from within Octave. A simplified interface that is uniform across all database types is provided, as well as the entire C client API for each database (libpq, libmysqlclient, etc).&lt;br&gt;
+Depends: octave (&gt;= 2.9.12)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+SystemRequirements: swig, postgresql-8.2, postgresql-client-8.2, mysql-common, mysql-client-5.0, mysql-server-5.0, libmysqlclient15-dev, sqlite3, libsqlite3-dev, unixodbc-bin, unixodbc-dev, odbc-postgresql.&lt;br&gt;
+License: BSD, GPL2&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>dataframe</name>
+	<version>0.8.2</version>
+	<url>http://downloads.sourceforge.net/octave/dataframe-0.8.2.tar.gz?download</url>
+	<description>
+Name: dataframe
+Version: 0.8.2&lt;br&gt;
+Date: 2010-11-10&lt;br&gt;
+Author: Pascal Dupuis&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Data Frame&lt;br&gt;
+Description: Data manipulation toolbox similar to R data.frame&lt;br&gt;
+Categories: data manipulation, statistics&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+SVNRelease: 7907&lt;br&gt;
+	</description>
+	<categories>data manipulation, statistics</categories>
+</package>
+
+<package>
+	<name>Econometrics</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/econometrics-1.0.8.tar.gz?download</url>
+	<description>
+Name: Econometrics
+Version: 1.0.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Michael Creel &lt;michael.creel@uab.es&gt;&lt;br&gt;
+Maintainer: Michael Creel &lt;michael.creel@uab.es&gt;&lt;br&gt;
+Title: Econometrics.&lt;br&gt;
+Description: Econometrics functions including MLE and GMM based techniques.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), optim&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Engine</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/engine-1.0.9.tar.gz?download</url>
+	<description>
+Name: Engine
+Version: 1.0.9&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Jesse Bennett &lt;jesse@seas.smu.edu&gt;&lt;br&gt;
+Maintainer: Paul Kienzle&lt;br&gt;
+Title: Engine&lt;br&gt;
+Description: An external interface library for Octave&lt;br&gt;
+Categories: engine, External&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>engine, External</categories>
+</package>
+
+<package>
+	<name>es</name>
+	<version>0.0.4</version>
+	<url>http://downloads.sourceforge.net/octave/es-0.0.4.tar.gz?download</url>
+	<description>
+Name: es
+Version: 0.0.4&lt;br&gt;
+Date: 2010-04-25&lt;br&gt;
+Author: Javier Enciso&lt;br&gt;
+Maintainer: Edwin Moreno, Javier Enciso&lt;br&gt;
+Title: Spanish translation package&lt;br&gt;
+Description: Spanish package for the construction of native language&lt;br&gt;
+ translations of Octave functions.&lt;br&gt;
+Categories: languages&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sourceforge.net/&lt;br&gt;
+Autoload: yes&lt;br&gt;
+Depends: octave (&gt; 2.9.9)&lt;br&gt;
+SVNRelease: 7242&lt;br&gt;
+	</description>
+	<categories>languages</categories>
+</package>
+
+<package>
+	<name>fenv</name>
+	<version>0.1.0</version>
+	<url>http://downloads.sourceforge.net/octave/fenv-0.1.0.tar.gz?download</url>
+	<description>
+Name: fenv
+Version: 0.1.0&lt;br&gt;
+Date: 2008-10-10&lt;br&gt;
+Author: Grzegorz Timoszuk (gtimoszuk@gmail.com)&lt;br&gt;
+Maintainer: Grzegorz Timoszuk (gtimoszuk@gmail.com)&lt;br&gt;
+Title: Floating point environment&lt;br&gt;
+Description: On supported architectures, change the rounding mode of the floating point arithmetics (to nearest, up, down, to zero) or change the precision of the arithmetical operations (single, double, double extended). Experimentally test the properties of the floating point arithmetics.&lt;br&gt;
+Categories: floating point environment&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>floating point environment</categories>
+</package>
+
+<package>
+	<name>financial</name>
+	<version>0.3.2</version>
+	<url>http://downloads.sourceforge.net/octave/financial-0.3.2.tar.gz?download</url>
+	<description>
+Name: financial
+Version: 0.3.2&lt;br&gt;
+Date: 2008-08-17&lt;br&gt;
+Author: Bill Denney &lt;bill@denney.ws&gt;, Kurt Hornik &lt;Kurt.Hornik@wu-wien.ac.at&gt;&lt;br&gt;
+Maintainer: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Title: Financial&lt;br&gt;
+Description: Financial manipulation and plotting functions&lt;br&gt;
+Categories: Financial&lt;br&gt;
+Depends: octave (&gt;= 3.0.0), time (&gt;= 1.0.5), miscellaneous (&gt;= 1.0.6)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3 and GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Financial</categories>
+</package>
+
+<package>
+	<name>FITS</name>
+	<version>1.0.0</version>
+	<url>http://downloads.sourceforge.net/octave/fits-1.0.0.tar.gz?download</url>
+	<description>
+Name: FITS
+Version: 1.0.0&lt;br&gt;
+Date: 2010-08-23&lt;br&gt;
+Author: Dirk Schmidt&lt;br&gt;
+Maintainer: Dirk Schmidt&lt;br&gt;
+Title: Reading and writing FITS (Flexible Image Transport System) files.&lt;br&gt;
+Description: The Octave-FITS package provides functions for&lt;br&gt;
+ reading, and writing FITS (Flexible Image Transport System) files. The package supports&lt;br&gt;
+ uses the libcfitsio library.&lt;br&gt;
+Depends: octave (&gt;= 2.9.10)&lt;br&gt;
+Autoload: no&lt;br&gt;
+BuildRequires: libcfitsio-dev&lt;br&gt;
+SystemRequirements: libcfitsio&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>fpl</name>
+	<version>1.2.0</version>
+	<url>http://downloads.sourceforge.net/octave/fpl-1.2.0.tar.gz?download</url>
+	<description>
+Name: fpl
+Version: 1.2.0&lt;br&gt;
+Date: 2010-06-12&lt;br&gt;
+Author: Carlo de Falco, Massimiliano Culpo&lt;br&gt;
+Maintainer:  Carlo de Falco, Massimiliano Culpo&lt;br&gt;
+Title: Fem PLotting&lt;br&gt;
+Description: Collection of routines to save data in different graphical formats.&lt;br&gt;
+Categories: Graphics&lt;br&gt;
+Depends: octave ( &gt;= 3.0.0 )&lt;br&gt;
+License: GNU/GPL &lt;br&gt;
+SystemRequirements: dx ( &gt;= 4.3.2), sed, bash&lt;br&gt;
+SVNRelease: 7425&lt;br&gt;
+	</description>
+	<categories>Graphics</categories>
+</package>
+
+<package>
+	<name>ga</name>
+	<version>0.9.8</version>
+	<url>http://downloads.sourceforge.net/octave/ga-0.9.8.tar.gz?download</url>
+	<description>
+Name: ga
+Version: 0.9.8&lt;br&gt;
+Date: 2010-06-24&lt;br&gt;
+Author: Luca Favatella &lt;slackydeb@gmail.com&gt;&lt;br&gt;
+Maintainer: Luca Favatella &lt;slackydeb@gmail.com&gt;&lt;br&gt;
+Title: Genetic Algorithm and Direct Search&lt;br&gt;
+Description: Genetic optimization code&lt;br&gt;
+Categories: Optimization&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), communications (&gt;= 1.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Optimization</categories>
+</package>
+
+<package>
+	<name>General</name>
+	<version>1.2.2</version>
+	<url>http://downloads.sourceforge.net/octave/general-1.2.2.tar.gz?download</url>
+	<description>
+Name: General
+Version: 1.2.2&lt;br&gt;
+Date: 2010-03-12&lt;br&gt;
+Author: Jaroslav Hajek&lt;br&gt;
+Maintainer: Jaroslav Hajek&lt;br&gt;
+Title: General&lt;br&gt;
+Description: General tools for octave. String dictionary, parallel computing.&lt;br&gt;
+Categories: General&lt;br&gt;
+Depends: octave (&gt;= 3.2.4)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>General</categories>
+</package>
+
+<package>
+	<name>generate_html</name>
+	<version>0.1.3</version>
+	<url>http://downloads.sourceforge.net/octave/generate_html-0.1.3.tar.gz?download</url>
+	<description>
+Name: generate_html
+Version: 0.1.3&lt;br&gt;
+Date: 2010-02-25&lt;br&gt;
+Author: Søren Hauberg&lt;br&gt;
+Maintainer: Søren Hauberg&lt;br&gt;
+Title: Generate HTML web page from help texts&lt;br&gt;
+Description: This package provides functions for generating HTML pages that&lt;br&gt;
+ contain the help texts for a set of functions. The package is designed to be&lt;br&gt;
+ as general as possible, but also contains convenience functions for generating&lt;br&gt;
+ a set of pages for entire packages.&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+SystemRequirements: makeinfo&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Gnuplot</name>
+	<version>1.0.1</version>
+	<url>http://downloads.sourceforge.net/octave/gnuplot-1.0.1.tar.gz?download</url>
+	<description>
+Name: Gnuplot
+Version: 1.0.1&lt;br&gt;
+Date: 2010-02-07&lt;br&gt;
+Author: Etienne Grossmann&lt;br&gt;
+Maintainer:  Etienne Grossmann&lt;br&gt;
+Title: Gnuplot wrappers for octave&lt;br&gt;
+Description: Scripts to save data in gnuplot-readable formats,&lt;br&gt;
+ specify gnuplot commands that will be used to produce graphics, and&lt;br&gt;
+ call gnuplot. See help g_ez quickly produce the most common plots.&lt;br&gt;
+Categories: graphics&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+SystemRequirements: gnuplot (&gt;= 4.0)&lt;br&gt;
+BuildRequires: gnuplot (&gt;= 4.0)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>graphics</categories>
+</package>
+
+<package>
+	<name>GPC</name>
+	<version>0.1.7</version>
+	<url>http://downloads.sourceforge.net/octave/gpc-0.1.7.tar.gz?download</url>
+	<description>
+Name: GPC
+Version: 0.1.7&lt;br&gt;
+Date: 2006-08-05&lt;br&gt;
+Author: Rafael Laboissiere &lt;rafael@laboissiere.net&gt;&lt;br&gt;
+Maintainer: Rafael Laboissiere &lt;rafael@laboissiere.net&gt;&lt;br&gt;
+Title: General Polygon Clipper&lt;br&gt;
+Description: Add a description to this package!&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later (Underlying library Non Distributable!!!!)&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>GSL</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/gsl-1.0.8.tar.gz?download</url>
+	<description>
+Name: GSL
+Version: 1.0.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Teemu Ikonen   &lt;tpikonen@pcu.helsinki.fi&gt;&lt;br&gt;
+Maintainer: Teemu Ikonen   &lt;tpikonen@pcu.helsinki.fi&gt;&lt;br&gt;
+Title: GNU Scientific Library.&lt;br&gt;
+Description: Octave bindings to the GNU Scientific Library&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+BuildRequires: gsl-devel&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+# Version 1.0.5 -&gt; Version 1.0.6 Ray Rogers rrogers@@plaidheron.com&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Ident</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/ident-1.0.7.tar.gz?download</url>
+	<description>
+Name: Ident
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Paul Kienzle&lt;br&gt;
+Maintainer: Paul Kienzle&lt;br&gt;
+Title: System Indentification.&lt;br&gt;
+Description: Addition System Indentification Control functions.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Image</name>
+	<version>1.0.13</version>
+	<url>http://downloads.sourceforge.net/octave/image-1.0.13.tar.gz?download</url>
+	<description>
+Name: Image
+Version: 1.0.13&lt;br&gt;
+Date: 2010-05-22&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: Soren Hauberg&lt;br&gt;
+Title: Image Processing&lt;br&gt;
+Description: The Octave-forge Image package provides functions for&lt;br&gt;
+ processing images.&lt;br&gt;
+ The package also provides functions for feature extraction, image&lt;br&gt;
+ statistics, spatial and geometric transformations, morphological&lt;br&gt;
+ operations, linear filtering, and much more.&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+BuildRequires: png-devel&lt;br&gt;
+BuildRequires: jpeg-devel&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>InformationTheory</name>
+	<version>0.1.8</version>
+	<url>http://downloads.sourceforge.net/octave/informationtheory-0.1.8.tar.gz?download</url>
+	<description>
+Name: InformationTheory
+Version: 0.1.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Muthiah Annamalai&lt;br&gt;
+Maintainer: Muthiah Annamalai&lt;br&gt;
+Title: Information Theory&lt;br&gt;
+Description: Functions and routines for basic Information Theory definitions, and source coding.&lt;br&gt;
+Categories: Information Theory&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Information Theory</categories>
+</package>
+
+<package>
+	<name>Integration</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/integration-1.0.7.tar.gz?download</url>
+	<description>
+Name: Integration
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Howard Wilson &amp; Bryce Gardner&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Numerical Integration Toolbox&lt;br&gt;
+Description: Toolbox for 1-D, 2-D, and n-D Numerical Integration&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>io</name>
+	<version>1.0.13</version>
+	<url>http://downloads.sourceforge.net/octave/io-1.0.13.tar.gz?download</url>
+	<description>
+Name: io
+Version: 1.0.13&lt;br&gt;
+Date: 2010-08-16&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: Philip Nienhuis &lt;prnienhuis@users.sf.net&gt;&lt;br&gt;
+Title: Input/Output&lt;br&gt;
+Description: Input/Output in external formats.&lt;br&gt;
+Categories: IO&lt;br&gt;
+Problems: Default initial java memory probably too small, increase with java.opts (see documentation)&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+Suggested: java-1.2.7+ f Windows, windows-1.0.8+ f Windows, java-1.2.5 f linux&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>IO</categories>
+</package>
+
+<package>
+	<name>IRSA</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/irsa-1.0.7.tar.gz?download</url>
+	<description>
+Name: IRSA
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Joerg Huber&lt;br&gt;
+Maintainer: Joerg Huber&lt;br&gt;
+Title: Irregular sampling analysis.&lt;br&gt;
+Description: Irregular sampling analysis.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Java</name>
+	<version>1.2.7</version>
+	<url>http://downloads.sourceforge.net/octave/java-1.2.7.tar.gz?download</url>
+	<description>
+Name: Java
+Version: 1.2.7&lt;br&gt;
+Date: 2010-03-04&lt;br&gt;
+Author: Michael Goffioul &lt;michael.goffioul@gmail.com&gt;&lt;br&gt;
+Maintainer: Michael Goffioul &lt;michael.goffioul@gmail.com&gt;&lt;br&gt;
+Title: Java Interface&lt;br&gt;
+Description: Provides Java interface with OO-like Java objects manipulation&lt;br&gt;
+Categories: Java&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Java</categories>
+</package>
+
+<package>
+	<name>Linear-Algebra</name>
+	<version>2.0.0</version>
+	<url>http://downloads.sourceforge.net/octave/linear-algebra-2.0.0.tar.gz?download</url>
+	<description>
+Name: Linear-Algebra
+Version: 2.0.0&lt;br&gt;
+Date: 2009-05-18&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: Jaroslav Hajek&lt;br&gt;
+Title: Linear Algebra.&lt;br&gt;
+Description: Additional linear algebra code, including general SVD and matrix functions.&lt;br&gt;
+Categories: Linear-Algebra&lt;br&gt;
+Depends: octave (&gt;= 3.2.3)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Linear-Algebra</categories>
+</package>
+
+<package>
+	<name>Mapping</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/mapping-1.0.7.tar.gz?download</url>
+	<description>
+Name: Mapping
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Andrew Collier &lt;abcollier@users.sourceforge.net&gt;&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Mapping Functions&lt;br&gt;
+Description: Simple Mapping functions. &lt;br&gt;
+Categories: Mathematics&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Mathematics</categories>
+</package>
+
+<package>
+	<name>Miscellaneous</name>
+	<version>1.0.10</version>
+	<url>http://downloads.sourceforge.net/octave/miscellaneous-1.0.10.tar.gz?download</url>
+	<description>
+Name: Miscellaneous
+Version: 1.0.10&lt;br&gt;
+Date: 2010-10-07&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Miscellaneous functions&lt;br&gt;
+Description: Miscellaneous tools that don't fit somewhere else.&lt;br&gt;
+Categories: Miscellaneous&lt;br&gt;
+Depends: octave (&gt;= 2.9.16)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+SystemRequirements: units&lt;br&gt;
+BuildRequires: termcap-devel&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Miscellaneous</categories>
+</package>
+
+<package>
+	<name>missing-functions</name>
+	<version>1.0.2</version>
+	<url>http://downloads.sourceforge.net/octave/missing-functions-1.0.2.tar.gz?download</url>
+	<description>
+Name: missing-functions
+Version: 1.0.2&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Maintainer: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Title: Missing Functions&lt;br&gt;
+Description: Find functions that are in Matlab but not in Octave.&lt;br&gt;
+Categories: Missing&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Missing</categories>
+</package>
+
+<package>
+	<name>msh</name>
+	<version>1.0.1</version>
+	<url>http://downloads.sourceforge.net/octave/msh-1.0.1.tar.gz?download</url>
+	<description>
+Name: msh
+Version: 1.0.1&lt;br&gt;
+Date: 2010-03-30&lt;br&gt;
+Author: Carlo de Falco, Massimiliano Culpo&lt;br&gt;
+Maintainer: Carlo de Falco, Massimiliano Culpo&lt;br&gt;
+Title: MeSHing software package for octave&lt;br&gt;
+Description: Create and manage triangular and tetrahedral meshes for Finite Element or Finite Volume PDE solvers. Use a mesh data structure compatible with PDEtool. Rely on gmsh for unstructured mesh generation.&lt;br&gt;
+Depends: octave (&gt;= 3.0), splines&lt;br&gt;
+SystemRequirements: gmsh (&gt;= 1.6.5), awk&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://www.geuz.org/gmsh&lt;br&gt;
+SVNRelease: 7141&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Multicore</name>
+	<version>0.2.15</version>
+	<url>http://downloads.sourceforge.net/octave/multicore-0.2.15.tar.gz?download</url>
+	<description>
+Name: Multicore
+Version: 0.2.15&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Markus Buehren &lt;mb_matlab@gmx.de&gt;&lt;br&gt;
+Maintainer: Markus Buehren, Chuong Nguyen and the Octave Community&lt;br&gt;
+Title: Parallel Processing on Multiple Cores&lt;br&gt;
+Description: An Octave-forge package providing functions for&lt;br&gt;
+ parallel processing on multiple cores.&lt;br&gt;
+Categories: parallel processing&lt;br&gt;
+Depends: octave (&gt;= 2.9.12)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>parallel processing</categories>
+</package>
+
+<package>
+	<name>NaN</name>
+	<version>2.3.1</version>
+	<url>http://sourceforge.net/projects/octave/files/Octave%20Forge%20Packages/Individual%20Package%20Releases/nan-2.3.1.tar.gz/download</url>
+	<description>
+Name: NaN
+Version: 2.3.1&lt;br&gt;
+Date: 2010-09-08&lt;br&gt;
+Author: Alois Schloegl &lt;a.schloegl@ieee.org&gt;&lt;br&gt;
+Maintainer: Alois Schloegl&lt;br&gt;
+Title: The NaN-toolbox&lt;br&gt;
+Description: A statistics and machine learning toolbox for Octave and Matlab for data with and w/o missing values.&lt;br&gt;
+Depends: octave (&gt; 2.9.0)&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://biosig-consulting.com/matlab/NaN&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>NLWing2</name>
+	<version>1.2.0</version>
+	<url>http://downloads.sourceforge.net/octave/nlwing2-1.2.0.tar.gz?download</url>
+	<description>
+Name: NLWing2
+Version: 1.2.0&lt;br&gt;
+Date: 2009-03-02&lt;br&gt;
+Author: Jaroslav Hajek &lt;highegg@gmail.com&gt;&lt;br&gt;
+Title: Nonlinear Lifting Line for Wings &lt;br&gt;
+Maintainer: Jaroslav Hajek &lt;highegg@gmail.com&gt;&lt;br&gt;
+Description: This package allows efficient computation of nonlinear aerodynamic&lt;br&gt;
+properties of a wing. It employs 2D section data to build a 3D potential vortex&lt;br&gt;
+model of the flow. It uses a robust Euler-Newton method to track the change of&lt;br&gt;
+flow vorticity quantities as the angle of attack progresses.&lt;br&gt;
+License: GPL v3&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>nnet</name>
+	<version>0.1.13</version>
+	<url>http://downloads.sourceforge.net/octave/nnet-0.1.13.tar.gz?download</url>
+	<description>
+Name: nnet
+Version: 0.1.13&lt;br&gt;
+Date: 2010-12-02&lt;br&gt;
+Author: Michael Schmid&lt;br&gt;
+Maintainer: Michael Schmid&lt;br&gt;
+Title: Neural Networks&lt;br&gt;
+Description: A feed forward multi-layer neural network.&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+Url: http://octnnettb.sourceforge.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Nurbs</name>
+	<version>1.3.1</version>
+	<url>http://downloads.sourceforge.net/octave/nurbs-1.3.1.tar.gz?download</url>
+	<description>
+Name: Nurbs
+Version: 1.3.1&lt;br&gt;
+Date: 2010-09-17&lt;br&gt;
+Author: Mark Spink, Daniel Claxton, Carlo de Falco, Rafael Vazquez&lt;br&gt;
+Maintainer: Carlo de Falco&lt;br&gt;
+Title: Nurbs.&lt;br&gt;
+Description: Collection of routines for the creation, and manipulation of Non-Uniform Rational B-Splines (NURBS).&lt;br&gt;
+Categories: splines&lt;br&gt;
+Depends: octave (&gt;= 3.2)&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+SVNRelease: 7750&lt;br&gt;
+	</description>
+	<categories>splines</categories>
+</package>
+
+<package>
+	<name>OCS</name>
+	<version>0.1.0</version>
+	<url>http://downloads.sourceforge.net/octave/ocs-0.1.0.tar.gz?download</url>
+	<description>
+Name: OCS
+Version: 0.1.0&lt;br&gt;
+Date: 2010-02-09&lt;br&gt;
+Author: Carlo de Falco, Culpo Massimiliano&lt;br&gt;
+Maintainer: Culpo Massimiliano&lt;br&gt;
+Title: Octave Circuit Simulator&lt;br&gt;
+Description: Package for solving DC and transient electrical circuit equations &lt;br&gt;
+Depends: octave (&gt;= 3.0.0), odepkg&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+SVNRelease: 6866&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Oct2Mat</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/oct2mat-1.0.7.tar.gz?download</url>
+	<description>
+Name: Oct2Mat
+Version: 1.0.7&lt;br&gt;
+Date: 2008-08-23&lt;br&gt;
+Author: Paul Kienzle&lt;br&gt;
+Maintainer: Alois Schloegl&lt;br&gt;
+Title: Oct2Mat&lt;br&gt;
+Description: convert m-file into matlab-compatible coding style&lt;br&gt;
+Categories: graphics&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), io (&gt;= 1.0.0)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>graphics</categories>
+</package>
+
+<package>
+	<name>octcdf</name>
+	<version>1.1.1</version>
+	<url>http://downloads.sourceforge.net/octave/octcdf-1.1.1.tar.gz?download</url>
+	<description>
+Name: octcdf
+Version: 1.1.1&lt;br&gt;
+Date: 2010-11-17&lt;br&gt;
+Author: Alexander Barth &lt;barth.alexander@gmail.com&gt;&lt;br&gt;
+Maintainer: Alexander Barth &lt;barth.alexander@gmail.com&gt;&lt;br&gt;
+Title: octcdf&lt;br&gt;
+Description: A NetCDF interface for octave&lt;br&gt;
+Depends: octave (&gt;= 3.3.51)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+BuildRequires: netcdf-devel&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>OctGPR</name>
+	<version>1.2.0</version>
+	<url>http://downloads.sourceforge.net/octave/octgpr-1.2.0.tar.gz?download</url>
+	<description>
+Name: OctGPR
+Version: 1.2.0&lt;br&gt;
+Date: 2009-08-06&lt;br&gt;
+Author: Jaroslav Hajek (highegg@gmail.com)&lt;br&gt;
+Title: Package for full dense Gaussian Process Regression&lt;br&gt;
+Maintainer: Jaroslav Hajek (highegg@gmail.com)&lt;br&gt;
+Description: The package allows interpolating and smoothing scattered &lt;br&gt;
+  multidimensional data using Gaussian Process Regression (also known&lt;br&gt;
+  as Kriging). Projected Gaussian Process regression is also &lt;br&gt;
+  experimentally supported.&lt;br&gt;
+License: GPL v3&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>OctPROJ</name>
+	<version>1.0.0</version>
+	<url>http://downloads.sourceforge.net/octave/octproj-1.0.0.tar.gz?download</url>
+	<description>
+Name: OctPROJ
+Version: 1.0.0&lt;br&gt;
+Date: 2010-02-06&lt;br&gt;
+Author: José Luis García Pallero, &lt;jgpallero@gmail.com&gt;&lt;br&gt;
+Maintainer: José Luis García Pallero, &lt;jgpallero@gmail.com&gt;&lt;br&gt;
+Title: GNU Octave bindings to PROJ.4&lt;br&gt;
+Description: This package allows to call functions of PROJ.4 library for&lt;br&gt;
+ cartographic projections transformations.&lt;br&gt;
+Depends: Octave (&gt;= 2.9.7)&lt;br&gt;
+Url: http://trac.osgeo.org/proj/ http://octave.sourceforge.net/index.html&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3 or later (PROJ.4 is under MIT license)&lt;br&gt;
+SystemRequirements: libproj-dev (&gt;= 4.7.0) (Debian system)&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>odebvp</name>
+	<version>1.0.6</version>
+	<url>http://downloads.sourceforge.net/octave/odebvp-1.0.6.tar.gz?download</url>
+	<description>
+Name: odebvp
+Version: 1.0.6&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Tiago Charters de Azevedo&lt;br&gt;
+Maintainer: Tiago Charters de Azevedo&lt;br&gt;
+Title: 	Linear-difference method for linear odes - boundary-value problem&lt;br&gt;
+Description:  To approximate the solution of the boundary-value problem  y''=p(x)*y' + q(x)*y + r(x), a&lt;=x&lt;=b, y(a)=alpha, y(b)=beta by the linear finite-diffence method.&lt;br&gt;
+Categories: 	Ordinary Differential Equations&lt;br&gt;
+Autoload: 	yes&lt;br&gt;
+Depends: octave (&gt;= 2.9.9)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Ordinary Differential Equations</categories>
+</package>
+
+<package>
+	<name>OdePkg</name>
+	<version>0.6.10</version>
+	<url>http://downloads.sourceforge.net/octave/odepkg-0.6.10.tar.gz?download</url>
+	<description>
+Name: OdePkg
+Version: 0.6.10&lt;br&gt;
+Date: 2010-02-14&lt;br&gt;
+Author: Thomas Treichl&lt;br&gt;
+Maintainer: Thomas Treichl&lt;br&gt;
+Title: OdePkg.&lt;br&gt;
+Description: A package for solving ordinary differential equations and more. &lt;br&gt;
+Categories: Differential Equations&lt;br&gt;
+Depends: octave (&gt;= 3.2.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Differential Equations</categories>
+</package>
+
+<package>
+	<name>openmpi_ext</name>
+	<version>1.0.2</version>
+	<url>http://downloads.sourceforge.net/octave/openmpi_ext-1.0.2.tar.gz?download</url>
+	<description>
+Name: openmpi_ext
+Version: 1.0.2&lt;br&gt;
+Date: 2010-6-17&lt;br&gt;
+Author: Riccardo Corradini &lt;riccardocorradini@yahoo.it&gt; and the Octave Community&lt;br&gt;
+Maintainer: Riccardo Corradini &lt;riccardocorradini@yahoo.it&gt;&lt;br&gt;
+Title: openmpi_ext&lt;br&gt;
+Description: MPI functions for parallel computing using simple MPI Derived Datatypes.&lt;br&gt;
+Depends: octave (&gt;= 3.2.4)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Optim</name>
+	<version>1.0.15</version>
+	<url>http://downloads.sourceforge.net/octave/optim-1.0.15.tar.gz?download</url>
+	<description>
+Name: Optim
+Version: 1.0.15&lt;br&gt;
+Date: 2010-10-25&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Optimzation.&lt;br&gt;
+Description: Non-linear optimization toolkit.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), miscellaneous (&gt;= 1.0.10), struct (&gt;= 1.0.8)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later and GFDL&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>optiminterp</name>
+	<version>0.3.2</version>
+	<url>http://downloads.sourceforge.net/octave/optiminterp-0.3.2.tar.gz?download</url>
+	<description>
+Name: optiminterp
+Version: 0.3.2&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Alexander Barth &lt;abarth@marine.usf.edu&gt;, Aida Alvera-Azc�rate &lt;aalvera@marine.usf.edu&gt;&lt;br&gt;
+Maintainer: Alexander Barth &lt;abarth@marine.usf.edu&gt;&lt;br&gt;
+Title: optiminterp&lt;br&gt;
+Description: An optimal interpolation toolbox for octave. This package provides functions to perform a n-dimensional optimal interpolations of arbitrarily distributed data points.&lt;br&gt;
+Depends: octave (&gt;= 2.9.9)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Outliers</name>
+	<version>0.13.9</version>
+	<url>http://downloads.sourceforge.net/octave/outliers-0.13.9.tar.gz?download</url>
+	<description>
+Name: Outliers
+Version: 0.13.9&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Lukasz Komsta&lt;br&gt;
+Maintainer: Lukasz Komsta&lt;br&gt;
+Title: Outlier Detection&lt;br&gt;
+Description: Grubbs, Dixon and Cochran tests for outlier detection&lt;br&gt;
+ and p-value approximating routines.&lt;br&gt;
+Categories: outlier detection, statistics&lt;br&gt;
+Depends: octave (&gt;= 2.9.9)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://www.komsta.net/&lt;br&gt;
+	</description>
+	<categories>outlier detection, statistics</categories>
+</package>
+
+<package>
+	<name>Parallel</name>
+	<version>2.0.4</version>
+	<url>http://downloads.sourceforge.net/octave/parallel-2.0.4.tar.gz?download</url>
+	<description>
+Name: Parallel
+Version: 2.0.4&lt;br&gt;
+Date: 2010-08-24&lt;br&gt;
+Author: Hayato Fujiwara and Olaf Till &lt;olaf.till@uni-jena.de&gt;&lt;br&gt;
+Maintainer: Olaf Till &lt;olaf.till@uni-jena.de&gt;&lt;br&gt;
+Title: Parallel Computing.&lt;br&gt;
+Description: Parallel execution package for cluster computers. See&lt;br&gt;
+ also package openmpi_ext, maintained by Riccardo Corradini. For&lt;br&gt;
+ parallel execution on a single machine see e.g. function parcellfun&lt;br&gt;
+ (author: Jaroslav Hajek) in package general.&lt;br&gt;
+Depends: octave (&gt;= 3.0.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL, see individual files for GPL version&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>PDB</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/pdb-1.0.7.tar.gz?download</url>
+	<description>
+Name: PDB
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Teemu Ikonen&lt;br&gt;
+Maintainer: Teemu Ikonen&lt;br&gt;
+Title: PDB protien database&lt;br&gt;
+Description: Reads and display PDB-files from the Brookhaven protein databank&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>PhysicalConstants</name>
+	<version>0.1.7</version>
+	<url>http://downloads.sourceforge.net/octave/physicalconstants-0.1.7.tar.gz?download</url>
+	<description>
+Name: PhysicalConstants
+Version: 0.1.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Muthiah Annamalai&lt;br&gt;
+Maintainer: Muthiah Annamalai&lt;br&gt;
+Title: Physical Constants&lt;br&gt;
+Description: Physical Constants from Atomic &amp; Molecular Physics, taken from NIST database&lt;br&gt;
+Categories: Physics&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Physics</categories>
+</package>
+
+<package>
+	<name>Plot</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/plot-1.0.8.tar.gz?download</url>
+	<description>
+Name: Plot
+Version: 1.0.8&lt;br&gt;
+Date: 2010-03-04&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Plotting.&lt;br&gt;
+Description: Additional ploting tools for Octave.&lt;br&gt;
+Categories: Plotting&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Plotting</categories>
+</package>
+
+<package>
+	<name>pt_br</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/pt_br-1.0.9.tar.gz?download</url>
+	<description>
+Name: pt_br
+Version: 1.0.9&lt;br&gt;
+Date: 2010-02-08&lt;br&gt;
+Author: Jorge Barros de Abreu &lt;ficmatin01 at skipthis solar dot com dot br&gt;&lt;br&gt;
+Maintainer: Jorge Barros de Abreu &lt;ficmatin01 at skipthis solar dot com dot br&gt;&lt;br&gt;
+Title: Brazilian Portuguese&lt;br&gt;
+Description: Brazilian Portuguese translations of the help strings of the&lt;br&gt;
+ Octave functions. &lt;br&gt;
+Categories: languages&lt;br&gt;
+Depends: octave (&gt; 2.9.9)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>languages</categories>
+</package>
+
+<package>
+	<name>quaternion</name>
+	<version>1.0.0</version>
+	<url>http://downloads.sourceforge.net/octave/quaternion-1.0.0.tar.gz?download</url>
+	<description>
+Name: quaternion
+Version: 1.0.0&lt;br&gt;
+Date: 2008-07-17&lt;br&gt;
+Author: A. S. Hodel &lt;a.s.hodel@eng.auburn.edu&gt;&lt;br&gt;
+Maintainer: The Octave-Forge Community&lt;br&gt;
+Title: Quaternion Package&lt;br&gt;
+Description: Package for the manipulation of Quaternion's used for&lt;br&gt;
+ frame transformation&lt;br&gt;
+Categories: Mathematics&lt;br&gt;
+Depends: octave (&gt;= 3.1.0)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Mathematics</categories>
+</package>
+
+<package>
+	<name>SECS1D</name>
+	<version>0.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/secs1d-0.0.8.tar.gz?download</url>
+	<description>
+Name: SECS1D
+Version: 0.0.8&lt;br&gt;
+Date: 2008-08-23&lt;br&gt;
+Author: Carlo de Falco&lt;br&gt;
+Maintainer: Carlo de Falco&lt;br&gt;
+Title: SEmi Conductor Simulator in 1D &lt;br&gt;
+Description: A Drift-Diffusion simulator for 1d semiconductor devices&lt;br&gt;
+Categories: Electrical Engineering&lt;br&gt;
+Depends: octave (&gt;= 2.9.17)&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://www.comson.org/dem &lt;br&gt;
+	</description>
+	<categories>Electrical Engineering</categories>
+</package>
+
+<package>
+	<name>SECS2D</name>
+	<version>0.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/secs2d-0.0.8.tar.gz?download</url>
+	<description>
+Name: SECS2D
+Version: 0.0.8&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Carlo de Falco&lt;br&gt;
+Maintainer: Carlo de Falco&lt;br&gt;
+Title: SEmi Conductor Simulator in 2D &lt;br&gt;
+Description: A Drift-Diffusion simulator for 2d semiconductor devices&lt;br&gt;
+Categories: Electrical Engineering&lt;br&gt;
+Depends: octave (&gt;= 2.9.17)&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://www.comson.org/dem &lt;br&gt;
+	</description>
+	<categories>Electrical Engineering</categories>
+</package>
+
+<package>
+	<name>Signal</name>
+	<version>1.0.11</version>
+	<url>http://downloads.sourceforge.net/octave/signal-1.0.11.tar.gz?download</url>
+	<description>
+Name: Signal
+Version: 1.0.11&lt;br&gt;
+Date: 2010-03-10&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Signal Processing.&lt;br&gt;
+Description: Signal processing tools, including filtering, windowing and display functions.&lt;br&gt;
+Depends: octave (&gt; 2.9.9), optim (&gt;= 1.0.0), specfun&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>simp</name>
+	<version>1.1.0</version>
+	<url>http://downloads.sourceforge.net/octave/simp-1.1.0.tar.gz?download</url>
+	<description>
+Name:  			simp
+Version: 		1.1.0&lt;br&gt;
+Date: 			2/1/2009&lt;br&gt;
+Author: 		Simone Pernice&lt;br&gt;
+Maintainer: 		Simone Pernice&lt;br&gt;
+Title: 			Single Interval Mathematics Package for Octave&lt;br&gt;
+Description: 		This package define the basic operations on intervals. It is useful when some values for a computation are incerte.&lt;br&gt;
+Categories: 		Interval Mathematics&lt;br&gt;
+Url: 			simonepernice.freehostia.com&lt;br&gt;
+Autoload: 		yes&lt;br&gt;
+License: 		GPL version 3&lt;br&gt;
+	</description>
+	<categories>Interval Mathematics</categories>
+</package>
+
+<package>
+	<name>sockets</name>
+	<version>1.0.6</version>
+	<url>http://downloads.sourceforge.net/octave/sockets-1.0.6.tar.gz?download</url>
+	<description>
+Name: sockets
+Version: 1.0.6&lt;br&gt;
+Date: 2009-11-16&lt;br&gt;
+Author: John Swensen &lt;jpswensen@comcast.net&gt;&lt;br&gt;
+Maintainer: Tom Holroyd &lt;tomh@kurage.nimh.nih.gov&gt;&lt;br&gt;
+Title: Sockets&lt;br&gt;
+Description: Socket functions for networking from within octave.&lt;br&gt;
+Categories: Sockets&lt;br&gt;
+Depends: octave (&gt;= 2.9.10)&lt;br&gt;
+Autoload: no&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Sockets</categories>
+</package>
+
+<package>
+	<name>Specfun</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/specfun-1.0.9.tar.gz?download</url>
+	<description>
+Name: Specfun
+Version: 1.0.9&lt;br&gt;
+Date: 2010-02-04&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Specfun&lt;br&gt;
+Description: Special functions including ellipitic functions, etc&lt;br&gt;
+Categories: Specfun&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Specfun</categories>
+</package>
+
+<package>
+	<name>special-matrix</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/special-matrix-1.0.7.tar.gz?download</url>
+	<description>
+Name: special-matrix
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Paul Kienzle &lt;pkienzle@users.sf.net&gt;&lt;br&gt;
+Maintainer: Paul Kienzle &lt;pkienzle@users.sf.net&gt;&lt;br&gt;
+Title: Special Matrices&lt;br&gt;
+Description: Additional Special Matrices for Octave.&lt;br&gt;
+Categories: Special Matrices&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Special Matrices</categories>
+</package>
+
+<package>
+	<name>spline-gcvspl</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/spline-gcvspl-1.0.8.tar.gz?download</url>
+	<description>
+Name: spline-gcvspl
+Version: 1.0.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Joerg Specht&lt;br&gt;
+Maintainer: Joerg Specht&lt;br&gt;
+Title: Spline function based on GCVSPL package&lt;br&gt;
+Description: B-spline data smoothing using generalized cross-validation and mean squared prediction or explicit user smoothing&lt;br&gt;
+Categories: Interpolation&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: Non Commercial Use Only&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Interpolation</categories>
+</package>
+
+<package>
+	<name>splines</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/splines-1.0.7.tar.gz?download</url>
+	<description>
+Name: splines
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Kai Habel and Paul Kienzle&lt;br&gt;
+Maintainer: Kai Habel and Paul Kienzle&lt;br&gt;
+Title: Splines.&lt;br&gt;
+Description: Additional Cubic spline functions.&lt;br&gt;
+Categories: Splines&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL v2 or later, and Public Domain&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Splines</categories>
+</package>
+
+<package>
+	<name>Statistics</name>
+	<version>1.0.10</version>
+	<url>http://downloads.sourceforge.net/octave/statistics-1.0.10.tar.gz?download</url>
+	<description>
+Name: Statistics
+Version: 1.0.10&lt;br&gt;
+Date: 2010-03-27&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: Arno Onken &lt;asnelt@asnelt.org&gt;&lt;br&gt;
+Title: Statistics&lt;br&gt;
+Description: Additional statistics functions for Octave.&lt;br&gt;
+Categories: Statistics&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), miscellaneous&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: See individual files&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Statistics</categories>
+</package>
+
+<package>
+	<name>strings</name>
+	<version>1.0.7</version>
+	<url>http://downloads.sourceforge.net/octave/strings-1.0.7.tar.gz?download</url>
+	<description>
+Name: strings
+Version: 1.0.7&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: String Handling.&lt;br&gt;
+Description: Additional manipulation functions&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+BuildRequires: pcre-devel&lt;br&gt;
+License: See individual files&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Struct</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/struct-1.0.8.tar.gz?download</url>
+	<description>
+Name: Struct
+Version: 1.0.8&lt;br&gt;
+Date: 2010-10-18&lt;br&gt;
+Author: Etienne Grossmann and Olaf Till &lt;olaf.till@uni-jena.de&gt;&lt;br&gt;
+Maintainer: Etienne Grossmann&lt;br&gt;
+Title: Structure Handling.&lt;br&gt;
+Description: Additional Structure manipulations functions.&lt;br&gt;
+Categories: Structs&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Structs</categories>
+</package>
+
+<package>
+	<name>SymBand</name>
+	<version>1.0.10</version>
+	<url>http://downloads.sourceforge.net/octave/symband-1.0.10.tar.gz?download</url>
+	<description>
+Name: SymBand
+Version: 1.0.10&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Andreas Stahel &lt;Andreas.Stahel@hta-bi.bfh.ch&gt;&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Symmetric Banded Matrices&lt;br&gt;
+Description: Linear Algebra for Symmetric Banded Matrices.&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Symbolic</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/symbolic-1.0.9.tar.gz?download</url>
+	<description>
+Name: Symbolic
+Version: 1.0.9&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Various Authors&lt;br&gt;
+Maintainer: The Octave Community&lt;br&gt;
+Title: Symbolic Computations.&lt;br&gt;
+Description: Symbolic toolbox based on GiNaC and CLN.&lt;br&gt;
+BuildRequires: ginac-devel&lt;br&gt;
+Depends: octave (&gt;= 3.1.55)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Tcl-Octave</name>
+	<version>0.1.8</version>
+	<url>http://downloads.sourceforge.net/octave/tcl-octave-0.1.8.tar.gz?download</url>
+	<description>
+Name: Tcl-Octave
+Version: 0.1.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Paul Kienzle&lt;br&gt;
+Maintainer: Paul Kienzle&lt;br&gt;
+Title: Tcl Interface to Octave&lt;br&gt;
+Description:  socket implementation of a tcl-octave connection&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+Systemrequirements: tcl&lt;br&gt;
+License: Public Domain&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>time</name>
+	<version>1.0.9</version>
+	<url>http://downloads.sourceforge.net/octave/time-1.0.9.tar.gz?download</url>
+	<description>
+Name: time
+Version: 1.0.9&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Maintainer: Bill Denney &lt;bill@denney.ws&gt;&lt;br&gt;
+Title: Time and Dates&lt;br&gt;
+Description: Additional date manipulation tools.&lt;br&gt;
+Categories: Time&lt;br&gt;
+Depends: octave (&gt;= 3.0.1)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Time</categories>
+</package>
+
+<package>
+	<name>TSA</name>
+	<version>4.1.0</version>
+	<url>https://sourceforge.net/projects/octave/files/Octave%20Forge%20Packages/Individual%20Package%20Releases/tsa-4.1.0.tar.gz/download</url>
+	<description>
+Name: TSA
+Version: 4.1.0&lt;br&gt;
+Date: 2010-09-08&lt;br&gt;
+Author: Alois Schloegl &lt;a.schloegl@ieee.org&gt;&lt;br&gt;
+Maintainer: Alois Schloegl&lt;br&gt;
+Title: The TSA-toolbox&lt;br&gt;
+Description: A toolbox for Time Series Analysis .&lt;br&gt;
+Depends: octave (&gt; 2.9.0)&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Url: http://biosig-consulting.com/matlab/tsa&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>video</name>
+	<version>1.0.2</version>
+	<url>http://downloads.sourceforge.net/octave/video-1.0.2.tar.gz?download</url>
+	<description>
+Name: video
+Version: 1.0.2&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Stefan van der Walt, Roman Stanchak&lt;br&gt;
+Maintainer: Xavier Delacour&lt;br&gt;
+Title: Video functions&lt;br&gt;
+Description: Implements addframe, avifile, aviinfo, and aviread, using ffmpeg. (and approximately conforms to Matlab interface)&lt;br&gt;
+Depends: octave (&gt;= 2.9.12)&lt;br&gt;
+Autoload: yes&lt;br&gt;
+SystemRequirements: ffmpeg&lt;br&gt;
+License: BSD&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Vrml</name>
+	<version>1.0.11</version>
+	<url>http://downloads.sourceforge.net/octave/vrml-1.0.11.tar.gz?download</url>
+	<description>
+Name: Vrml
+Version: 1.0.11&lt;br&gt;
+Date: 2010-02-07&lt;br&gt;
+Author: Etienne Grossmann&lt;br&gt;
+Maintainer: Etienne Grossmann&lt;br&gt;
+Title: VRML.&lt;br&gt;
+Description: 3D graphics using VRML&lt;br&gt;
+Depends: octave (&gt;= 2.9.7), miscellaneous, struct, statistics&lt;br&gt;
+Autoload: yes&lt;br&gt;
+SystemRequirements: freewrl&lt;br&gt;
+License: GPL version 2 or later and GFDL&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>Windows</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/windows-1.0.8.tar.gz?download</url>
+	<description>
+Name: Windows
+Version: 1.0.8&lt;br&gt;
+Date: 2009-05-03&lt;br&gt;
+Author: Andy Adler &lt;alder@ncf.ca&gt;&lt;br&gt;
+Maintainer: Andy Adler &lt;alder@ncf.ca&gt;&lt;br&gt;
+Title: Windows functions&lt;br&gt;
+Description: Provides COM interface and additional functionality on Windows&lt;br&gt;
+Categories: Windows&lt;br&gt;
+Depends: octave (&gt;= 2.9.7)&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+	<categories>Windows</categories>
+</package>
+
+<package>
+	<name>Xraylib</name>
+	<version>1.0.8</version>
+	<url>http://downloads.sourceforge.net/octave/xraylib-1.0.8.tar.gz?download</url>
+	<description>
+Name: Xraylib
+Version: 1.0.8&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: Teemu Ikonen   &lt;tpikonen@gmail.com&gt;&lt;br&gt;
+Maintainer: Teemu Ikonen   &lt;tpikonen@gmail.com&gt;&lt;br&gt;
+Title: GNU Scientific Library&lt;br&gt;
+Description: Bindings to the Xraylib functions&lt;br&gt;
+Categories: X-raydata&lt;br&gt;
+License: GPL version 2&lt;br&gt;
+Url: http://ftp.esrf.fr/pub/scisoft/xraylib/&lt;br&gt;
+	</description>
+	<categories>X-raydata</categories>
+</package>
+
+<package>
+	<name>Zenity</name>
+	<version>0.5.7</version>
+	<url>http://downloads.sourceforge.net/octave/zenity-0.5.7.tar.gz?download</url>
+	<description>
+Name: Zenity
+Version: 0.5.7&lt;br&gt;
+Date: 2009-05-06&lt;br&gt;
+Author: S�ren Hauberg&lt;br&gt;
+Maintainer: S�ren Hauberg&lt;br&gt;
+Title: Zenity&lt;br&gt;
+Description: A set of functions for creating simple graphical&lt;br&gt;
+ user interfaces. It is currently possible to create&lt;br&gt;
+ calendar windows, text entries, file selection dialogs,&lt;br&gt;
+ lists, message windows, icons in the notification area,&lt;br&gt;
+ and windows for large amount of text.&lt;br&gt;
+License: GPL version 2 or later&lt;br&gt;
+SystemRequirements: zenity (&gt;= 2.16)&lt;br&gt;
+Url: http://octave.sf.net&lt;br&gt;
+	</description>
+</package>
+
+<package>
+	<name>SvgPlot</name>
+	<version>0.0.1</version>
+	<url>http://forja.rediris.es/frs/download.php/1404/svgplot-0.0.1.tar.gz</url>
+	<description>
+Name: SvgPlot
+Version: 0.0.1&lt;br&gt;
+Date: 2009-07-16&lt;br&gt;
+Author: P. L. Lucas &lt;selairi _put_at_here gmail.com  &gt;&lt;br&gt;
+Maintainer: P. L. Lucas &lt;selairi _put_at_here gmail.com  &gt;&lt;br&gt;
+Title: SvgPlot&lt;br&gt;
+Description: This is a simple library with tools for drawing in SVG file format. You don't need know SVG file format to draw your figures.&lt;br&gt;
+License: GPL version 3 or later&lt;br&gt;
+Categories: Plotting&lt;br&gt;
+	</description>
+	<categories>Plotting</categories>
+</package>
+
+</repository>

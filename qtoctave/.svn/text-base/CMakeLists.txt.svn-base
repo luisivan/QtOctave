@@ -1,0 +1,47 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.4)
+
+# The name of our project is "QTOCTAVE".  CMakeLists files in this project can
+# refer to the root source directory of the project as ${QTOCTAVE_SOURCE_DIR} and
+# to the root binary directory of the project as ${QTOCTAVE_BINARY_DIR}.
+
+project (qtoctave)
+
+#include ("options.txt")
+
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake-modules/)
+
+#Uncoment to Verbose mode
+#set(CMAKE_VERBOSE_MAKEFILE TRUE)
+
+ADD_DEFINITIONS(-DUSER_CONFIG)
+
+add_subdirectory (src)
+
+
+# install	(
+# 	TARGETS src/config_files/qtoctave
+# 	RUNTIME DESTINATION bin
+# 	)
+
+
+IF (UNIX)
+  SET(CPACK_CMAKE_GENERATOR "Unix Makefiles")
+  SET(CPACK_SOURCE_GENERATOR "TGZ")
+  SET(CPACK_GENERATOR "TGZ")
+  SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "qtoctave - a frontend for GNU octave")
+  SET(CPACK_PACKAGE_VENDOR "The qtoctave team")
+  SET(CPACK_PACKAGE_DESCRIPTION_FILE "${CMAKE_CURRENT_SOURCE_DIR}/readme.txt")
+  SET(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE_GPL.txt")
+  SET(CPACK_PACKAGE_NAME qtoctave)
+  SET(CPACK_SYSTEM_NAME ${CMAKE_SYSTEM_NAME})
+  SET(CPACK_PACKAGE_VERSION_MAJOR "0")
+  SET(CPACK_PACKAGE_VERSION_MINOR "8.2")
+  SET(CPACK_PACKAGE_VERSION "${CPACK_PACKAGE_VERSION_MAJOR}.${CPACK_PACKAGE_VERSION_MINOR}")
+  SET(CPACK_SOURCE_PACKAGE_FILE_NAME "${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}")
+  SET(CPACK_SOURCE_IGNORE_FILES "/.svn/;/cmake-build/")
+  INCLUDE(CPack)
+  INCLUDE(UseRPMTools OPTIONAL)
+  IF(RPMTools_FOUND)
+    RPMTools_ADD_RPM_TARGETS(${PROJECT_NAME} ${PROJECT_NAME}.spec.in)
+  ENDIF(RPMTools_FOUND)
+ENDIF (UNIX)

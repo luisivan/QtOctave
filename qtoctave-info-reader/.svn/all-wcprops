@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/csl-qtoctave/!svn/ver/255/trunk/qtoctave-info-reader
+END
+qtinfo.pro
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/qtinfo.pro
+END
+webinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/webinfo.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/parser.h
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/Doxyfile
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/main.cpp
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/build.sh
+END
+images.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/255/trunk/qtoctave-info-reader/images.qrc
+END
+infomainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/infomainwindow.cpp
+END
+webinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/webinfo.cpp
+END
+parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/parser.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/CMakeLists.txt
+END
+qtoctave-info-reader.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/csl-qtoctave/!svn/ver/255/trunk/qtoctave-info-reader/qtoctave-info-reader.pro
+END
+infomainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/csl-qtoctave/!svn/ver/251/trunk/qtoctave-info-reader/infomainwindow.h
+END

@@ -1,0 +1,10 @@
+Para instalar qtjs:
+
+Debes tener instalada Qt4.4, así como los paquetes de desarrollo (las distribuciones de Linux normalmente llaman a estos paquetes qt4-dev).
+
+Entra en el directorio qtjs, verás el archivo "qtjs.pro". Entonces teclea:
+
+qmake
+make
+
+Finalmente copia el ejecutable generado a /usr/local/bin

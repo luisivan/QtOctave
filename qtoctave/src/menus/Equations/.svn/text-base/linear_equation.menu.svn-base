@@ -1,0 +1,26 @@
+#Solve linear equation
+
+menu_name=Linear equation
+
+#i1
+input_label=A
+input=
+
+
+#o1
+output_label=B
+output=
+
+
+begin{command}
+(%i1%)\(%o1%)
+end{command}
+
+begin{help}
+<p><b>Solve linear equation</b></p>
+<p></p>
+<p>Solve the set of linear equations ax = b</p>
+<p>a and b could be matrixs.</p>
+end{help}
+
+

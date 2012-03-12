@@ -1,0 +1,34 @@
+<html>
+<h1>About.</h1>
+<p><b>QtOctave version 0.10.1</b></p>
+<p>
+Pedro Luis Lucas Rosado </p>
+<ul>
+<li><b>To Pilar, my wife and my angel.</b></li>
+</ul>
+Alejandro &Aacute;varez Ayll&oacute;n<br>
+and <b>Unalix</b> Development Group:<br>
+David Salda&ntilde;a<br>
+Willinton Vega
+<p></p>
+<p>You can send your comments to:</p>
+<p>Project page: <i>https://forja.rediris.es/projects/csl-qtoctave/</i></p>
+<p>Email: "selairi _replace_this_with_at_ gmail.com"</p>
+<p><b>Acknowledgements.</b></p>
+<p>
+To Pilar, my wife and my angel,<br>
+to Rafael Tovar, Rafael Rodr&iacute;guez Galv&aacute;n and OSLUCA help,<br>
+to Javier Arantegui for your suggestions and MacOS X install
+instructions,<br>
+to Ricardo (Lical) for your first suggestions,<br>
+to Daniel and Hugo from Dpto. F&iacute;sica y matem&aacute;tica de fluidos (UNED) for
+your
+suggestions and nice coffes,<br>
+to "Primer Concurso Universitario de Software Libre" for your second
+prize and
+diffusion of QtOctave project,<br>
+to Rob Frohne for your suggestions and bugs killed :-)<br>
+to 
+to anybody who has worked and has suggested new features.</p>
+<pre>Copyright (C) 2007-2010 P.L. Lucas<br><br>This program is free software; you can redistribute it and/or modify<br>it under the terms of the GNU General Public License as published by<br>the Free Software Foundation; either version 2 of the License, or<br>(at your option) any later version.<br><br>This program is distributed in the hope that it will be useful,<br>but WITHOUT ANY WARRANTY; without even the implied warranty of<br>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the<br>GNU General Public License for more details.<br><br>You should have received a copy of the GNU General Public License<br>along with this program; if not, write to the Free Software<br>Foundation, Inc., 59 Temple Place, Suite 330, <br>Boston, MA 02111-1307, USA. <br></pre>
+</body></html>

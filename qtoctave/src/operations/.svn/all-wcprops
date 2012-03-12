@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/250/trunk/qtoctave/src/operations
+END
+plot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/250/trunk/qtoctave/src/operations/plot.cpp
+END
+general_menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/csl-qtoctave/!svn/ver/218/trunk/qtoctave/src/operations/general_menu.cpp
+END
+operations.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/operations/operations.cpp
+END
+table_plot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/operations/table_plot.cpp
+END
+general_menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/230/trunk/qtoctave/src/operations/general_menu.h
+END
+table_plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/operations/table_plot.h
+END
+general_menu.ui
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/csl-qtoctave/!svn/ver/218/trunk/qtoctave/src/operations/general_menu.ui
+END

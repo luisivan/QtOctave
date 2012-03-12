@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>QtOctave Help</title></head>
+<body>
+<h1>QtOctave Help.</h1>
+<br>
+<h2>QtOctave is a Graphical User Interface for Gnu Octave</h2>
+QtOctave is a graphical user interface for gnu octave, which is an open
+source program alternative to Matlab. &nbsp;With QtOctave you can
+do perform computationally intensive mathematical tasks that would take
+much longer to code in C or C++ or practically any other modern
+computer language. &nbsp;It is especailly good at matrix and vector
+operations. &nbsp;The graphical capabilities are very advanced.
+&nbsp;It is used heavily in engineering, and is a tool well worth
+learning.<br>
+<br>
+This document describes how to use QtOctave. &nbsp;It does not
+describe using octave. &nbsp;Octave help is available from the menu
+Help-&gt;Octave Help or by clicking the <img style="width: 32px; height: 32px;" alt="Help Icon" title="Help Icon" src="../images/help.png"> button on
+the toolbar. &nbsp;Often tool tips are available by hovering the mouse over the various tools.<br>
+<br><h2>File</h2>
+<h3>Open New QtOctave Window</h3>
+<ul><li>Opens a new main QtOctave window</li></ul><h3>Editor</h3><ul><li>Opens a new editor window</li></ul><h3>Run an Octave Script<span style="text-decoration: underline;"></span></h3><ul><li>Allows you to select an octave script to run and runs it</li></ul><span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span><h3>Change Directory</h3><ul><li>Changes the working directory. &nbsp;You can do the same thing with cd "directory name"</li></ul><span style="font-weight: bold;"></span><h2>View</h2>
+<h3>Windows Layout</h3>
+Save or load actual windows configuration.
+<h3>Toolbars</h3>
+Select here the toolbars you wish to display on the Octave
+window.
+<h3>Docks</h3>
+Select which panels are open.<br>
+<h3>Show/Hide objects</h3>
+It shows or hides tools of QtOctave.
+
+<span style="font-weight: bold;"></span>
+<h2>Analysis</h2>
+
+Tools to solve differential equations or integrate functions.
+
+<h2>Data</h2>A graphical way to enter and save matrices<br><h2>Equations</h2>A graphical interface to solving equations<h2>Matrix</h2>A graphical interface to common matrix operations<h2>Statistics</h2>A graphical interface to some statistical functions including...<br><ul><li>Mean</li><li>Median</li><li>Standard Deviation</li><li>Covariance</li><li>Correlation Coefficient</li><li>Histogram</li></ul>
+
+<h2>Plot</h2>A graphical interface to plotting functions
+
+<h3>SvgCanvas</h3>
+
+You can show plots in SVG file format. You can export then to PDF, PNG,... Qt supports the static features of SVG 1.2 Tiny. ECMA scripts and DOM manipulation are currently not supported. You can find documentation about SVG in <a href='http://www.w3.org/TR/SVGMobile12/'>SVG 1.2 Tiny</a><br>
+
+QtOctave has several functions to work with SVG file format:<br>
+
+<b>svgcanvasload(n, file_name)</b><br>
+Shows file_name in window n. File_name must be absolute path.<br>
+
+Example:
+<pre>
+ svgcanvasload(1, '/home/user/ej1.svg')
+</pre>
+<br>
+
+<b>svgcanvassave(n, width, height, file_name)</b><br>
+Saves plot in window n in file file_name. File_name must be absolute path. File_name can be a PDF, PNG, JPEG, PS,... file format.<br>
+
+Example:
+<pre>
+ svgcanvassave(1, 200, 200, '/home/user/ej1.jpg')
+ svgcanvassave(1, 200, 200, '/home/user/ej1.pdf')
+</pre>
+<br>
+
+<b>svgcanvas_delete_on_load(n, file_name)</b><br>
+Shows file_name in window n. file_name is deleted. File_name must be absolute path. This command is very useful for animations.<br>
+
+Example:
+<pre>
+ svgcanvas_delete_on_load(1, '/home/user/ej1.svg')
+</pre>
+<br>
+
+This is an example of SvgCanvas. It plots a Lissajous figure of phase phase, and frequency ratio w:
+<pre>
+function ej(w, phase)
+	if(!exist('w'))
+		w=2;
+		phase=pi/4;
+	endif
+	out=fopen("ej9.svg", "w");
+	fprintf(out, '&lt;?xml version="1.0" standalone="yes"?&gt;\n');
+	fprintf(out, '&lt;svg width="200" height="200" version="1.1"&gt;\n');
+	fprintf(out, '&lt;path d="M %f %f', 200, 100-100*sin(phase) );
+	n=1000;
+	for k=1:n
+		fprintf(out, " L %f %f", 100+100*cos(k/n*2*pi), 100-100*sin(w*k/n*2*pi+phase) );
+	endfor
+	fprintf(out, '" fill="none" stroke="black" stroke-width="1"/&gt;\n');
+	fprintf(out, '&lt;/svg&gt;\n');
+	fclose(out);
+	disp("Ok");
+	file_name=sprintf("%s/ej9.svg", pwd);
+	svgcanvasload(1, file_name );
+endfunction
+</pre>
+
+<h2>Configuration</h2>
+<h3>General Configuration</h3>
+Set up things that are specific to your system.<br>
+<h4>Octave</h4>
+<ul>
+<li>Octave Path: QtOctave needs to know where octave is
+installed on your system so let it in on the secret here.</li>
+<li>Octave Arguments: &nbsp;You can supply octave with
+arguments at startup. &nbsp;So list those, use the argument --help.</li>
+<li>Folders: &nbsp;Add all the folders where you have .m
+files that you want octave to know about. &nbsp;Especially if you
+have installed octave-forge, you need to make sure octave knows where
+those files are located.</li>
+</ul>
+<h4>Help</h4>
+<ul>
+<li>Help Path: &nbsp;This is the location of the base file
+for octave help. &nbsp;It is called octave.html.</li>
+</ul>
+<h4>Editor</h4>
+<ul>
+<li>External Editor: &nbsp;Select if you wish to use an
+external editor, and what that editor is.</li>
+</ul>
+<h4>Terminal</h4>
+<ul>
+<li>Select colors and size of the terminal.</li>
+</ul>
+</ul><h2>Help</h2><h2><a href="menus.html">* Build your own QtOctave
+menus.</a></h2>
+<br>
+</body></html>

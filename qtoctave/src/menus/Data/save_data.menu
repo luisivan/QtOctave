@@ -1,0 +1,108 @@
+#Save matrix to file
+
+menu_name=Save matrix to file
+
+input_label= Matrix
+input=
+
+output_label= File
+output_file=
+
+output_label= Type
+begin{output_list}
+-text
+-binary
+-force
+-ascii
+-mat
+-mat-binary
+-6
+-v6
+-7
+-v7
+-V4
+-v4
+-4
+-mat4-binary
+-hdf5
+-float-hdf5
+-import
+-z
+-zip
+end{output_list}
+
+begin{command}
+save("%o2%", "%o1%", "%i1%")
+end{command}
+
+
+begin{help}
+<html>
+<body>
+<p>Save matrix data to selected file.</p>
+Valid options for `load' are listed in the following list:<br>
+<br>
+`-force'<br>
+	The `-force' option is accepted but ignored for backward
+	compatiability. Octave now overwrites variables currently in
+	memory with the same name as those found in the file.
+<br>
+`-ascii'<br>
+	Force Octave to assume the file contains columns of numbers
+	in text format without any header or other information.  Data
+	in the file will be loaded as a single numeric matrix with
+	the name of the variable derived from the name of the file.
+<br>
+`-binary'<br>
+	Force Octave to assume the file is in Octave's binary format.
+<br>
+`-mat'
+`-mat-binary'
+`-6'
+`-v6'
+`-7'
+`-v7'<br>
+	Force Octave to assume the file is in MATLAB's version 6 or 7
+	binary format.
+<br>
+`-V4'
+`-v4'
+`-4'
+`-mat4-binary'<br>
+	Force Octave to assume the file is in the binary format
+	written by MATLAB version 4.
+<br>
+`-hdf5'<br>
+	Force Octave to assume the file is in HDF5 format.  (HDF5 is
+	a free, portable binary format developed by the National
+	Center for Supercomputing Applications at the University of
+	Illinois.)  Note that Octave can read HDF5 files not created
+	by itself, but may skip some datasets in formats that it
+	cannot support.<br>
+
+	HDF5 load and save are not available, as this Octave
+	executable was not linked with the HDF5 library.
+<br>
+`-float-hdf5'<br>
+	Save the data in HDF5 format but only using single precision.
+	You should use this format only if you know that all the
+	values to be saved can be represented in single precision.
+<br>
+`-import'<br>
+	The `-import' is accepted but ignored for backward
+	compatiability.  Octave can now support multi-dimensional HDF
+	data and automatically modifies variable names if they are
+	invalid Octave identifiers.
+<br>
+`-text'<br>
+	Force Octave to assume the file is in Octave's text format.
+<br>
+`-zip'
+`-z'<br>
+	Use the gzip algorithm to compress the file. This works
+	equally on files that are compressed with gzip outside of
+	octave, and gzip can equally be used to convert the files for
+	backward compatibility.
+</body>
+</html>
+end{help}

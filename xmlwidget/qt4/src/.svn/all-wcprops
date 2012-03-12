@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src
+END
+xmlhandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/xmlhandler.cpp
+END
+output.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/output.cpp
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/parser.h
+END
+reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/reader.cpp
+END
+stdin_reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/stdin_reader.cpp
+END
+xmlhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/xmlhandler.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/main.cpp
+END
+output.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/output.h
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/build.sh
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/reader.h
+END
+stdin_reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/stdin_reader.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/CMakeLists.txt
+END
+parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/xmlwidget/qt4/src/parser.cpp
+END

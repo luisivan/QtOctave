@@ -1,0 +1,53 @@
+#Integrate by Simpson method
+
+menu_name=Simpson
+
+#i1
+input_label=Function
+input=3*x^2
+
+#i2
+input_label=1st limit (lowest)
+input=0
+
+#i3
+input_label=2st limit
+input=1
+
+#i4
+input_label=Number of partitions (must be an even number)
+input=10
+
+#o1
+output_label=IntegralValue
+output=value
+
+#o2
+output_label=Auxiliar variable 1
+output=aux1
+
+#o2
+output_label=Auxiliar variable 2
+output=aux2
+
+begin{command}
+%o1%=0;
+%o3%=@(x) %i1%;
+% %o2% is used as counter
+for %o2%=1:%i4%/2
+	%o1%=%o1%+2*%o3%(%i2%+2*%o2%    *(%i3%-%i2%)/%i4%);
+	%o1%=%o1%+4*%o3%(%i2%+(2*%o2%-1)*(%i3%-%i2%)/%i4%);
+end
+
+%o1%=((%i3%-%i2%)/%i4%)/3*( %o3%(%i2%)- %o3%(%i3%) + %o1%  )
+end{command}
+
+begin{help}
+<p><b>Calculate integrals using Simpson's rule</b></p>
+<p></p>
+<p>Simpson's rule approximates a function locally as a parabola across two subintervals.
+For this reason the total number of subintervals should be even.</p>
+<p>I=h/3( f_0 + f_N + 4f_(n odd) + 2f_(n even)  )</p>
+end{help}
+
+

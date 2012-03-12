@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/config_files
+END
+octave.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/config_files/octave.xml
+END
+config.rc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/csl-qtoctave/!svn/ver/285/trunk/qtoctave/src/config_files/config.rc
+END
+qtoctave.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/config_files/qtoctave.png
+END
+pkg-commands.list
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/config_files/pkg-commands.list
+END
+qtoctave.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/config_files/qtoctave.desktop
+END

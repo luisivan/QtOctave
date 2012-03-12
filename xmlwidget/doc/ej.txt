@@ -1,0 +1,76 @@
+
+<widgetserver>
+	<window id="window" title="Hello">
+		<hseparator id="hseparator">
+		<first>
+			<scroll id="vbox" expand="true">
+				<label id="label" bold="true">
+					<text>Hello world</text>
+				</label>
+				<textedit id="text" font="times" bold="false" size="12" italic="false">
+					<text>Hello world</text>
+				</textedit>
+				<lineedit id="lineedit" font="times" italic="true" >
+					<text>Hello world</text>
+				</lineedit>
+				<lineedit id="lineedit2" password="true" >
+					<text>Hello world</text>
+				</lineedit>
+			</scroll>
+		</first>
+		<second>
+			<vbox id="vbox2">
+				<button id="button" font="times" italic="true" >
+					<text>Hello world</text>
+					<icon>/usr/share/icons/amusement_section.png</icon>
+					<signal name="clicked">* Button: clicked</signal>
+				</button>
+				<tree id="tree">
+					<header name="Col 1"/>
+					<header name="Col 2"/>
+					<item id="1"><col value="1-1"/><col value="1-2"/></item>
+					<item id="2"><col value="2-1"/><col value="2-2"/>
+						<item id="3"><col value="3-1"/><col value="3-2"/></item>
+					</item>
+					<signal name="rowclicked">
+						<startmark value="Start mark"/>
+						<endmark value="End mark"/>
+						<linestartmark value="Line start mark"/>
+					</signal>
+				</tree>
+				<menu id="menu">
+					<menuitem id="menu-file" name="File">
+						<item id="menu-new" name="New"/>
+						<item id="menu-open" name="Open"/>
+						<menuitem id="menu-close" name="Close">
+							<item id="menu-all" name="All">* Todos</item>
+							<item id="menu-one" name="One"/>
+							<menuitem id="menu-close2" name="Close">
+								<item id="menu-all2" name="All2">* Todos2</item>
+								<item id="menu-one2" name="One2"/>
+							</menuitem>
+						</menuitem>
+						<menuitem id="menu-exit" name="Exit">
+						</menuitem>
+					</menuitem>
+					<menuitem id="menu-edit" name="Edit">
+					</menuitem>
+				</menu>
+			</vbox>
+		</second>
+		</hseparator>
+	</window>
+
+	<textedit id="textedit">
+		<get_text/>
+	</textedit>
+
+	<selectfile id="selectfile">
+		<file>.</file>
+		<signal name="activated">
+			<startmark value="Start mark"/>
+			<endmark value="End mark"/>
+			<linestartmark value="Line start mark"/>
+		</signal>
+	</selectfile>
+

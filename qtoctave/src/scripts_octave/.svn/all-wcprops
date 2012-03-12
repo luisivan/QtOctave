@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/282/trunk/qtoctave/src/scripts_octave
+END
+svgcanvas_delete_on_load.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/svgcanvas_delete_on_load.m
+END
+_ide_reload_variables_list.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/_ide_reload_variables_list.m
+END
+_ide_reload_matrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/_ide_reload_matrix.m
+END
+svgcanvassave.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/svgcanvassave.m
+END
+svgcanvasload.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/svgcanvasload.m
+END
+maxima.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/maxima.m
+END
+_ide_completion_matches.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/src/scripts_octave/_ide_completion_matches.m
+END
+qtinfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/csl-qtoctave/!svn/ver/282/trunk/qtoctave/src/scripts_octave/qtinfo.m
+END

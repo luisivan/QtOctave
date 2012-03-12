@@ -1,0 +1,42 @@
+#Control the format of the output produced by `disp' and Octave's normal echoing mechanism.
+
+menu_name=Format of the displayed output
+
+output_label= Format
+begin{output_list}
+short
+short e
+short E
+short g
+short G
+long
+long e
+long E
+long g
+long G
+free
+bank
++
+native-hex
+hex
+native-bit
+bit
+compact
+loose
+end{output_list}
+
+begin{command}
+format %o1%
+end{command}
+
+
+begin{help}
+<html>
+<body>
+Control the format of the output produced by `disp' and Octave's normal echoing mechanism.<br>
+Type:<br>
+<pre>help format</pre><br>
+In terminal for help.
+</body>
+</html>
+end{help}

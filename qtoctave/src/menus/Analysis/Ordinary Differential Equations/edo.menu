@@ -1,0 +1,116 @@
+#EDO solver
+
+menu_name=Ordinary Differential Equations
+
+input_label= Function name (no arguments, example: f)
+input= 
+
+input_label= Initial state of the system x_0
+input= 
+
+input_label= Initial time of the system t_0
+input=
+
+input_label= Final time of the system t
+input=
+
+output_label= Result (it will be matrix)
+output= 
+
+output_label= State (if State=2 then successful)
+output= 
+
+output_label=  Message (only if if State!=2)
+output=
+
+begin{command}
+[%o1%,%o2%,%o3%] = lsode (%i1%,%i2%,%i3%,%i4%);
+if (%o2%!=2)
+	printf("%s\n",%o3%);
+endif
+end{command}
+
+begin{help}
+<html>
+<body>
+<p>Solve the set of differential equations using:</p>
+<pre>
+ [x, istate, msg]=lsode (fcn, x_0, t, t_crit)
+</pre><br>
+<p>Solve the set of differential equations:</p>
+<pre>
+dx
+-- = f(x, t)
+dt
+</pre>
+<br>
+with<br> 
+<pre>
+x(t_0) = x_0
+</pre>
+<p>
+The solution is returned in the matrix x, with each row corresponding to an element of the vector t. The first element of t should be  and should correspond to the initial state of the system x_0, so that the first row of the output is x_0. 
+The first argument, fcn, is a string that names the function to call to compute the vector of right hand sides for the set of equations. The function must have the form </p>
+<pre>
+xdot = f (x, t)
+</pre>
+<p>
+in which xdot and x are vectors and t is a scalar. </p>
+<p>If fcn is a two-element string array, the first element names the function  described above, and the second element names a function to compute the Jacobian of . The Jacobian function must have the form </p>
+<pre> 
+jac = j (x, t)
+</pre>
+<p>
+in which jac is the matrix of partial derivatives </p>
+
+ <pre>
+             | df_1  df_1       df_1 |
+             | ----  ----  ...  ---- |
+             | dx_1  dx_2       dx_N |
+             |                       |
+             | df_2  df_2       df_2 |
+             | ----  ----  ...  ---- |
+      df_i   | dx_1  dx_2       dx_N |
+jac = ---- = |                       |
+      dx_j   |  .    .     .    .    |
+             |  .    .      .   .    |
+             |  .    .       .  .    |
+             |                       |
+             | df_N  df_N       df_N |
+             | ----  ----  ...  ---- |
+             | dx_1  dx_2       dx_N |
+</pre>
+<p>
+The second and third arguments specify the intial state of the system, , and the initial value of the independent variable . 
+The fourth argument is optional, and may be used to specify a set of times that the ODE solver should not integrate past. It is useful for avoiding difficulties with singularities and points where there is a discontinuity in the derivative. 
+After a successful computation, the value of istate will be 2 (consistent with the Fortran version of LSODE).</p>
+<p>If the computation is not successful, istate will be something other than 2 and msg will contain additional information.</p>
+<p>You can use the function lsode_options to set optional parameters for lsode.</p>
+
+ <p>Here is an example of solving a set of three differential equations
+using `lsode'.  Given the function:</p>
+<pre>
+     function xdot = f (x, t)
+
+       xdot = zeros (3,1);
+
+       xdot(1) = 77.27 * (x(2) - x(1)*x(2) + x(1) \
+                 - 8.375e-06*x(1)^2);
+       xdot(2) = (x(3) - x(1)*x(2) - x(2)) / 77.27;
+       xdot(3) = 0.161*(x(1) - x(3));
+
+     endfunction
+</pre>
+<p>
+and the initial condition `x0 = [ 4; 1.1; 4 ]', the set of equations
+can be integrated using the command</p>
+<pre>
+     t = linspace (0, 500, 1000);
+
+     y = lsode ("f", x0, t);
+</pre>
+</body>
+</html>
+end{help}
+
+

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/csl-qtoctave/!svn/ver/226/trunk/qtoctave_pkg/src
+END
+pkg_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/226/trunk/qtoctave_pkg/src/pkg_manager.h
+END
+download.ui
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave_pkg/src/download.ui
+END
+octave_bind.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/226/trunk/qtoctave_pkg/src/octave_bind.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/225/trunk/qtoctave_pkg/src/main.cpp
+END
+qtoctave_pkg.pro
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave_pkg/src/qtoctave_pkg.pro
+END
+about.ui
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave_pkg/src/about.ui
+END
+pkg_manager.ui
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/226/trunk/qtoctave_pkg/src/pkg_manager.ui
+END
+download.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/csl-qtoctave/!svn/ver/222/trunk/qtoctave_pkg/src/download.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/225/trunk/qtoctave_pkg/src/config.h
+END
+pkg_manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/226/trunk/qtoctave_pkg/src/pkg_manager.cpp
+END
+download.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/csl-qtoctave/!svn/ver/222/trunk/qtoctave_pkg/src/download.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave_pkg/src/CMakeLists.txt
+END
+octave_bind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csl-qtoctave/!svn/ver/213/trunk/qtoctave_pkg/src/octave_bind.cpp
+END
+resources.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave_pkg/src/resources.qrc
+END

@@ -1,0 +1,7 @@
+Para ver cualquier ejemplo sólo debe escribir:
+
+sh ejecutar_ejemplo.sh + el nombre del ejemplo que desea ejecutar
+
+Por ejemplo, para ejecutar los ejemplos sombrero2.ui y sombrero2.js, debe teclear en su terminal:
+
+sh ejecutar_ejemplo.sh sombrero2

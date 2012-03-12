@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/csl-qtoctave/!svn/ver/288/trunk/qtoctave
+END
+LICENSE_GPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/LICENSE_GPL.txt
+END
+qtoctave.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/qtoctave.spec.in
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/csl-qtoctave/!svn/ver/254/trunk/qtoctave/build.sh
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/clean.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/readme.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/csl-qtoctave/!svn/ver/230/trunk/qtoctave/CMakeLists.txt
+END
+qtoctave.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/csl-qtoctave/!svn/ver/212/trunk/qtoctave/qtoctave.nsi
+END
